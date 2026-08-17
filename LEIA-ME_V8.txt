@@ -1,0 +1,19 @@
+ATUALIZAÇÃO V8 — CADERNO DE RECEITAS DA FAMÍLIA
+
+Base esperada: V7.1.
+
+1. Extraia este ZIP.
+2. Copie todo o conteúdo para a pasta local Caderno-de-receitas.
+3. Quando o Windows perguntar, confirme a substituição dos arquivos existentes.
+4. Abra o GitHub Desktop e confira as alterações.
+5. Summary sugerido: V8 - exclusões e atualização de fotos
+6. Clique em Commit to main e depois Push origin.
+
+Resultado esperado: 108 receitas, REC-0001 até REC-0108.
+
+Incluído nesta atualização:
+- exclusão das antigas REC-0024, REC-0026, REC-0027, REC-0035 e REC-0038;
+- renumeração sequencial completa após as exclusões;
+- nova foto da antiga REC-0036 (Cocadinha);
+- nova foto da antiga REC-0037 (Biscoito Amanteigado);
+- atualização dos arquivos de catálogo, documentação e controle de cache.
