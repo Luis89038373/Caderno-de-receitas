@@ -4,6 +4,20 @@ const $$ = (s, root=document) => [...root.querySelectorAll(s)];
 async function loadJSON(path){ const r=await fetch(path); if(!r.ok) throw new Error(path); return r.json(); }
 function safe(t){ return String(t??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m])); }
 function statusLabel(s){ return s==='publicada'?'Publicada':'Em revisão'; }
+function normalizeSearch(t){
+  return String(t??'')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g,'')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g,' ')
+    .trim();
+}
+function matchesSearch(recipe, query){
+  const terms=normalizeSearch(query).split(/\s+/).filter(Boolean);
+  if(!terms.length) return true;
+  const haystack=normalizeSearch([recipe.id,recipe.titulo,recipe.categoria,recipe.contexto].filter(Boolean).join(' '));
+  return terms.every(term=>haystack.includes(term));
+}
 function recipeCard(r){
   const img=r.imagem&&r.imagem.url?r.imagem.url:'';
   return `<a class="card recipe-card" href="receita.html?id=${encodeURIComponent(r.id)}" data-search="${safe((r.id+' '+r.titulo+' '+r.categoria).toLowerCase())}" data-cat="${safe(r.categoria)}">

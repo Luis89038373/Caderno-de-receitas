@@ -8,17 +8,11 @@ document.addEventListener('DOMContentLoaded',async()=>{
  if(!x){$('#main').innerHTML='<div class="container empty"><h2>Receita não encontrada</h2><a class="btn" href="catalogo.html">Voltar</a></div>';return;}
  if(x.status.startsWith('publicada')){location.replace(x.pagina);return;}
  document.title=`${x.id} — ${x.titulo}`;
- const imgs=(x.fontes||[]).map((s,i)=>`<div class="review-card"><img loading="lazy" src="${safe(s)}" alt="Fonte ${i+1} — ${safe(x.titulo)}"><div><strong>Fonte ${i+1}</strong><span>${safe(s.split('/').pop())}</span></div></div>`).join('');
- const imageMsg=x.imagem_status==='foto_propria_disponivel'?'Há fotografia própria relacionada ao produto nesta fonte.':'Pela regra do projeto, antes da publicação será buscada na internet uma imagem que se aproxime do contexto da receita e sua fonte será registrada.';
  $('#main').innerHTML=`<section class="recipe-hero"><div class="container">
- <div class="panel"><div class="meta"><span class="badge">${safe(x.id)}</span><span class="badge">${safe(x.categoria)}</span><span class="badge">Em transcrição</span></div>
+ <div class="panel"><button class="btn secondary recipe-back" type="button" onclick="if(history.length>1){history.back()}else{location.href='catalogo.html'}">← Voltar</button><div class="meta"><span class="badge">${safe(x.id)}</span><span class="badge">${safe(x.categoria)}</span><span class="badge">Em transcrição</span></div>
  <h1 style="font-size:clamp(2.3rem,6vw,4.8rem);margin-top:18px">${safe(x.titulo)}</h1>
  <p>Esta receita já foi separada das duplicatas e recebeu seu ID definitivo de catálogo. A transcrição de ingredientes e modo de preparo ainda será conferida antes da publicação.</p>
  ${x.observacao?`<div class="notice">${safe(x.observacao)}</div>`:''}
- </div></div></section>
- <section class="section"><div class="container">
- <div class="section-head"><div><span class="eyebrow">Fontes preservadas</span><h2>Páginas originais</h2></div><p>${safe(imageMsg)}</p></div>
- <div class="review-grid">${imgs||'<div class="notice">Fonte digital preservada fora deste pacote.</div>'}</div>
- </div></section>`;
+ </div></div></section>`;
 });
 </script></body></html>

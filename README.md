@@ -1,3 +1,5 @@
+# Caderno de Receitas da Família — V5
+
 # Caderno de Receitas da Família
 
 Site estático, responsivo e pronto para GitHub Pages.
@@ -65,3 +67,11 @@ Use:
 - Todas as fichas possuem contexto de apresentação, ingredientes organizados, fonte original e imagem relacionada.
 - Trechos ilegíveis ou modos de preparo ausentes são marcados como revisão; o sistema não inventa dados.
 - Layout responsivo para PC, tablet e celular.
+
+
+## V5 — navegação e busca
+- Busca por várias palavras em qualquer ordem; por exemplo, `pudim Maria mole` encontra `Pudim de Maria Mole`.
+- A busca ignora acentos e palavras intermediárias do título.
+- As imagens/páginas da receita original não são mais exibidas dentro das fichas de receita; permanecem somente no acervo separado.
+- Todas as fichas abertas possuem botão **← Voltar**.
+- No celular, o bloco “Receitas da família” foi removido; “Receitas que continuam vivas” passou a concentrar o destaque e os filtros.
