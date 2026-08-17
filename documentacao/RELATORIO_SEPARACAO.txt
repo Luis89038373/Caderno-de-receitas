@@ -1,0 +1,27 @@
+SEPARAÇÃO INICIAL DO CADERNO DE RECEITAS
+
+Total de fotos recebidas: 132
+Duplicatas retiradas da coleção principal: 6
+Fotos mantidas após limpeza: 126
+
+MULTIPÁGINA CONFIRMADAS
+- Bombom Happy End: 20.jpg + 18.jpg
+- Sonho: IMG_7124.jpeg + IMG_7122.jpeg
+- Bolo de Mel e Chocolate: IMG_7138.jpeg + IMG_7136.jpeg
+
+DUPLICATAS RETIRADAS
+- IMG_7083.jpeg -> mantido 30.jpeg (arquivo idêntico)
+- IMG_7084.jpeg -> mantido 31.jpeg (arquivo idêntico)
+- IMG_7107.jpeg -> mantido IMG_7106.jpeg (Bolo de Laranja; foto mais nítida)
+- 2.jpg -> mantido IMG_7091.jpeg (Quibe; foto mais nítida)
+- IMG_7092.jpeg -> mantido 1.jpg (Recheio de Leite Ninho; foto mais nítida)
+- IMG_7126.jpeg -> mantido IMG_7127.jpeg (Gelado de Leite Condensado; versão com receita completa)
+
+IMPORTANTE
+Esta é uma separação de revisão, não a numeração definitiva.
+As duplicatas foram retiradas da coleção principal, mas ficaram na pasta
+03_DUPLICADAS_RETIRADAS para conferência antes da exclusão definitiva.
+
+A numeração Receita 001, 002, 003... será aplicada somente depois que
+todos os casos de duas páginas, páginas com mais de uma receita e possíveis
+duplicatas restantes forem conferidos.

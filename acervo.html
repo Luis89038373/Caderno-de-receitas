@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Acervo em revisão | Caderno de Receitas</title><link rel="stylesheet" href="assets/css/styles.css"><script defer src="assets/js/app.js"></script></head>
+<body><div id="site-nav"></div><main>
+<section class="hero" style="padding-bottom:20px"><div class="container"><span class="eyebrow">Controle do acervo</span><h1 style="max-width:850px">Antes do ID, vem a conferência.</h1><p>Esta área mantém as páginas originais ainda não consolidadas em receitas definitivas. Ela evita que duas páginas da mesma receita ou fotos repetidas recebam IDs diferentes.</p></div></section>
+<section class="section"><div class="container">
+<div class="notice" id="summary"></div>
+<div class="section-head" style="margin-top:38px"><div><span class="eyebrow">Confirmadas</span><h2>Receitas com mais de uma página</h2></div></div><div id="multi"></div>
+<div class="section-head" style="margin-top:42px"><div><span class="eyebrow">Páginas originais</span><h2>Fila de revisão</h2></div><p>Estas fotos ainda precisam ser agrupadas, identificadas ou comparadas antes da numeração definitiva.</p></div>
+<div class="toolbar"><input id="q" class="search" placeholder="Buscar pelo nome do arquivo..."></div><div class="review-grid" id="review"></div>
+
+<div class="section-head" style="margin-top:44px"><div><span class="eyebrow">Consolidação</span><h2>Seções repetidas consolidadas</h2></div></div>
+<div class="panel" id="sections"></div>
+<div class="section-head" style="margin-top:44px"><div><span class="eyebrow">Limpeza</span><h2>Duplicatas já retiradas</h2></div></div><div class="panel"><div id="dups"></div></div>
+</div></section></main><div id="site-footer"></div>
+<script>
+document.addEventListener('DOMContentLoaded',async()=>{
+ const a=await loadJSON('data/acervo.json');
+ $('#summary').innerHTML=`<strong>${a.resumo.fotos_recebidas} fotos recebidas.</strong> ${a.resumo.duplicatas_retiradas} duplicatas confirmadas já foram retiradas do catálogo principal; ${a.resumo.fotos_mantidas} fotos permanecem preservadas para catalogação.`;
+ $('#multi').innerHTML=a.multipagina.map(g=>`<div class="panel" style="margin-bottom:18px"><h3>${safe(g.titulo_provisorio)}</h3><div class="grid">${g.paginas.map((p,i)=>`<div class="review-card"><img loading="lazy" src="${safe(p)}"><div><strong>Página ${i+1}</strong></div></div>`).join('')}</div><p>${safe(g.observacao)}</p></div>`).join('');
+ const render=()=>{const q=$('#q').value.trim().toLowerCase(); const list=a.itens.filter(x=>!q||x.arquivo.toLowerCase().includes(q)); $('#review').innerHTML=list.map(x=>`<div class="review-card"><img loading="lazy" src="${safe(x.imagem)}" alt="${safe(x.arquivo)}"><div><strong>${safe(x.arquivo)}</strong><span>${safe(x.observacao)}</span></div></div>`).join('')}; $('#q').addEventListener('input',render); render();
+ $('#sections').innerHTML=(a.secoes_consolidadas||[]).map(d=>`<p><strong>${safe(d.arquivo)} — ${safe(d.secao)}</strong><br>Consolidada em <strong>${safe(d.consolidada_em)}</strong><br><small>${safe(d.motivo)}</small></p>`).join('');
+ $('#dups').innerHTML=a.duplicatas.map(d=>`<p><strong>${safe(d.retirada)}</strong> → mantida <strong>${safe(d.mantida)}</strong><br><small>${safe(d.motivo)}</small></p>`).join('');
+});
+</script></body></html>

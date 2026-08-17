@@ -1,0 +1,143 @@
+﻿ID;RECEITA;CATEGORIA;STATUS;FONTE_ORIGINAL;TIPO_DE_IMAGEM
+REC-0001;Doce de Leite sem Leite e sem Açúcar;Doces e Sobremesas;em_revisao;;ilustrativa_externa
+REC-0002;Doce de Leite sem Leite de Vaca;Doces e Sobremesas;publicada;;ilustrativa_externa
+REC-0003;Doce de Leite Ninho Zero Lactose e Zero Açúcar;Doces e Sobremesas;publicada;;ilustrativa_externa
+REC-0004;Recheio de Leite Ninho;Recheios e Coberturas;publicada;images/manuscritos/1.jpg;ilustrativa_externa
+REC-0005;Marrom Glacê de Batata Doce;Recheios e Coberturas;em_revisao;images/manuscritos/3.jpg;ilustrativa_externa
+REC-0006;Bolo de Milho Verde;Bolos e Tortas;publicada;images/manuscritos/4.jpg;ilustrativa_externa
+REC-0007;Bolacha de Coco;Biscoitos e Bolachas;publicada;images/manuscritos/5.jpg;ilustrativa_externa
+REC-0008;Pão do Val (Cascavel);Pães e Roscas;em_revisao;images/manuscritos/6.jpg;ilustrativa_externa
+REC-0009;Panetone com Pamix;Pães e Roscas;publicada;images/manuscritos/7.jpg;ilustrativa_externa
+REC-0010;Bolo de Rolo (Cascavel);Bolos e Tortas;publicada;images/manuscritos/8.jpg;ilustrativa_externa
+REC-0011;Cajuzinho de Banana;Doces e Sobremesas;publicada;images/manuscritos/9.jpg;ilustrativa_externa
+REC-0012;Queijadinha;Doces e Sobremesas;publicada;images/manuscritos/10.jpg;ilustrativa_externa
+REC-0013;Pudim de Laranja;Pudins e Doces de Forno;publicada;images/manuscritos/11.jpg;ilustrativa_externa
+REC-0014;Bolacha de Sal Amoníaco — Variante 1;Biscoitos e Bolachas;publicada;images/manuscritos/12.jpg;ilustrativa_externa
+REC-0015;Caramelo para Pudim;Pudins e Doces de Forno;publicada;images/manuscritos/12.jpg;ilustrativa_externa
+REC-0016;Creme de Laranja;Doces e Sobremesas;publicada;images/manuscritos/13.jpg;ilustrativa_externa
+REC-0017;Bolacha de Sal Amoníaco — Variante 2;Biscoitos e Bolachas;publicada;images/manuscritos/14.jpg;ilustrativa_externa
+REC-0018;Panetone — Receita Manuscrita;Pães e Roscas;em_revisao;images/manuscritos/15.jpg;ilustrativa_externa
+REC-0019;Pão Caseiro — Variante 1;Pães e Roscas;publicada;images/manuscritos/16.jpg;ilustrativa_externa
+REC-0020;Bolo de Maçã;Bolos e Tortas;publicada;images/manuscritos/17.jpg;ilustrativa_externa
+REC-0021;4 Leites Trufados;Doces e Sobremesas;publicada;images/manuscritos/19.jpg;ilustrativa_externa
+REC-0022;Bolacha 5 Pontos;Biscoitos e Bolachas;em_revisao;images/manuscritos/21.jpg;ilustrativa_externa
+REC-0023;Bolacha de Sal Amoníaco — Variante 3;Biscoitos e Bolachas;publicada;images/manuscritos/21.jpg;ilustrativa_externa
+REC-0024;Bolo de Cenoura — Variante 1;Bolos e Tortas;publicada;images/manuscritos/22.jpg;ilustrativa_externa
+REC-0025;Rosquinha;Pães e Roscas;publicada;images/manuscritos/23.jpg;ilustrativa_externa
+REC-0026;Bombocado de Assadeira;Bolos e Tortas;publicada;images/manuscritos/24.jpg;ilustrativa_externa
+REC-0027;Rosca Caseira;Pães e Roscas;em_revisao;images/manuscritos/30.jpeg;ilustrativa_externa
+REC-0028;Pastel;Salgados e Massas;publicada;images/manuscritos/31.jpeg;ilustrativa_externa
+REC-0029;Bolacha de Nata — Variante 1;Biscoitos e Bolachas;publicada;images/manuscritos/IMG_7085.jpeg;ilustrativa_externa
+REC-0030;Bolinho de Queijo;Salgados e Massas;publicada;images/manuscritos/IMG_7086.jpeg;ilustrativa_externa
+REC-0031;Bolacha de 02/02/2025;Biscoitos e Bolachas;em_revisao;images/manuscritos/IMG_7087.jpeg;ilustrativa_externa
+REC-0032;Pudim — Receita Impressa;Pudins e Doces de Forno;publicada;images/manuscritos/IMG_7088.jpeg;ilustrativa_externa
+REC-0033;Bolo Tradicional de Aniversário;Bolos e Tortas;publicada;images/manuscritos/IMG_7141.jpeg;ilustrativa_externa
+REC-0034;Creme de Ameixa;Doces e Sobremesas;publicada;images/manuscritos/IMG_7090.jpeg;ilustrativa_externa
+REC-0035;Quibe — Variante 1;Salgados e Massas;publicada;images/manuscritos/IMG_7091.jpeg;ilustrativa_externa
+REC-0036;Bolo de Pique-Nique;Bolos e Tortas;publicada;images/manuscritos/IMG_7093.jpeg;ilustrativa_externa
+REC-0037;Doce de Abóbora;Doces e Sobremesas;publicada;images/manuscritos/IMG_7094.jpeg;ilustrativa_externa
+REC-0038;Bolacha de Nata — Variante 2;Biscoitos e Bolachas;publicada;images/manuscritos/IMG_7095.jpeg;ilustrativa_externa
+REC-0039;Mousse de Leite Ninho com Gelatina;Doces e Sobremesas;publicada;images/manuscritos/IMG_7096.jpeg;ilustrativa_externa
+REC-0040;Danone;Doces e Sobremesas;publicada;images/manuscritos/IMG_7097.jpeg;ilustrativa_externa
+REC-0041;Bolo de Chocolate — Variante 1;Bolos e Tortas;publicada;images/manuscritos/IMG_7098.jpeg;ilustrativa_externa
+REC-0042;Pão Caseiro — Variante 2;Pães e Roscas;publicada;images/manuscritos/IMG_7099.jpeg;ilustrativa_externa
+REC-0043;Brigadeiro de Paçoca;Doces e Sobremesas;publicada;images/manuscritos/IMG_7100.jpeg;ilustrativa_externa
+REC-0044;Pizza Enrolada — Variante 1;Salgados e Massas;publicada;images/manuscritos/IMG_7101.jpeg;ilustrativa_externa
+REC-0045;Molho de Pimenta;Molhos e Cremes;publicada;images/manuscritos/IMG_7102.jpeg;ilustrativa_externa
+REC-0046;Bolacha Palito;Biscoitos e Bolachas;publicada;images/manuscritos/IMG_7103.jpeg;ilustrativa_externa
+REC-0047;Pudim Gostoso;Pudins e Doces de Forno;publicada;images/manuscritos/IMG_7104.jpeg;ilustrativa_externa
+REC-0048;Pão Doce;Pães e Roscas;publicada;images/manuscritos/IMG_7105.jpeg;ilustrativa_externa
+REC-0049;Bolo de Laranja — Variante 1;Bolos e Tortas;publicada;images/manuscritos/IMG_7106.jpeg;ilustrativa_externa
+REC-0050;Brigadeiro de Alma Branca;Doces e Sobremesas;publicada;images/manuscritos/IMG_7108.jpeg;ilustrativa_externa
+REC-0051;Pudim de Maria Mole — Variante 1;Pudins e Doces de Forno;publicada;images/manuscritos/IMG_7109.jpeg;ilustrativa_externa
+REC-0052;Bolo de Cenoura — Variante 2;Bolos e Tortas;publicada;images/manuscritos/IMG_7109.jpeg;ilustrativa_externa
+REC-0053;Beijinho;Doces e Sobremesas;publicada;images/manuscritos/IMG_7110.jpeg;ilustrativa_externa
+REC-0054;Bolo Brigadeiro;Bolos e Tortas;publicada;images/multipagina/Bolo Brigadeiro/Pagina_01_IMG_7112.jpeg | images/multipagina/Bolo Brigadeiro/Pagina_02_IMG_7111.jpeg;ilustrativa_externa
+REC-0055;Cocadinha;Doces e Sobremesas;publicada;images/manuscritos/IMG_7114.jpeg;ilustrativa_externa
+REC-0056;Biscoito Amanteigado;Biscoitos e Bolachas;publicada;images/manuscritos/IMG_7115.jpeg;ilustrativa_externa
+REC-0057;Cobertura para Bolo — Variante 1;Recheios e Coberturas;publicada;images/manuscritos/IMG_7116.jpeg;ilustrativa_externa
+REC-0058;Gelatina (02/02/2023);Doces e Sobremesas;publicada;images/manuscritos/IMG_7117.jpeg;ilustrativa_externa
+REC-0059;Creme Branco para Frutas;Doces e Sobremesas;publicada;images/manuscritos/IMG_7118.jpeg;ilustrativa_externa
+REC-0060;Massa Pão de Ló — Variante 1;Pães e Roscas;publicada;images/manuscritos/IMG_7118.jpeg;ilustrativa_externa
+REC-0061;Cobertura para Bolo — Variante 2;Recheios e Coberturas;publicada;images/manuscritos/IMG_7119.jpeg;ilustrativa_externa
+REC-0062;Bolo de Fubá Cremoso;Bolos e Tortas;publicada;images/manuscritos/IMG_7120.jpeg;ilustrativa_externa
+REC-0063;Biliscão;Biscoitos e Bolachas;publicada;images/manuscritos/IMG_7121.jpeg;ilustrativa_externa
+REC-0064;Pudim de Leite em Pó — Variante 1;Pudins e Doces de Forno;publicada;images/manuscritos/IMG_7123.jpeg;ilustrativa_externa
+REC-0065;Pudim de Leite Condensado;Pudins e Doces de Forno;publicada;images/manuscritos/IMG_7123.jpeg;ilustrativa_externa
+REC-0066;Creme Firme para Bolo;Recheios e Coberturas;publicada;images/manuscritos/IMG_7125.jpeg;ilustrativa_externa
+REC-0067;Recheio Creme 4 Leites;Recheios e Coberturas;publicada;images/manuscritos/IMG_7125.jpeg;ilustrativa_externa
+REC-0068;Glacê de Leite Condensado;Recheios e Coberturas;publicada;images/manuscritos/IMG_7127.jpeg;foto_propria
+REC-0069;Cajuzinho;Doces e Sobremesas;publicada;images/manuscritos/IMG_7128.jpeg;ilustrativa_externa
+REC-0070;Chantilly com Chocolate Branco;Recheios e Coberturas;publicada;images/manuscritos/IMG_7129.jpeg;ilustrativa_externa
+REC-0071;Brigadeiro de Leite;Doces e Sobremesas;publicada;images/manuscritos/IMG_7130.jpeg;ilustrativa_externa
+REC-0072;Quibe — Variante 2;Salgados e Massas;publicada;images/manuscritos/IMG_7131.jpeg;ilustrativa_externa
+REC-0073;Creme de Milho;Molhos e Cremes;publicada;images/manuscritos/IMG_7132.jpeg;ilustrativa_externa
+REC-0074;Bolo de Chocolate — Variante 2;Bolos e Tortas;publicada;images/manuscritos/IMG_7133.jpeg;ilustrativa_externa
+REC-0075;Bolacha de Nata com Sal Amoníaco;Biscoitos e Bolachas;publicada;images/manuscritos/IMG_7134.jpeg;ilustrativa_externa
+REC-0076;Bolo de Coco Baiano;Bolos e Tortas;publicada;images/manuscritos/IMG_7135.jpeg;ilustrativa_externa
+REC-0077;Bolo Cortado pela Samantha (Receita Márcia);Bolos e Tortas;publicada;images/manuscritos/IMG_7137.jpeg;ilustrativa_externa
+REC-0078;Ganache de Chocolate;Recheios e Coberturas;publicada;images/manuscritos/IMG_7139.jpeg;ilustrativa_externa
+REC-0079;Creme de Limão;Doces e Sobremesas;em_revisao;images/manuscritos/IMG_7139.jpeg;ilustrativa_externa
+REC-0080;Glacê de Emulsificante;Recheios e Coberturas;publicada;images/manuscritos/IMG_7139.jpeg;ilustrativa_externa
+REC-0081;Pé de Moleque — Variante 1;Doces e Sobremesas;publicada;images/manuscritos/IMG_7140.jpeg;ilustrativa_externa
+REC-0082;Rosca Doce;Pães e Roscas;publicada;images/manuscritos/IMG_7142.jpeg;ilustrativa_externa
+REC-0083;Bananinha (Receita da Graça);Doces e Sobremesas;publicada;images/manuscritos/IMG_7143.jpeg;ilustrativa_externa
+REC-0084;Rosca Espiral (Fatias Húngaras) — Variante 1;Pães e Roscas;publicada;images/manuscritos/IMG_7144.jpeg;ilustrativa_externa
+REC-0085;Bolo de Chocolate — Variante 3;Bolos e Tortas;publicada;images/manuscritos/IMG_7145.jpeg;ilustrativa_externa
+REC-0086;Leite Condensado Caseiro;Doces e Sobremesas;publicada;images/manuscritos/IMG_7146.jpeg;ilustrativa_externa
+REC-0087;Pudim de Leite em Pó — Variante 2;Pudins e Doces de Forno;publicada;images/manuscritos/IMG_7147.jpeg;ilustrativa_externa
+REC-0088;Pudim de Pão (Pão Velho) — Variante 1;Pudins e Doces de Forno;publicada;images/manuscritos/IMG_7147.jpeg;ilustrativa_externa
+REC-0089;Pudim de Maria Mole — Variante 2;Pudins e Doces de Forno;publicada;images/manuscritos/IMG_7148.jpeg;ilustrativa_externa
+REC-0090;Bolinhos de Chuva;Doces e Sobremesas;publicada;images/manuscritos/IMG_7149.jpeg;ilustrativa_externa
+REC-0091;Brigadeiro;Doces e Sobremesas;publicada;images/manuscritos/IMG_7150.jpeg;ilustrativa_externa
+REC-0092;Feijoada Carioca;Pratos Salgados;publicada;images/manuscritos/IMG_7151.jpeg;ilustrativa_externa
+REC-0093;Pavê de Pêssego;Bolos e Tortas;publicada;images/manuscritos/IMG_7152.jpeg;ilustrativa_externa
+REC-0094;Coxinha;Salgados e Massas;publicada;images/manuscritos/IMG_7153.jpeg;ilustrativa_externa
+REC-0095;Pão de Banana;Pães e Roscas;publicada;images/manuscritos/IMG_7154.jpeg;ilustrativa_externa
+REC-0096;Bolo de Laranja — Variante 2;Bolos e Tortas;publicada;images/manuscritos/IMG_7154.jpeg;ilustrativa_externa
+REC-0097;Bolo de Fubá;Bolos e Tortas;publicada;images/manuscritos/IMG_7155.jpeg;ilustrativa_externa
+REC-0098;Rocambole Formiguinha;Bolos e Tortas;publicada;images/manuscritos/IMG_7156.jpeg;ilustrativa_externa
+REC-0099;Esfirra Habib's;Salgados e Massas;publicada;images/manuscritos/IMG_7156.jpeg;ilustrativa_externa
+REC-0100;Pão de Ló — Variante 2;Pães e Roscas;publicada;images/manuscritos/IMG_7157.jpeg;ilustrativa_externa
+REC-0101;Bolo de Milho;Bolos e Tortas;publicada;images/manuscritos/IMG_7159.jpeg;ilustrativa_externa
+REC-0102;Bolo Nega Maluca;Bolos e Tortas;publicada;images/manuscritos/IMG_7160.jpeg;ilustrativa_externa
+REC-0103;Pé de Moleque — Variante 2;Doces e Sobremesas;publicada;images/manuscritos/IMG_7161.jpeg;ilustrativa_externa
+REC-0104;Bolo de Cenoura — Variante 3;Bolos e Tortas;publicada;images/manuscritos/IMG_7162.JPG;foto_propria
+REC-0105;Pão Caseiro — Variante 3;Pães e Roscas;publicada;images/manuscritos/IMG_7165.jpeg;ilustrativa_externa
+REC-0106;Risoles — Variante 1;Salgados e Massas;publicada;images/manuscritos/IMG_7166.jpeg;ilustrativa_externa
+REC-0107;Doce de Mamão (Márcia);Doces e Sobremesas;publicada;images/manuscritos/IMG_7166.jpeg;ilustrativa_externa
+REC-0108;Pizza de Liquidificador;Salgados e Massas;publicada;images/manuscritos/IMG_7167.jpeg;ilustrativa_externa
+REC-0109;Recheio de Leite em Pó;Recheios e Coberturas;publicada;images/manuscritos/IMG_7168.jpeg;ilustrativa_externa
+REC-0110;Pudim de Leite em Pó — Variante 3;Pudins e Doces de Forno;publicada;images/manuscritos/IMG_7168.jpeg;ilustrativa_externa
+REC-0111;Risoles — Variante 2;Salgados e Massas;publicada;images/manuscritos/IMG_7169.jpeg;ilustrativa_externa
+REC-0112;Bolo de Chocolate — Variante 4;Bolos e Tortas;publicada;images/manuscritos/IMG_7170.jpeg;ilustrativa_externa
+REC-0113;Pizza Enrolada — Variante 2;Salgados e Massas;publicada;images/manuscritos/IMG_7171.jpeg;ilustrativa_externa
+REC-0114;Torta de Liquidificador;Salgados e Massas;publicada;images/manuscritos/IMG_7172.jpeg;ilustrativa_externa
+REC-0115;Esfirra — Variante 1;Salgados e Massas;publicada;images/manuscritos/IMG_7173.jpeg;ilustrativa_externa
+REC-0116;Pão de Queijo;Pães e Roscas;publicada;images/manuscritos/IMG_7174.jpeg;ilustrativa_externa
+REC-0117;Creme de Queijo;Molhos e Cremes;publicada;images/manuscritos/IMG_7174.jpeg;ilustrativa_externa
+REC-0118;Pão;Pães e Roscas;publicada;images/manuscritos/IMG_7175.jpeg;ilustrativa_externa
+REC-0119;Massa Doce;Pães e Roscas;publicada;images/manuscritos/IMG_7176.jpeg;ilustrativa_externa
+REC-0120;Bolo Toalha Felpudo;Bolos e Tortas;publicada;images/manuscritos/IMG_7177.jpeg;ilustrativa_externa
+REC-0121;Bacalhau com Broa de Milho;Pratos Salgados;publicada;images/manuscritos/IMG_7178.jpeg;ilustrativa_externa
+REC-0122;Pudim de Bar da Lourdes;Pudins e Doces de Forno;publicada;images/manuscritos/IMG_7179.jpeg;ilustrativa_externa
+REC-0123;Pão de Forma (Doce/Salgado);Pães e Roscas;em_revisao;images/manuscritos/IMG_7180.jpeg;ilustrativa_externa
+REC-0124;Quindim;Pudins e Doces de Forno;publicada;images/manuscritos/IMG_7181.jpeg;ilustrativa_externa
+REC-0125;Pudim de Pão (Pão Francês Amanhecido) — Variante 2;Pudins e Doces de Forno;publicada;images/manuscritos/IMG_7182.jpeg;ilustrativa_externa
+REC-0126;Bolo de Iogurte Natural;Bolos e Tortas;publicada;images/manuscritos/IMG_7182.jpeg;ilustrativa_externa
+REC-0127;Fatias Húngaras / Rosca Estrela — Variante 2;Pães e Roscas;publicada;images/manuscritos/IMG_7183.jpeg;ilustrativa_externa
+REC-0128;Pão Caseiro Baguete;Pães e Roscas;publicada;images/manuscritos/IMG_7184.jpeg;ilustrativa_externa
+REC-0129;Torta Salgada;Salgados e Massas;publicada;images/manuscritos/IMG_7185.jpeg;ilustrativa_externa
+REC-0130;Sonho Assado;Doces e Sobremesas;publicada;images/multipagina/Sonho Assado/Pagina_01_IMG_7186.jpeg | images/multipagina/Sonho Assado/Pagina_02_IMG_7187.jpeg;ilustrativa_externa
+REC-0131;Esfiha — Variante 2;Salgados e Massas;publicada;images/multipagina/Esfiha - Variante 2/Pagina_01_IMG_7187.jpeg | images/multipagina/Esfiha - Variante 2/Pagina_02_IMG_7188.jpeg;ilustrativa_externa
+REC-0132;Pão de Mel;Pães e Roscas;publicada;images/manuscritos/IMG_7188.jpeg;ilustrativa_externa
+REC-0133;Pasta de Alho;Molhos e Cremes;publicada;images/manuscritos/IMG_7189.jpeg;ilustrativa_externa
+REC-0134;Bombom Happy End;Doces e Sobremesas;publicada;images/multipagina/Bombom Happy End/Pagina_01_20.jpg | images/multipagina/Bombom Happy End/Pagina_02_18.jpg;ilustrativa_externa
+REC-0135;Sonho;Doces e Sobremesas;publicada;images/multipagina/Sonho/Pagina_01_IMG_7124.jpeg | images/multipagina/Sonho/Pagina_02_IMG_7122.jpeg;ilustrativa_externa
+REC-0136;Bolo de Mel e Chocolate;Bolos e Tortas;publicada;images/multipagina/Bolo de Mel e Chocolate/Pagina_01_IMG_7138.jpeg | images/multipagina/Bolo de Mel e Chocolate/Pagina_02_IMG_7136.jpeg;ilustrativa_externa
+REC-0137;Recheio Creme Branco com Bombom;Recheios e Coberturas;em_revisao;images/manuscritos/IMG_7098.jpeg;ilustrativa_externa
+REC-0138;Recheio de Chocolate Branco com Bombom;Recheios e Coberturas;publicada;images/manuscritos/IMG_7100.jpeg;ilustrativa_externa
+REC-0139;Recheio de Coco;Recheios e Coberturas;publicada;images/manuscritos/IMG_7130.jpeg;ilustrativa_externa
+REC-0140;Pão de Ló — Variante 3;Pães e Roscas;publicada;images/manuscritos/IMG_7152.jpeg;ilustrativa_externa
+REC-0141;Cobertura com Emulsificante — Variante 2;Recheios e Coberturas;em_revisao;images/manuscritos/IMG_7170.jpeg;ilustrativa_externa
+REC-0142;Recheio de Doce de Leite — Anotação Incompleta;Recheios e Coberturas;em_revisao;images/manuscritos/IMG_7170.jpeg;ilustrativa_externa

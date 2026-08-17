@@ -1,0 +1,1098 @@
+{
+  "resumo": {
+    "fotos_recebidas": 132,
+    "duplicatas_foto_inteira": 10,
+    "fotos_ativas_unicas": 122,
+    "secoes_duplicadas_consolidadas": 4,
+    "receitas_identificadas": 142,
+    "receitas_publicadas_ou_em_revisao": 142,
+    "grupos_multipagina_confirmados": 6,
+    "sequencia_final": "REC-0001 a REC-0142"
+  },
+  "itens": [
+    {
+      "arquivo": "1.jpg",
+      "imagem": "images/manuscritos/1.jpg",
+      "status": "catalogada",
+      "id": "REC-0004",
+      "titulo": "Recheio de Leite Ninho",
+      "observacao": "Vinculada a REC-0004 — Recheio de Leite Ninho."
+    },
+    {
+      "arquivo": "10.jpg",
+      "imagem": "images/manuscritos/10.jpg",
+      "status": "catalogada",
+      "id": "REC-0012",
+      "titulo": "Queijadinha",
+      "observacao": "Vinculada a REC-0012 — Queijadinha."
+    },
+    {
+      "arquivo": "11.jpg",
+      "imagem": "images/manuscritos/11.jpg",
+      "status": "catalogada",
+      "id": "REC-0013",
+      "titulo": "Pudim de Laranja",
+      "observacao": "Vinculada a REC-0013 — Pudim de Laranja."
+    },
+    {
+      "arquivo": "12.jpg",
+      "imagem": "images/manuscritos/12.jpg",
+      "status": "catalogada",
+      "id": "REC-0014",
+      "titulo": "Bolacha de Sal Amoníaco — Variante 1",
+      "observacao": "Vinculada a REC-0014 — Bolacha de Sal Amoníaco — Variante 1."
+    },
+    {
+      "arquivo": "13.jpg",
+      "imagem": "images/manuscritos/13.jpg",
+      "status": "catalogada",
+      "id": "REC-0016",
+      "titulo": "Creme de Laranja",
+      "observacao": "Vinculada a REC-0016 — Creme de Laranja."
+    },
+    {
+      "arquivo": "14.jpg",
+      "imagem": "images/manuscritos/14.jpg",
+      "status": "catalogada",
+      "id": "REC-0017",
+      "titulo": "Bolacha de Sal Amoníaco — Variante 2",
+      "observacao": "Vinculada a REC-0017 — Bolacha de Sal Amoníaco — Variante 2."
+    },
+    {
+      "arquivo": "15.jpg",
+      "imagem": "images/manuscritos/15.jpg",
+      "status": "catalogada",
+      "id": "REC-0018",
+      "titulo": "Panetone — Receita Manuscrita",
+      "observacao": "Vinculada a REC-0018 — Panetone — Receita Manuscrita."
+    },
+    {
+      "arquivo": "16.jpg",
+      "imagem": "images/manuscritos/16.jpg",
+      "status": "catalogada",
+      "id": "REC-0019",
+      "titulo": "Pão Caseiro — Variante 1",
+      "observacao": "Vinculada a REC-0019 — Pão Caseiro — Variante 1."
+    },
+    {
+      "arquivo": "17.jpg",
+      "imagem": "images/manuscritos/17.jpg",
+      "status": "catalogada",
+      "id": "REC-0020",
+      "titulo": "Bolo de Maçã",
+      "observacao": "Vinculada a REC-0020 — Bolo de Maçã."
+    },
+    {
+      "arquivo": "19.jpg",
+      "imagem": "images/manuscritos/19.jpg",
+      "status": "catalogada",
+      "id": "REC-0021",
+      "titulo": "4 Leites Trufados",
+      "observacao": "Vinculada a REC-0021 — 4 Leites Trufados."
+    },
+    {
+      "arquivo": "21.jpg",
+      "imagem": "images/manuscritos/21.jpg",
+      "status": "catalogada",
+      "id": "REC-0022",
+      "titulo": "Bolacha 5 Pontos",
+      "observacao": "Vinculada a REC-0022 — Bolacha 5 Pontos."
+    },
+    {
+      "arquivo": "22.jpg",
+      "imagem": "images/manuscritos/22.jpg",
+      "status": "catalogada",
+      "id": "REC-0024",
+      "titulo": "Bolo de Cenoura — Variante 1",
+      "observacao": "Vinculada a REC-0024 — Bolo de Cenoura — Variante 1."
+    },
+    {
+      "arquivo": "23.jpg",
+      "imagem": "images/manuscritos/23.jpg",
+      "status": "catalogada",
+      "id": "REC-0025",
+      "titulo": "Rosquinha",
+      "observacao": "Vinculada a REC-0025 — Rosquinha."
+    },
+    {
+      "arquivo": "24.jpg",
+      "imagem": "images/manuscritos/24.jpg",
+      "status": "catalogada",
+      "id": "REC-0026",
+      "titulo": "Bombocado de Assadeira",
+      "observacao": "Vinculada a REC-0026 — Bombocado de Assadeira."
+    },
+    {
+      "arquivo": "3.jpg",
+      "imagem": "images/manuscritos/3.jpg",
+      "status": "catalogada",
+      "id": "REC-0005",
+      "titulo": "Marrom Glacê de Batata Doce",
+      "observacao": "Vinculada a REC-0005 — Marrom Glacê de Batata Doce."
+    },
+    {
+      "arquivo": "30.jpeg",
+      "imagem": "images/manuscritos/30.jpeg",
+      "status": "catalogada",
+      "id": "REC-0027",
+      "titulo": "Rosca Caseira",
+      "observacao": "Vinculada a REC-0027 — Rosca Caseira."
+    },
+    {
+      "arquivo": "31.jpeg",
+      "imagem": "images/manuscritos/31.jpeg",
+      "status": "catalogada",
+      "id": "REC-0028",
+      "titulo": "Pastel",
+      "observacao": "Vinculada a REC-0028 — Pastel."
+    },
+    {
+      "arquivo": "4.jpg",
+      "imagem": "images/manuscritos/4.jpg",
+      "status": "catalogada",
+      "id": "REC-0006",
+      "titulo": "Bolo de Milho Verde",
+      "observacao": "Vinculada a REC-0006 — Bolo de Milho Verde."
+    },
+    {
+      "arquivo": "5.jpg",
+      "imagem": "images/manuscritos/5.jpg",
+      "status": "catalogada",
+      "id": "REC-0007",
+      "titulo": "Bolacha de Coco",
+      "observacao": "Vinculada a REC-0007 — Bolacha de Coco."
+    },
+    {
+      "arquivo": "6.jpg",
+      "imagem": "images/manuscritos/6.jpg",
+      "status": "catalogada",
+      "id": "REC-0008",
+      "titulo": "Pão do Val (Cascavel)",
+      "observacao": "Vinculada a REC-0008 — Pão do Val (Cascavel)."
+    },
+    {
+      "arquivo": "7.jpg",
+      "imagem": "images/manuscritos/7.jpg",
+      "status": "catalogada",
+      "id": "REC-0009",
+      "titulo": "Panetone com Pamix",
+      "observacao": "Vinculada a REC-0009 — Panetone com Pamix."
+    },
+    {
+      "arquivo": "8.jpg",
+      "imagem": "images/manuscritos/8.jpg",
+      "status": "catalogada",
+      "id": "REC-0010",
+      "titulo": "Bolo de Rolo (Cascavel)",
+      "observacao": "Vinculada a REC-0010 — Bolo de Rolo (Cascavel)."
+    },
+    {
+      "arquivo": "9.jpg",
+      "imagem": "images/manuscritos/9.jpg",
+      "status": "catalogada",
+      "id": "REC-0011",
+      "titulo": "Cajuzinho de Banana",
+      "observacao": "Vinculada a REC-0011 — Cajuzinho de Banana."
+    },
+    {
+      "arquivo": "IMG_7085.jpeg",
+      "imagem": "images/manuscritos/IMG_7085.jpeg",
+      "status": "catalogada",
+      "id": "REC-0029",
+      "titulo": "Bolacha de Nata — Variante 1",
+      "observacao": "Vinculada a REC-0029 — Bolacha de Nata — Variante 1."
+    },
+    {
+      "arquivo": "IMG_7086.jpeg",
+      "imagem": "images/manuscritos/IMG_7086.jpeg",
+      "status": "catalogada",
+      "id": "REC-0030",
+      "titulo": "Bolinho de Queijo",
+      "observacao": "Vinculada a REC-0030 — Bolinho de Queijo."
+    },
+    {
+      "arquivo": "IMG_7087.jpeg",
+      "imagem": "images/manuscritos/IMG_7087.jpeg",
+      "status": "catalogada",
+      "id": "REC-0031",
+      "titulo": "Bolacha de 02/02/2025",
+      "observacao": "Vinculada a REC-0031 — Bolacha de 02/02/2025."
+    },
+    {
+      "arquivo": "IMG_7088.jpeg",
+      "imagem": "images/manuscritos/IMG_7088.jpeg",
+      "status": "catalogada",
+      "id": "REC-0032",
+      "titulo": "Pudim — Receita Impressa",
+      "observacao": "Vinculada a REC-0032 — Pudim — Receita Impressa."
+    },
+    {
+      "arquivo": "IMG_7090.jpeg",
+      "imagem": "images/manuscritos/IMG_7090.jpeg",
+      "status": "catalogada",
+      "id": "REC-0034",
+      "titulo": "Creme de Ameixa",
+      "observacao": "Vinculada a REC-0034 — Creme de Ameixa."
+    },
+    {
+      "arquivo": "IMG_7091.jpeg",
+      "imagem": "images/manuscritos/IMG_7091.jpeg",
+      "status": "catalogada",
+      "id": "REC-0035",
+      "titulo": "Quibe — Variante 1",
+      "observacao": "Vinculada a REC-0035 — Quibe — Variante 1."
+    },
+    {
+      "arquivo": "IMG_7093.jpeg",
+      "imagem": "images/manuscritos/IMG_7093.jpeg",
+      "status": "catalogada",
+      "id": "REC-0036",
+      "titulo": "Bolo de Pique-Nique",
+      "observacao": "Vinculada a REC-0036 — Bolo de Pique-Nique."
+    },
+    {
+      "arquivo": "IMG_7094.jpeg",
+      "imagem": "images/manuscritos/IMG_7094.jpeg",
+      "status": "catalogada",
+      "id": "REC-0037",
+      "titulo": "Doce de Abóbora",
+      "observacao": "Vinculada a REC-0037 — Doce de Abóbora."
+    },
+    {
+      "arquivo": "IMG_7095.jpeg",
+      "imagem": "images/manuscritos/IMG_7095.jpeg",
+      "status": "catalogada",
+      "id": "REC-0038",
+      "titulo": "Bolacha de Nata — Variante 2",
+      "observacao": "Vinculada a REC-0038 — Bolacha de Nata — Variante 2."
+    },
+    {
+      "arquivo": "IMG_7096.jpeg",
+      "imagem": "images/manuscritos/IMG_7096.jpeg",
+      "status": "catalogada",
+      "id": "REC-0039",
+      "titulo": "Mousse de Leite Ninho com Gelatina",
+      "observacao": "Vinculada a REC-0039 — Mousse de Leite Ninho com Gelatina."
+    },
+    {
+      "arquivo": "IMG_7097.jpeg",
+      "imagem": "images/manuscritos/IMG_7097.jpeg",
+      "status": "catalogada",
+      "id": "REC-0040",
+      "titulo": "Danone",
+      "observacao": "Vinculada a REC-0040 — Danone."
+    },
+    {
+      "arquivo": "IMG_7098.jpeg",
+      "imagem": "images/manuscritos/IMG_7098.jpeg",
+      "status": "catalogada",
+      "id": "REC-0041",
+      "titulo": "Bolo de Chocolate — Variante 1",
+      "observacao": "Vinculada a REC-0041 — Bolo de Chocolate — Variante 1."
+    },
+    {
+      "arquivo": "IMG_7099.jpeg",
+      "imagem": "images/manuscritos/IMG_7099.jpeg",
+      "status": "catalogada",
+      "id": "REC-0042",
+      "titulo": "Pão Caseiro — Variante 2",
+      "observacao": "Vinculada a REC-0042 — Pão Caseiro — Variante 2."
+    },
+    {
+      "arquivo": "IMG_7100.jpeg",
+      "imagem": "images/manuscritos/IMG_7100.jpeg",
+      "status": "catalogada",
+      "id": "REC-0043",
+      "titulo": "Brigadeiro de Paçoca",
+      "observacao": "Vinculada a REC-0043 — Brigadeiro de Paçoca."
+    },
+    {
+      "arquivo": "IMG_7101.jpeg",
+      "imagem": "images/manuscritos/IMG_7101.jpeg",
+      "status": "catalogada",
+      "id": "REC-0044",
+      "titulo": "Pizza Enrolada — Variante 1",
+      "observacao": "Vinculada a REC-0044 — Pizza Enrolada — Variante 1."
+    },
+    {
+      "arquivo": "IMG_7102.jpeg",
+      "imagem": "images/manuscritos/IMG_7102.jpeg",
+      "status": "catalogada",
+      "id": "REC-0045",
+      "titulo": "Molho Vinagrete",
+      "observacao": "Vinculada a REC-0045 — Molho Vinagrete."
+    },
+    {
+      "arquivo": "IMG_7103.jpeg",
+      "imagem": "images/manuscritos/IMG_7103.jpeg",
+      "status": "catalogada",
+      "id": "REC-0046",
+      "titulo": "Bolacha Palito",
+      "observacao": "Vinculada a REC-0046 — Bolacha Palito."
+    },
+    {
+      "arquivo": "IMG_7104.jpeg",
+      "imagem": "images/manuscritos/IMG_7104.jpeg",
+      "status": "catalogada",
+      "id": "REC-0047",
+      "titulo": "Pudim Gostoso",
+      "observacao": "Vinculada a REC-0047 — Pudim Gostoso."
+    },
+    {
+      "arquivo": "IMG_7105.jpeg",
+      "imagem": "images/manuscritos/IMG_7105.jpeg",
+      "status": "catalogada",
+      "id": "REC-0048",
+      "titulo": "Pão Doce",
+      "observacao": "Vinculada a REC-0048 — Pão Doce."
+    },
+    {
+      "arquivo": "IMG_7106.jpeg",
+      "imagem": "images/manuscritos/IMG_7106.jpeg",
+      "status": "catalogada",
+      "id": "REC-0049",
+      "titulo": "Bolo de Laranja — Variante 1",
+      "observacao": "Vinculada a REC-0049 — Bolo de Laranja — Variante 1."
+    },
+    {
+      "arquivo": "IMG_7108.jpeg",
+      "imagem": "images/manuscritos/IMG_7108.jpeg",
+      "status": "catalogada",
+      "id": "REC-0050",
+      "titulo": "Brigadeiro de Alma Branca",
+      "observacao": "Vinculada a REC-0050 — Brigadeiro de Alma Branca."
+    },
+    {
+      "arquivo": "IMG_7109.jpeg",
+      "imagem": "images/manuscritos/IMG_7109.jpeg",
+      "status": "catalogada",
+      "id": "REC-0051",
+      "titulo": "Pudim de Maria Mole — Variante 1",
+      "observacao": "Vinculada a REC-0051 — Pudim de Maria Mole — Variante 1."
+    },
+    {
+      "arquivo": "IMG_7110.jpeg",
+      "imagem": "images/manuscritos/IMG_7110.jpeg",
+      "status": "catalogada",
+      "id": "REC-0053",
+      "titulo": "Beijinho",
+      "observacao": "Vinculada a REC-0053 — Beijinho."
+    },
+    {
+      "arquivo": "IMG_7111.jpeg",
+      "imagem": "images/manuscritos/IMG_7111.jpeg",
+      "status": "revisar",
+      "id": null,
+      "titulo": null,
+      "observacao": "Página preservada; verificar vínculo."
+    },
+    {
+      "arquivo": "IMG_7112.jpeg",
+      "imagem": "images/manuscritos/IMG_7112.jpeg",
+      "status": "revisar",
+      "id": null,
+      "titulo": null,
+      "observacao": "Página preservada; verificar vínculo."
+    },
+    {
+      "arquivo": "IMG_7113.jpeg",
+      "imagem": "images/manuscritos/IMG_7113.jpeg",
+      "status": "catalogada",
+      "id": "REC-0055",
+      "titulo": "Molho de Pimenta",
+      "observacao": "Vinculada a REC-0055 — Molho de Pimenta."
+    },
+    {
+      "arquivo": "IMG_7114.jpeg",
+      "imagem": "images/manuscritos/IMG_7114.jpeg",
+      "status": "catalogada",
+      "id": "REC-0056",
+      "titulo": "Cocadinha",
+      "observacao": "Vinculada a REC-0056 — Cocadinha."
+    },
+    {
+      "arquivo": "IMG_7115.jpeg",
+      "imagem": "images/manuscritos/IMG_7115.jpeg",
+      "status": "catalogada",
+      "id": "REC-0057",
+      "titulo": "Biscoito Amanteigado",
+      "observacao": "Vinculada a REC-0057 — Biscoito Amanteigado."
+    },
+    {
+      "arquivo": "IMG_7116.jpeg",
+      "imagem": "images/manuscritos/IMG_7116.jpeg",
+      "status": "catalogada",
+      "id": "REC-0058",
+      "titulo": "Cobertura para Bolo — Variante 1",
+      "observacao": "Vinculada a REC-0058 — Cobertura para Bolo — Variante 1."
+    },
+    {
+      "arquivo": "IMG_7117.jpeg",
+      "imagem": "images/manuscritos/IMG_7117.jpeg",
+      "status": "catalogada",
+      "id": "REC-0059",
+      "titulo": "Gelatina (02/02/2023)",
+      "observacao": "Vinculada a REC-0059 — Gelatina (02/02/2023)."
+    },
+    {
+      "arquivo": "IMG_7118.jpeg",
+      "imagem": "images/manuscritos/IMG_7118.jpeg",
+      "status": "catalogada",
+      "id": "REC-0060",
+      "titulo": "Creme Branco para Frutas",
+      "observacao": "Vinculada a REC-0060 — Creme Branco para Frutas."
+    },
+    {
+      "arquivo": "IMG_7119.jpeg",
+      "imagem": "images/manuscritos/IMG_7119.jpeg",
+      "status": "catalogada",
+      "id": "REC-0062",
+      "titulo": "Cobertura para Bolo — Variante 2",
+      "observacao": "Vinculada a REC-0062 — Cobertura para Bolo — Variante 2."
+    },
+    {
+      "arquivo": "IMG_7120.jpeg",
+      "imagem": "images/manuscritos/IMG_7120.jpeg",
+      "status": "catalogada",
+      "id": "REC-0063",
+      "titulo": "Bolo de Fubá Cremoso",
+      "observacao": "Vinculada a REC-0063 — Bolo de Fubá Cremoso."
+    },
+    {
+      "arquivo": "IMG_7121.jpeg",
+      "imagem": "images/manuscritos/IMG_7121.jpeg",
+      "status": "catalogada",
+      "id": "REC-0064",
+      "titulo": "Biliscão",
+      "observacao": "Vinculada a REC-0064 — Biliscão."
+    },
+    {
+      "arquivo": "IMG_7123.jpeg",
+      "imagem": "images/manuscritos/IMG_7123.jpeg",
+      "status": "catalogada",
+      "id": "REC-0065",
+      "titulo": "Pudim de Leite em Pó — Variante 1",
+      "observacao": "Vinculada a REC-0065 — Pudim de Leite em Pó — Variante 1."
+    },
+    {
+      "arquivo": "IMG_7125.jpeg",
+      "imagem": "images/manuscritos/IMG_7125.jpeg",
+      "status": "catalogada",
+      "id": "REC-0067",
+      "titulo": "Creme Firme para Bolo",
+      "observacao": "Vinculada a REC-0067 — Creme Firme para Bolo."
+    },
+    {
+      "arquivo": "IMG_7127.jpeg",
+      "imagem": "images/manuscritos/IMG_7127.jpeg",
+      "status": "catalogada",
+      "id": "REC-0069",
+      "titulo": "Glacê de Leite Condensado",
+      "observacao": "Vinculada a REC-0069 — Glacê de Leite Condensado."
+    },
+    {
+      "arquivo": "IMG_7128.jpeg",
+      "imagem": "images/manuscritos/IMG_7128.jpeg",
+      "status": "catalogada",
+      "id": "REC-0070",
+      "titulo": "Cajuzinho",
+      "observacao": "Vinculada a REC-0070 — Cajuzinho."
+    },
+    {
+      "arquivo": "IMG_7129.jpeg",
+      "imagem": "images/manuscritos/IMG_7129.jpeg",
+      "status": "catalogada",
+      "id": "REC-0071",
+      "titulo": "Chantilly com Chocolate Branco",
+      "observacao": "Vinculada a REC-0071 — Chantilly com Chocolate Branco."
+    },
+    {
+      "arquivo": "IMG_7130.jpeg",
+      "imagem": "images/manuscritos/IMG_7130.jpeg",
+      "status": "catalogada",
+      "id": "REC-0072",
+      "titulo": "Brigadeiro de Leite",
+      "observacao": "Vinculada a REC-0072 — Brigadeiro de Leite."
+    },
+    {
+      "arquivo": "IMG_7131.jpeg",
+      "imagem": "images/manuscritos/IMG_7131.jpeg",
+      "status": "catalogada",
+      "id": "REC-0073",
+      "titulo": "Quibe — Variante 2",
+      "observacao": "Vinculada a REC-0073 — Quibe — Variante 2."
+    },
+    {
+      "arquivo": "IMG_7132.jpeg",
+      "imagem": "images/manuscritos/IMG_7132.jpeg",
+      "status": "catalogada",
+      "id": "REC-0074",
+      "titulo": "Creme de Milho",
+      "observacao": "Vinculada a REC-0074 — Creme de Milho."
+    },
+    {
+      "arquivo": "IMG_7133.jpeg",
+      "imagem": "images/manuscritos/IMG_7133.jpeg",
+      "status": "catalogada",
+      "id": "REC-0075",
+      "titulo": "Bolo de Chocolate — Variante 2",
+      "observacao": "Vinculada a REC-0075 — Bolo de Chocolate — Variante 2."
+    },
+    {
+      "arquivo": "IMG_7134.jpeg",
+      "imagem": "images/manuscritos/IMG_7134.jpeg",
+      "status": "catalogada",
+      "id": "REC-0076",
+      "titulo": "Bolacha de Nata com Sal Amoníaco",
+      "observacao": "Vinculada a REC-0076 — Bolacha de Nata com Sal Amoníaco."
+    },
+    {
+      "arquivo": "IMG_7135.jpeg",
+      "imagem": "images/manuscritos/IMG_7135.jpeg",
+      "status": "catalogada",
+      "id": "REC-0077",
+      "titulo": "Bolo de Coco Baiano",
+      "observacao": "Vinculada a REC-0077 — Bolo de Coco Baiano."
+    },
+    {
+      "arquivo": "IMG_7137.jpeg",
+      "imagem": "images/manuscritos/IMG_7137.jpeg",
+      "status": "catalogada",
+      "id": "REC-0078",
+      "titulo": "Bolo Cortado pela Samantha (Receita Márcia)",
+      "observacao": "Vinculada a REC-0078 — Bolo Cortado pela Samantha (Receita Márcia)."
+    },
+    {
+      "arquivo": "IMG_7139.jpeg",
+      "imagem": "images/manuscritos/IMG_7139.jpeg",
+      "status": "catalogada",
+      "id": "REC-0079",
+      "titulo": "Ganache de Chocolate",
+      "observacao": "Vinculada a REC-0079 — Ganache de Chocolate."
+    },
+    {
+      "arquivo": "IMG_7140.jpeg",
+      "imagem": "images/manuscritos/IMG_7140.jpeg",
+      "status": "catalogada",
+      "id": "REC-0082",
+      "titulo": "Pé de Moleque — Variante 1",
+      "observacao": "Vinculada a REC-0082 — Pé de Moleque — Variante 1."
+    },
+    {
+      "arquivo": "IMG_7141.jpeg",
+      "imagem": "images/manuscritos/IMG_7141.jpeg",
+      "status": "catalogada",
+      "id": "REC-0033",
+      "titulo": "Bolo Tradicional de Aniversário",
+      "observacao": "Vinculada a REC-0033 — Bolo Tradicional de Aniversário."
+    },
+    {
+      "arquivo": "IMG_7142.jpeg",
+      "imagem": "images/manuscritos/IMG_7142.jpeg",
+      "status": "catalogada",
+      "id": "REC-0083",
+      "titulo": "Rosca Doce",
+      "observacao": "Vinculada a REC-0083 — Rosca Doce."
+    },
+    {
+      "arquivo": "IMG_7143.jpeg",
+      "imagem": "images/manuscritos/IMG_7143.jpeg",
+      "status": "catalogada",
+      "id": "REC-0084",
+      "titulo": "Bananinha (Receita da Graça)",
+      "observacao": "Vinculada a REC-0084 — Bananinha (Receita da Graça)."
+    },
+    {
+      "arquivo": "IMG_7144.jpeg",
+      "imagem": "images/manuscritos/IMG_7144.jpeg",
+      "status": "catalogada",
+      "id": "REC-0085",
+      "titulo": "Rosca Espiral (Fatias Húngaras) — Variante 1",
+      "observacao": "Vinculada a REC-0085 — Rosca Espiral (Fatias Húngaras) — Variante 1."
+    },
+    {
+      "arquivo": "IMG_7145.jpeg",
+      "imagem": "images/manuscritos/IMG_7145.jpeg",
+      "status": "catalogada",
+      "id": "REC-0086",
+      "titulo": "Bolo de Chocolate — Variante 3",
+      "observacao": "Vinculada a REC-0086 — Bolo de Chocolate — Variante 3."
+    },
+    {
+      "arquivo": "IMG_7146.jpeg",
+      "imagem": "images/manuscritos/IMG_7146.jpeg",
+      "status": "catalogada",
+      "id": "REC-0087",
+      "titulo": "Leite Condensado Caseiro",
+      "observacao": "Vinculada a REC-0087 — Leite Condensado Caseiro."
+    },
+    {
+      "arquivo": "IMG_7147.jpeg",
+      "imagem": "images/manuscritos/IMG_7147.jpeg",
+      "status": "catalogada",
+      "id": "REC-0088",
+      "titulo": "Pudim de Leite em Pó — Variante 2",
+      "observacao": "Vinculada a REC-0088 — Pudim de Leite em Pó — Variante 2."
+    },
+    {
+      "arquivo": "IMG_7148.jpeg",
+      "imagem": "images/manuscritos/IMG_7148.jpeg",
+      "status": "catalogada",
+      "id": "REC-0090",
+      "titulo": "Pudim de Maria Mole — Variante 2",
+      "observacao": "Vinculada a REC-0090 — Pudim de Maria Mole — Variante 2."
+    },
+    {
+      "arquivo": "IMG_7149.jpeg",
+      "imagem": "images/manuscritos/IMG_7149.jpeg",
+      "status": "catalogada",
+      "id": "REC-0091",
+      "titulo": "Bolinhos de Chuva",
+      "observacao": "Vinculada a REC-0091 — Bolinhos de Chuva."
+    },
+    {
+      "arquivo": "IMG_7150.jpeg",
+      "imagem": "images/manuscritos/IMG_7150.jpeg",
+      "status": "catalogada",
+      "id": "REC-0092",
+      "titulo": "Brigadeiro",
+      "observacao": "Vinculada a REC-0092 — Brigadeiro."
+    },
+    {
+      "arquivo": "IMG_7151.jpeg",
+      "imagem": "images/manuscritos/IMG_7151.jpeg",
+      "status": "catalogada",
+      "id": "REC-0093",
+      "titulo": "Feijoada Carioca",
+      "observacao": "Vinculada a REC-0093 — Feijoada Carioca."
+    },
+    {
+      "arquivo": "IMG_7152.jpeg",
+      "imagem": "images/manuscritos/IMG_7152.jpeg",
+      "status": "catalogada",
+      "id": "REC-0094",
+      "titulo": "Pavê de Pêssego",
+      "observacao": "Vinculada a REC-0094 — Pavê de Pêssego."
+    },
+    {
+      "arquivo": "IMG_7153.jpeg",
+      "imagem": "images/manuscritos/IMG_7153.jpeg",
+      "status": "catalogada",
+      "id": "REC-0095",
+      "titulo": "Coxinha",
+      "observacao": "Vinculada a REC-0095 — Coxinha."
+    },
+    {
+      "arquivo": "IMG_7154.jpeg",
+      "imagem": "images/manuscritos/IMG_7154.jpeg",
+      "status": "catalogada",
+      "id": "REC-0096",
+      "titulo": "Pão de Banana",
+      "observacao": "Vinculada a REC-0096 — Pão de Banana."
+    },
+    {
+      "arquivo": "IMG_7155.jpeg",
+      "imagem": "images/manuscritos/IMG_7155.jpeg",
+      "status": "catalogada",
+      "id": "REC-0098",
+      "titulo": "Bolo de Fubá",
+      "observacao": "Vinculada a REC-0098 — Bolo de Fubá."
+    },
+    {
+      "arquivo": "IMG_7156.jpeg",
+      "imagem": "images/manuscritos/IMG_7156.jpeg",
+      "status": "catalogada",
+      "id": "REC-0099",
+      "titulo": "Rocambole Formiguinha",
+      "observacao": "Vinculada a REC-0099 — Rocambole Formiguinha."
+    },
+    {
+      "arquivo": "IMG_7157.jpeg",
+      "imagem": "images/manuscritos/IMG_7157.jpeg",
+      "status": "catalogada",
+      "id": "REC-0101",
+      "titulo": "Pão de Ló — Variante 2",
+      "observacao": "Vinculada a REC-0101 — Pão de Ló — Variante 2."
+    },
+    {
+      "arquivo": "IMG_7159.jpeg",
+      "imagem": "images/manuscritos/IMG_7159.jpeg",
+      "status": "catalogada",
+      "id": "REC-0102",
+      "titulo": "Bolo de Milho",
+      "observacao": "Vinculada a REC-0102 — Bolo de Milho."
+    },
+    {
+      "arquivo": "IMG_7160.jpeg",
+      "imagem": "images/manuscritos/IMG_7160.jpeg",
+      "status": "catalogada",
+      "id": "REC-0103",
+      "titulo": "Bolo Nega Maluca",
+      "observacao": "Vinculada a REC-0103 — Bolo Nega Maluca."
+    },
+    {
+      "arquivo": "IMG_7161.jpeg",
+      "imagem": "images/manuscritos/IMG_7161.jpeg",
+      "status": "catalogada",
+      "id": "REC-0104",
+      "titulo": "Pé de Moleque — Variante 2",
+      "observacao": "Vinculada a REC-0104 — Pé de Moleque — Variante 2."
+    },
+    {
+      "arquivo": "IMG_7162.JPG",
+      "imagem": "images/manuscritos/IMG_7162.JPG",
+      "status": "catalogada",
+      "id": "REC-0105",
+      "titulo": "Bolo de Cenoura — Variante 3",
+      "observacao": "Vinculada a REC-0105 — Bolo de Cenoura — Variante 3."
+    },
+    {
+      "arquivo": "IMG_7164.jpeg",
+      "imagem": "images/manuscritos/IMG_7164.jpeg",
+      "status": "catalogada",
+      "id": "REC-0106",
+      "titulo": "Bolo de Laranja — Variante 3",
+      "observacao": "Vinculada a REC-0106 — Bolo de Laranja — Variante 3."
+    },
+    {
+      "arquivo": "IMG_7165.jpeg",
+      "imagem": "images/manuscritos/IMG_7165.jpeg",
+      "status": "catalogada",
+      "id": "REC-0107",
+      "titulo": "Pão Caseiro — Variante 3",
+      "observacao": "Vinculada a REC-0107 — Pão Caseiro — Variante 3."
+    },
+    {
+      "arquivo": "IMG_7166.jpeg",
+      "imagem": "images/manuscritos/IMG_7166.jpeg",
+      "status": "catalogada",
+      "id": "REC-0108",
+      "titulo": "Risoles — Variante 1",
+      "observacao": "Vinculada a REC-0108 — Risoles — Variante 1."
+    },
+    {
+      "arquivo": "IMG_7167.jpeg",
+      "imagem": "images/manuscritos/IMG_7167.jpeg",
+      "status": "catalogada",
+      "id": "REC-0110",
+      "titulo": "Pizza de Liquidificador",
+      "observacao": "Vinculada a REC-0110 — Pizza de Liquidificador."
+    },
+    {
+      "arquivo": "IMG_7168.jpeg",
+      "imagem": "images/manuscritos/IMG_7168.jpeg",
+      "status": "catalogada",
+      "id": "REC-0111",
+      "titulo": "Recheio de Leite em Pó",
+      "observacao": "Vinculada a REC-0111 — Recheio de Leite em Pó."
+    },
+    {
+      "arquivo": "IMG_7169.jpeg",
+      "imagem": "images/manuscritos/IMG_7169.jpeg",
+      "status": "catalogada",
+      "id": "REC-0113",
+      "titulo": "Risoles — Variante 2",
+      "observacao": "Vinculada a REC-0113 — Risoles — Variante 2."
+    },
+    {
+      "arquivo": "IMG_7170.jpeg",
+      "imagem": "images/manuscritos/IMG_7170.jpeg",
+      "status": "catalogada",
+      "id": "REC-0114",
+      "titulo": "Bolo de Chocolate — Variante 4",
+      "observacao": "Vinculada a REC-0114 — Bolo de Chocolate — Variante 4."
+    },
+    {
+      "arquivo": "IMG_7171.jpeg",
+      "imagem": "images/manuscritos/IMG_7171.jpeg",
+      "status": "catalogada",
+      "id": "REC-0115",
+      "titulo": "Pizza Enrolada — Variante 2",
+      "observacao": "Vinculada a REC-0115 — Pizza Enrolada — Variante 2."
+    },
+    {
+      "arquivo": "IMG_7172.jpeg",
+      "imagem": "images/manuscritos/IMG_7172.jpeg",
+      "status": "catalogada",
+      "id": "REC-0116",
+      "titulo": "Bolo de Liquidificador",
+      "observacao": "Vinculada a REC-0116 — Bolo de Liquidificador."
+    },
+    {
+      "arquivo": "IMG_7173.jpeg",
+      "imagem": "images/manuscritos/IMG_7173.jpeg",
+      "status": "catalogada",
+      "id": "REC-0117",
+      "titulo": "Esfirra — Variante 1",
+      "observacao": "Vinculada a REC-0117 — Esfirra — Variante 1."
+    },
+    {
+      "arquivo": "IMG_7174.jpeg",
+      "imagem": "images/manuscritos/IMG_7174.jpeg",
+      "status": "catalogada",
+      "id": "REC-0118",
+      "titulo": "Pão de Queijo",
+      "observacao": "Vinculada a REC-0118 — Pão de Queijo."
+    },
+    {
+      "arquivo": "IMG_7175.jpeg",
+      "imagem": "images/manuscritos/IMG_7175.jpeg",
+      "status": "catalogada",
+      "id": "REC-0120",
+      "titulo": "Pão",
+      "observacao": "Vinculada a REC-0120 — Pão."
+    },
+    {
+      "arquivo": "IMG_7176.jpeg",
+      "imagem": "images/manuscritos/IMG_7176.jpeg",
+      "status": "catalogada",
+      "id": "REC-0121",
+      "titulo": "Massa Doce",
+      "observacao": "Vinculada a REC-0121 — Massa Doce."
+    },
+    {
+      "arquivo": "IMG_7177.jpeg",
+      "imagem": "images/manuscritos/IMG_7177.jpeg",
+      "status": "catalogada",
+      "id": "REC-0122",
+      "titulo": "Bolo Toalha Felpudo",
+      "observacao": "Vinculada a REC-0122 — Bolo Toalha Felpudo."
+    },
+    {
+      "arquivo": "IMG_7178.jpeg",
+      "imagem": "images/manuscritos/IMG_7178.jpeg",
+      "status": "catalogada",
+      "id": "REC-0123",
+      "titulo": "Bacalhau com Broa de Milho",
+      "observacao": "Vinculada a REC-0123 — Bacalhau com Broa de Milho."
+    },
+    {
+      "arquivo": "IMG_7179.jpeg",
+      "imagem": "images/manuscritos/IMG_7179.jpeg",
+      "status": "catalogada",
+      "id": "REC-0124",
+      "titulo": "Pudim de Bar da Lourdes",
+      "observacao": "Vinculada a REC-0124 — Pudim de Bar da Lourdes."
+    },
+    {
+      "arquivo": "IMG_7180.jpeg",
+      "imagem": "images/manuscritos/IMG_7180.jpeg",
+      "status": "catalogada",
+      "id": "REC-0125",
+      "titulo": "Pão da Genna",
+      "observacao": "Vinculada a REC-0125 — Pão da Genna."
+    },
+    {
+      "arquivo": "IMG_7181.jpeg",
+      "imagem": "images/manuscritos/IMG_7181.jpeg",
+      "status": "catalogada",
+      "id": "REC-0126",
+      "titulo": "Quindim",
+      "observacao": "Vinculada a REC-0126 — Quindim."
+    },
+    {
+      "arquivo": "IMG_7182.jpeg",
+      "imagem": "images/manuscritos/IMG_7182.jpeg",
+      "status": "catalogada",
+      "id": "REC-0127",
+      "titulo": "Pudim de Pão (Pão Francês Amanhecido) — Variante 2",
+      "observacao": "Vinculada a REC-0127 — Pudim de Pão (Pão Francês Amanhecido) — Variante 2."
+    },
+    {
+      "arquivo": "IMG_7183.jpeg",
+      "imagem": "images/manuscritos/IMG_7183.jpeg",
+      "status": "catalogada",
+      "id": "REC-0129",
+      "titulo": "Fatias Húngaras / Rosca Estrela — Variante 2",
+      "observacao": "Vinculada a REC-0129 — Fatias Húngaras / Rosca Estrela — Variante 2."
+    },
+    {
+      "arquivo": "IMG_7184.jpeg",
+      "imagem": "images/manuscritos/IMG_7184.jpeg",
+      "status": "catalogada",
+      "id": "REC-0130",
+      "titulo": "Pão Caseiro Baguete",
+      "observacao": "Vinculada a REC-0130 — Pão Caseiro Baguete."
+    },
+    {
+      "arquivo": "IMG_7185.jpeg",
+      "imagem": "images/manuscritos/IMG_7185.jpeg",
+      "status": "catalogada",
+      "id": "REC-0131",
+      "titulo": "Torta Salgada",
+      "observacao": "Vinculada a REC-0131 — Torta Salgada."
+    },
+    {
+      "arquivo": "IMG_7186.jpeg",
+      "imagem": "images/manuscritos/IMG_7186.jpeg",
+      "status": "revisar",
+      "id": null,
+      "titulo": null,
+      "observacao": "Página preservada; verificar vínculo."
+    },
+    {
+      "arquivo": "IMG_7187.jpeg",
+      "imagem": "images/manuscritos/IMG_7187.jpeg",
+      "status": "revisar",
+      "id": null,
+      "titulo": null,
+      "observacao": "Página preservada; verificar vínculo."
+    },
+    {
+      "arquivo": "IMG_7188.jpeg",
+      "imagem": "images/manuscritos/IMG_7188.jpeg",
+      "status": "catalogada",
+      "id": "REC-0134",
+      "titulo": "Pão de Mel",
+      "observacao": "Vinculada a REC-0134 — Pão de Mel."
+    },
+    {
+      "arquivo": "IMG_7189.jpeg",
+      "imagem": "images/manuscritos/IMG_7189.jpeg",
+      "status": "catalogada",
+      "id": "REC-0135",
+      "titulo": "Pasta de Alho",
+      "observacao": "Vinculada a REC-0135 — Pasta de Alho."
+    }
+  ],
+  "multipagina": [
+    {
+      "titulo_provisorio": "Bolo Brigadeiro",
+      "id": "REC-0054",
+      "status": "multipagina_confirmada",
+      "paginas": [
+        "images/multipagina/Bolo Brigadeiro/Pagina_01_IMG_7112.jpeg",
+        "images/multipagina/Bolo Brigadeiro/Pagina_02_IMG_7111.jpeg"
+      ],
+      "observacao": "As páginas pertencem à mesma receita e recebem um único ID."
+    },
+    {
+      "titulo_provisorio": "Bolo de Mel e Chocolate",
+      "id": "REC-0138",
+      "status": "multipagina_confirmada",
+      "paginas": [
+        "images/multipagina/Bolo de Mel e Chocolate/Pagina_01_IMG_7138.jpeg",
+        "images/multipagina/Bolo de Mel e Chocolate/Pagina_02_IMG_7136.jpeg"
+      ],
+      "observacao": "As páginas pertencem à mesma receita e recebem um único ID."
+    },
+    {
+      "titulo_provisorio": "Bombom Happy End",
+      "id": "REC-0136",
+      "status": "multipagina_confirmada",
+      "paginas": [
+        "images/multipagina/Bombom Happy End/Pagina_01_20.jpg",
+        "images/multipagina/Bombom Happy End/Pagina_02_18.jpg"
+      ],
+      "observacao": "As páginas pertencem à mesma receita e recebem um único ID."
+    },
+    {
+      "titulo_provisorio": "Esfiha - Variante 2",
+      "id": "REC-0133",
+      "status": "multipagina_confirmada",
+      "paginas": [
+        "images/multipagina/Esfiha - Variante 2/Pagina_01_IMG_7187.jpeg",
+        "images/multipagina/Esfiha - Variante 2/Pagina_02_IMG_7188.jpeg"
+      ],
+      "observacao": "As páginas pertencem à mesma receita e recebem um único ID."
+    },
+    {
+      "titulo_provisorio": "Sonho",
+      "id": "REC-0137",
+      "status": "multipagina_confirmada",
+      "paginas": [
+        "images/multipagina/Sonho/Pagina_01_IMG_7124.jpeg",
+        "images/multipagina/Sonho/Pagina_02_IMG_7122.jpeg"
+      ],
+      "observacao": "As páginas pertencem à mesma receita e recebem um único ID."
+    },
+    {
+      "titulo_provisorio": "Sonho Assado",
+      "id": "REC-0132",
+      "status": "multipagina_confirmada",
+      "paginas": [
+        "images/multipagina/Sonho Assado/Pagina_01_IMG_7186.jpeg",
+        "images/multipagina/Sonho Assado/Pagina_02_IMG_7187.jpeg"
+      ],
+      "observacao": "As páginas pertencem à mesma receita e recebem um único ID."
+    }
+  ],
+  "duplicatas": [
+    {
+      "retirada": "IMG_7083.jpeg",
+      "mantida": "30.jpeg",
+      "motivo": "Arquivo de imagem idêntico."
+    },
+    {
+      "retirada": "IMG_7084.jpeg",
+      "mantida": "31.jpeg",
+      "motivo": "Arquivo de imagem idêntico."
+    },
+    {
+      "retirada": "IMG_7107.jpeg",
+      "mantida": "IMG_7106.jpeg",
+      "motivo": "Mesma foto/receita; mantida a imagem mais nítida."
+    },
+    {
+      "retirada": "2.jpg",
+      "mantida": "IMG_7091.jpeg",
+      "motivo": "Quibe; mantida a imagem mais nítida."
+    },
+    {
+      "retirada": "IMG_7092.jpeg",
+      "mantida": "1.jpg",
+      "motivo": "Recheio de Leite Ninho; mantida a imagem mais nítida."
+    },
+    {
+      "retirada": "IMG_7126.jpeg",
+      "mantida": "IMG_7127.jpeg",
+      "motivo": "Glacê de Leite Condensado; mantida a página completa com foto do produto."
+    },
+    {
+      "retirada": "IMG_7089.jpeg",
+      "mantida": "IMG_7141.jpeg",
+      "motivo": "Bolo Tradicional de Aniversário; a versão manuscrita está mais completa."
+    },
+    {
+      "retirada": "IMG_7158.jpeg",
+      "mantida": "4.jpg + IMG_7123.jpeg",
+      "motivo": "A página repete Bolo de Milho Verde e Pudim de Leite Condensado, já preservados em fontes melhores."
+    },
+    {
+      "retirada": "IMG_7113.jpeg",
+      "mantida": "IMG_7102.jpeg",
+      "motivo": "Molho de Pimenta repetido; mantida a fonte principal já catalogada."
+    },
+    {
+      "retirada": "IMG_7164.jpeg",
+      "mantida": "IMG_7154.jpeg + IMG_7162.JPG",
+      "motivo": "A página repete Bolo de Laranja e Bolo de Cenoura, ambos preservados em fontes melhores."
+    }
+  ],
+  "secoes_consolidadas": [
+    {
+      "arquivo": "17.jpg",
+      "secao": "trecho superior",
+      "consolidada_em": "19.jpg",
+      "motivo": "Repete os primeiros ingredientes do 4 Leites Trufados; a mesma foto continua preservada por conter Bolo de Maçã."
+    },
+    {
+      "arquivo": "IMG_7172.jpeg",
+      "secao": "Bolo de Cenoura",
+      "consolidada_em": "IMG_7162.JPG",
+      "motivo": "A seção de Bolo de Cenoura repete a fórmula preservada em IMG_7162.JPG; a foto continua ativa porque também contém Torta de Liquidificador."
+    },
+    {
+      "arquivo": "IMG_7160.jpeg",
+      "secao": "Creme Recheio para Bolo e Glacê",
+      "consolidada_em": "IMG_7125.jpeg",
+      "motivo": "Repete a receita Creme Firme para Bolo; a página permanece preservada por conter Bolo Nega Maluca."
+    },
+    {
+      "arquivo": "IMG_7168.jpeg",
+      "secao": "Pudim de Leite em Pó — fórmula repetida",
+      "consolidada_em": "IMG_7147.jpeg",
+      "motivo": "Uma das fórmulas de pudim se repete; cada variante distinta permanece com um único ID."
+    }
+  ]
+}
