@@ -1,7 +1,14 @@
 
 const $ = (s, root=document) => root.querySelector(s);
 const $$ = (s, root=document) => [...root.querySelectorAll(s)];
-async function loadJSON(path){ const r=await fetch(path); if(!r.ok) throw new Error(path); return r.json(); }
+const SITE_ASSET_VERSION='v7.1-20260817';
+function versionedURL(url){
+  const value=String(url??'');
+  if(!value || /^(https?:|data:|blob:)/i.test(value)) return value;
+  const sep=value.includes('?')?'&':'?';
+  return `${value}${sep}v=${encodeURIComponent(SITE_ASSET_VERSION)}`;
+}
+async function loadJSON(path){ const r=await fetch(versionedURL(path),{cache:'no-store'}); if(!r.ok) throw new Error(path); return r.json(); }
 function safe(t){ return String(t??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m])); }
 function statusLabel(s){ return s==='publicada'?'Publicada':'Em revisão'; }
 function normalizeSearch(t){
@@ -19,7 +26,7 @@ function matchesSearch(recipe, query){
   return terms.every(term=>haystack.includes(term));
 }
 function recipeCard(r){
-  const img=r.imagem&&r.imagem.url?r.imagem.url:'';
+  const img=r.imagem&&r.imagem.url?versionedURL(r.imagem.url):'';
   return `<a class="card recipe-card" href="receita.html?id=${encodeURIComponent(r.id)}" data-search="${safe((r.id+' '+r.titulo+' '+r.categoria).toLowerCase())}" data-cat="${safe(r.categoria)}">
     <div class="card-media">${img?`<img loading="lazy" src="${safe(img)}" alt="${safe(r.titulo)}" onerror="this.style.display='none'">`:''}<span class="badge">${safe(r.id)}</span></div>
     <div class="card-body"><div class="meta"><span>${safe(r.categoria)}</span><span>•</span><span>${statusLabel(r.status)}</span></div><h3>${safe(r.titulo)}</h3><p>${safe((r.contexto||'').slice(0,155))}${(r.contexto||'').length>155?'...':''}</p></div>

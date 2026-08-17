@@ -1,0 +1,17 @@
+ATUALIZAÇÃO V7.1 — CORREÇÃO DE EXIBIÇÃO DAS FOTOS
+
+Objetivo:
+- forçar o navegador/GitHub Pages a carregar o JSON e as fotos atualizados;
+- evitar que versões antigas fiquem presas no cache;
+- reenviar as 8 fotos locais aprovadas na V7.
+
+IMPORTANTE:
+- esta atualização NÃO exclui nem renumera receitas;
+- as exclusões REC-0024, REC-0026 e REC-0027 da V7 continuam pendentes para a próxima consolidação, para não mudar os IDs durante a revisão atual.
+
+Como aplicar:
+1. Extraia o ZIP.
+2. Copie todo o conteúdo para a pasta local Caderno-de-receitas.
+3. Confirme Substituir os arquivos.
+4. No GitHub Desktop, use Summary: V7.1 - correção de exibição das fotos
+5. Commit to main e depois Push origin.
