@@ -1,0 +1,143 @@
+﻿ID V5;ID V6;Situação;Título V5;Título V6
+REC-0001;REC-0001;MANTIDA;Doce de Leite sem Leite e sem Açúcar;Doce de Leite sem Leite e sem Açúcar
+REC-0002;REC-0002;MANTIDA;Doce de Leite sem Leite de Vaca;Doce de Leite sem Leite de Vaca
+REC-0003;REC-0003;MANTIDA;Doce de Leite Ninho Zero Lactose e Zero Açúcar;Doce de Leite Ninho Zero Lactose e Zero Açúcar
+REC-0004;REC-0004;MANTIDA;Recheio de Leite Ninho;Recheio de Leite Ninho
+REC-0005;REC-0005;MANTIDA;Marrom Glacê de Batata Doce;Marrom Glacê de Batata Doce
+REC-0006;REC-0006;MANTIDA;Bolo de Milho Verde;Bolo de Milho Verde
+REC-0007;REC-0007;MANTIDA;Bolacha de Coco;Bolacha de Coco
+REC-0008;REC-0008;ALTERADA;Pão do Val (Cascavel);Pão do Sinval
+REC-0009;REC-0009;MANTIDA;Panetone com Pamix;Panetone com Pamix
+REC-0010;;EXCLUÍDA;Bolo de Rolo (Cascavel);
+REC-0011;REC-0010;MANTIDA;Cajuzinho de Banana;Cajuzinho de Banana
+REC-0012;REC-0011;MANTIDA;Queijadinha;Queijadinha
+REC-0013;REC-0012;MANTIDA;Pudim de Laranja;Pudim de Laranja
+REC-0014;REC-0013;ALTERADA;Bolacha de Sal Amoníaco — Variante 1;Bolacha de Sal Amoníaco
+REC-0015;REC-0014;MANTIDA;Caramelo para Pudim;Caramelo para Pudim
+REC-0016;REC-0015;MANTIDA;Creme de Laranja;Creme de Laranja
+REC-0017;;EXCLUÍDA;Bolacha de Sal Amoníaco — Variante 2;
+REC-0018;REC-0016;MANTIDA;Panetone — Receita Manuscrita;Panetone — Receita Manuscrita
+REC-0019;;EXCLUÍDA;Pão Caseiro — Variante 1;
+REC-0020;REC-0017;MANTIDA;Bolo de Maçã;Bolo de Maçã
+REC-0021;REC-0018;MANTIDA;4 Leites Trufados;4 Leites Trufados
+REC-0022;REC-0019;MANTIDA;Bolacha 5 Pontos;Bolacha 5 Pontos
+REC-0023;;EXCLUÍDA;Bolacha de Sal Amoníaco — Variante 3;
+REC-0024;REC-0020;MANTIDA;Bolo de Cenoura — Variante 1;Bolo de Cenoura — Variante 1
+REC-0025;REC-0021;MANTIDA;Rosquinha;Rosquinha
+REC-0026;REC-0022;MANTIDA;Bombocado de Assadeira;Bombocado de Assadeira
+REC-0027;REC-0023;ALTERADA;Rosca Caseira;Fatias Húngaras / Rosca Estrela da Nicole
+REC-0028;REC-0024;MANTIDA;Pastel;Pastel
+REC-0029;REC-0025;MANTIDA;Bolacha de Nata — Variante 1;Bolacha de Nata — Variante 1
+REC-0030;REC-0026;MANTIDA;Bolinho de Queijo;Bolinho de Queijo
+REC-0031;REC-0027;MANTIDA;Bolacha de 02/02/2025;Bolacha de 02/02/2025
+REC-0032;REC-0028;MANTIDA;Pudim — Receita Impressa;Pudim — Receita Impressa
+REC-0033;REC-0029;MANTIDA;Bolo Tradicional de Aniversário;Bolo Tradicional de Aniversário
+REC-0034;REC-0030;MANTIDA;Creme de Ameixa;Creme de Ameixa
+REC-0035;REC-0031;MANTIDA;Quibe — Variante 1;Quibe — Variante 1
+REC-0036;REC-0032;MANTIDA;Bolo de Pique-Nique;Bolo de Pique-Nique
+REC-0037;REC-0033;MANTIDA;Doce de Abóbora;Doce de Abóbora
+REC-0038;REC-0034;MANTIDA;Bolacha de Nata — Variante 2;Bolacha de Nata — Variante 2
+REC-0039;REC-0035;MANTIDA;Mousse de Leite Ninho com Gelatina;Mousse de Leite Ninho com Gelatina
+REC-0040;REC-0036;MANTIDA;Danone;Danone
+REC-0041;REC-0037;ALTERADA;Bolo de Chocolate — Variante 1;Bolo de Chocolate da Isamara Amâncio
+REC-0042;;EXCLUÍDA;Pão Caseiro — Variante 2;
+REC-0043;REC-0038;MANTIDA;Brigadeiro de Paçoca;Brigadeiro de Paçoca
+REC-0044;REC-0039;ALTERADA;Pizza Enrolada — Variante 1;Pizza Enrolada
+REC-0045;REC-0040;MANTIDA;Molho de Pimenta;Molho de Pimenta
+REC-0046;REC-0041;MANTIDA;Bolacha Palito;Bolacha Palito
+REC-0047;REC-0042;MANTIDA;Pudim Gostoso;Pudim Gostoso
+REC-0048;REC-0043;MANTIDA;Pão Doce;Pão Doce
+REC-0049;;EXCLUÍDA;Bolo de Laranja — Variante 1;
+REC-0050;REC-0044;MANTIDA;Brigadeiro de Alma Branca;Brigadeiro de Alma Branca
+REC-0051;REC-0045;MANTIDA;Pudim de Maria Mole — Variante 1;Pudim de Maria Mole — Variante 1
+REC-0052;REC-0046;MANTIDA;Bolo de Cenoura — Variante 2;Bolo de Cenoura — Variante 2
+REC-0053;REC-0047;MANTIDA;Beijinho;Beijinho
+REC-0054;REC-0048;MANTIDA;Bolo Brigadeiro;Bolo Brigadeiro
+REC-0055;REC-0049;MANTIDA;Cocadinha;Cocadinha
+REC-0056;REC-0050;MANTIDA;Biscoito Amanteigado;Biscoito Amanteigado
+REC-0057;REC-0051;MANTIDA;Cobertura para Bolo — Variante 1;Cobertura para Bolo — Variante 1
+REC-0058;REC-0052;MANTIDA;Gelatina (02/02/2023);Gelatina (02/02/2023)
+REC-0059;REC-0053;MANTIDA;Creme Branco para Frutas;Creme Branco para Frutas
+REC-0060;;EXCLUÍDA;Massa Pão de Ló — Variante 1;
+REC-0061;REC-0054;MANTIDA;Cobertura para Bolo — Variante 2;Cobertura para Bolo — Variante 2
+REC-0062;REC-0055;MANTIDA;Bolo de Fubá Cremoso;Bolo de Fubá Cremoso
+REC-0063;REC-0056;MANTIDA;Biliscão;Biliscão
+REC-0064;REC-0057;ALTERADA;Pudim de Leite em Pó — Variante 1;Pudim de Leite em Pó
+REC-0065;REC-0058;MANTIDA;Pudim de Leite Condensado;Pudim de Leite Condensado
+REC-0066;REC-0059;MANTIDA;Creme Firme para Bolo;Creme Firme para Bolo
+REC-0067;REC-0060;MANTIDA;Recheio Creme 4 Leites;Recheio Creme 4 Leites
+REC-0068;REC-0061;MANTIDA;Glacê de Leite Condensado;Glacê de Leite Condensado
+REC-0069;REC-0062;MANTIDA;Cajuzinho;Cajuzinho
+REC-0070;REC-0063;MANTIDA;Chantilly com Chocolate Branco;Chantilly com Chocolate Branco
+REC-0071;REC-0064;MANTIDA;Brigadeiro de Leite;Brigadeiro de Leite
+REC-0072;REC-0065;MANTIDA;Quibe — Variante 2;Quibe — Variante 2
+REC-0073;REC-0066;MANTIDA;Creme de Milho;Creme de Milho
+REC-0074;REC-0067;ALTERADA;Bolo de Chocolate — Variante 2;Bolo de Chocolate da Celina
+REC-0075;REC-0068;MANTIDA;Bolacha de Nata com Sal Amoníaco;Bolacha de Nata com Sal Amoníaco
+REC-0076;REC-0069;MANTIDA;Bolo de Coco Baiano;Bolo de Coco Baiano
+REC-0077;REC-0070;MANTIDA;Bolo Cortado pela Samantha (Receita Márcia);Bolo Cortado pela Samantha (Receita Márcia)
+REC-0078;REC-0071;MANTIDA;Ganache de Chocolate;Ganache de Chocolate
+REC-0079;REC-0072;MANTIDA;Creme de Limão;Creme de Limão
+REC-0080;REC-0073;MANTIDA;Glacê de Emulsificante;Glacê de Emulsificante
+REC-0081;;EXCLUÍDA;Pé de Moleque — Variante 1;
+REC-0082;REC-0074;MANTIDA;Rosca Doce;Rosca Doce
+REC-0083;REC-0075;MANTIDA;Bananinha (Receita da Graça);Bananinha (Receita da Graça)
+REC-0084;REC-0076;ALTERADA;Rosca Espiral (Fatias Húngaras) — Variante 1;Rosca Espiral (Fatias Húngaras)
+REC-0085;REC-0077;ALTERADA;Bolo de Chocolate — Variante 3;Bolo de Chocolate — Variante 3
+REC-0086;REC-0078;MANTIDA;Leite Condensado Caseiro;Leite Condensado Caseiro
+REC-0087;;EXCLUÍDA;Pudim de Leite em Pó — Variante 2;
+REC-0088;REC-0079;ALTERADA;Pudim de Pão (Pão Velho) — Variante 1;Pudim de Pão (Pão Velho)
+REC-0089;;EXCLUÍDA;Pudim de Maria Mole — Variante 2;
+REC-0090;REC-0080;MANTIDA;Bolinhos de Chuva;Bolinhos de Chuva
+REC-0091;REC-0081;MANTIDA;Brigadeiro;Brigadeiro
+REC-0092;REC-0082;MANTIDA;Feijoada Carioca;Feijoada Carioca
+REC-0093;REC-0083;MANTIDA;Pavê de Pêssego;Pavê de Pêssego
+REC-0094;REC-0084;MANTIDA;Coxinha;Coxinha
+REC-0095;REC-0085;MANTIDA;Pão de Banana;Pão de Banana
+REC-0096;REC-0086;ALTERADA;Bolo de Laranja — Variante 2;Bolo de Laranja
+REC-0097;REC-0087;MANTIDA;Bolo de Fubá;Bolo de Fubá
+REC-0098;REC-0088;MANTIDA;Rocambole Formiguinha;Rocambole Formiguinha
+REC-0099;REC-0089;MANTIDA;Esfirra Habib's;Esfirra Habib's
+REC-0100;REC-0090;MANTIDA;Pão de Ló — Variante 2;Pão de Ló — Variante 2
+REC-0101;REC-0091;MANTIDA;Bolo de Milho;Bolo de Milho
+REC-0102;REC-0092;MANTIDA;Bolo Nega Maluca;Bolo Nega Maluca
+REC-0103;REC-0093;ALTERADA;Pé de Moleque — Variante 2;Pé de Moleque
+REC-0104;REC-0094;MANTIDA;Bolo de Cenoura — Variante 3;Bolo de Cenoura — Variante 3
+REC-0105;;EXCLUÍDA;Pão Caseiro — Variante 3;
+REC-0106;REC-0095;MANTIDA;Risoles — Variante 1;Risoles — Variante 1
+REC-0107;REC-0096;MANTIDA;Doce de Mamão (Márcia);Doce de Mamão (Márcia)
+REC-0108;REC-0097;MANTIDA;Pizza de Liquidificador;Pizza de Liquidificador
+REC-0109;REC-0098;MANTIDA;Recheio de Leite em Pó;Recheio de Leite em Pó
+REC-0110;;EXCLUÍDA;Pudim de Leite em Pó — Variante 3;
+REC-0111;REC-0099;MANTIDA;Risoles — Variante 2;Risoles — Variante 2
+REC-0112;REC-0100;MANTIDA;Bolo de Chocolate — Variante 4;Bolo de Chocolate — Variante 4
+REC-0113;;EXCLUÍDA;Pizza Enrolada — Variante 2;
+REC-0114;REC-0101;MANTIDA;Torta de Liquidificador;Torta de Liquidificador
+REC-0115;REC-0102;MANTIDA;Esfirra — Variante 1;Esfirra — Variante 1
+REC-0116;REC-0103;MANTIDA;Pão de Queijo;Pão de Queijo
+REC-0117;REC-0104;MANTIDA;Creme de Queijo;Creme de Queijo
+REC-0118;REC-0105;MANTIDA;Pão;Pão
+REC-0119;REC-0106;MANTIDA;Massa Doce;Massa Doce
+REC-0120;REC-0107;MANTIDA;Bolo Toalha Felpudo;Bolo Toalha Felpudo
+REC-0121;REC-0108;MANTIDA;Bacalhau com Broa de Milho;Bacalhau com Broa de Milho
+REC-0122;REC-0109;MANTIDA;Pudim de Bar da Lourdes;Pudim de Bar da Lourdes
+REC-0123;REC-0110;MANTIDA;Pão de Forma (Doce/Salgado);Pão de Forma (Doce/Salgado)
+REC-0124;REC-0111;MANTIDA;Quindim;Quindim
+REC-0125;;EXCLUÍDA;Pudim de Pão (Pão Francês Amanhecido) — Variante 2;
+REC-0126;REC-0112;MANTIDA;Bolo de Iogurte Natural;Bolo de Iogurte Natural
+REC-0127;REC-0113;MANTIDA;Fatias Húngaras / Rosca Estrela — Variante 2;Fatias Húngaras / Rosca Estrela — Variante 2
+REC-0128;REC-0114;MANTIDA;Pão Caseiro Baguete;Pão Caseiro Baguete
+REC-0129;REC-0115;MANTIDA;Torta Salgada;Torta Salgada
+REC-0130;REC-0116;MANTIDA;Sonho Assado;Sonho Assado
+REC-0131;REC-0117;MANTIDA;Esfiha — Variante 2;Esfiha — Variante 2
+REC-0132;REC-0118;MANTIDA;Pão de Mel;Pão de Mel
+REC-0133;REC-0119;MANTIDA;Pasta de Alho;Pasta de Alho
+REC-0134;REC-0120;MANTIDA;Bombom Happy End;Bombom Happy End
+REC-0135;REC-0121;MANTIDA;Sonho;Sonho
+REC-0136;REC-0122;MANTIDA;Bolo de Mel e Chocolate;Bolo de Mel e Chocolate
+REC-0137;REC-0123;MANTIDA;Recheio Creme Branco com Bombom;Recheio Creme Branco com Bombom
+REC-0138;REC-0124;MANTIDA;Recheio de Chocolate Branco com Bombom;Recheio de Chocolate Branco com Bombom
+REC-0139;REC-0125;MANTIDA;Recheio de Coco;Recheio de Coco
+REC-0140;;EXCLUÍDA;Pão de Ló — Variante 3;
+REC-0141;REC-0126;MANTIDA;Cobertura com Emulsificante — Variante 2;Cobertura com Emulsificante — Variante 2
+REC-0142;REC-0127;MANTIDA;Recheio de Doce de Leite — Anotação Incompleta;Recheio de Doce de Leite — Anotação Incompleta

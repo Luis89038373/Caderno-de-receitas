@@ -1,0 +1,128 @@
+﻿ID;Número;Título;Categoria;Status
+REC-0001;1;Doce de Leite sem Leite e sem Açúcar;Doces e Sobremesas;em_revisao
+REC-0002;2;Doce de Leite sem Leite de Vaca;Doces e Sobremesas;publicada
+REC-0003;3;Doce de Leite Ninho Zero Lactose e Zero Açúcar;Doces e Sobremesas;publicada
+REC-0004;4;Recheio de Leite Ninho;Recheios e Coberturas;publicada
+REC-0005;5;Marrom Glacê de Batata Doce;Recheios e Coberturas;em_revisao
+REC-0006;6;Bolo de Milho Verde;Bolos e Tortas;publicada
+REC-0007;7;Bolacha de Coco;Biscoitos e Bolachas;publicada
+REC-0008;8;Pão do Sinval;Pães e Roscas;em_revisao
+REC-0009;9;Panetone com Pamix;Pães e Roscas;publicada
+REC-0010;10;Cajuzinho de Banana;Doces e Sobremesas;publicada
+REC-0011;11;Queijadinha;Doces e Sobremesas;publicada
+REC-0012;12;Pudim de Laranja;Pudins e Doces de Forno;publicada
+REC-0013;13;Bolacha de Sal Amoníaco;Biscoitos e Bolachas;publicada
+REC-0014;14;Caramelo para Pudim;Pudins e Doces de Forno;publicada
+REC-0015;15;Creme de Laranja;Doces e Sobremesas;publicada
+REC-0016;16;Panetone — Receita Manuscrita;Pães e Roscas;em_revisao
+REC-0017;17;Bolo de Maçã;Bolos e Tortas;publicada
+REC-0018;18;4 Leites Trufados;Doces e Sobremesas;publicada
+REC-0019;19;Bolacha 5 Pontos;Biscoitos e Bolachas;em_revisao
+REC-0020;20;Bolo de Cenoura — Variante 1;Bolos e Tortas;publicada
+REC-0021;21;Rosquinha;Pães e Roscas;publicada
+REC-0022;22;Bombocado de Assadeira;Bolos e Tortas;publicada
+REC-0023;23;Fatias Húngaras / Rosca Estrela da Nicole;Pães e Roscas;em_revisao
+REC-0024;24;Pastel;Salgados e Massas;publicada
+REC-0025;25;Bolacha de Nata — Variante 1;Biscoitos e Bolachas;publicada
+REC-0026;26;Bolinho de Queijo;Salgados e Massas;publicada
+REC-0027;27;Bolacha de 02/02/2025;Biscoitos e Bolachas;em_revisao
+REC-0028;28;Pudim — Receita Impressa;Pudins e Doces de Forno;publicada
+REC-0029;29;Bolo Tradicional de Aniversário;Bolos e Tortas;publicada
+REC-0030;30;Creme de Ameixa;Doces e Sobremesas;publicada
+REC-0031;31;Quibe — Variante 1;Salgados e Massas;publicada
+REC-0032;32;Bolo de Pique-Nique;Bolos e Tortas;publicada
+REC-0033;33;Doce de Abóbora;Doces e Sobremesas;publicada
+REC-0034;34;Bolacha de Nata — Variante 2;Biscoitos e Bolachas;publicada
+REC-0035;35;Mousse de Leite Ninho com Gelatina;Doces e Sobremesas;publicada
+REC-0036;36;Danone;Doces e Sobremesas;publicada
+REC-0037;37;Bolo de Chocolate da Isamara Amâncio;Bolos e Tortas;publicada
+REC-0038;38;Brigadeiro de Paçoca;Doces e Sobremesas;publicada
+REC-0039;39;Pizza Enrolada;Salgados e Massas;publicada
+REC-0040;40;Molho de Pimenta;Molhos e Cremes;publicada
+REC-0041;41;Bolacha Palito;Biscoitos e Bolachas;publicada
+REC-0042;42;Pudim Gostoso;Pudins e Doces de Forno;publicada
+REC-0043;43;Pão Doce;Pães e Roscas;publicada
+REC-0044;44;Brigadeiro de Alma Branca;Doces e Sobremesas;publicada
+REC-0045;45;Pudim de Maria Mole — Variante 1;Pudins e Doces de Forno;publicada
+REC-0046;46;Bolo de Cenoura — Variante 2;Bolos e Tortas;publicada
+REC-0047;47;Beijinho;Doces e Sobremesas;publicada
+REC-0048;48;Bolo Brigadeiro;Bolos e Tortas;publicada
+REC-0049;49;Cocadinha;Doces e Sobremesas;publicada
+REC-0050;50;Biscoito Amanteigado;Biscoitos e Bolachas;publicada
+REC-0051;51;Cobertura para Bolo — Variante 1;Recheios e Coberturas;publicada
+REC-0052;52;Gelatina (02/02/2023);Doces e Sobremesas;publicada
+REC-0053;53;Creme Branco para Frutas;Doces e Sobremesas;publicada
+REC-0054;54;Cobertura para Bolo — Variante 2;Recheios e Coberturas;publicada
+REC-0055;55;Bolo de Fubá Cremoso;Bolos e Tortas;publicada
+REC-0056;56;Biliscão;Biscoitos e Bolachas;publicada
+REC-0057;57;Pudim de Leite em Pó;Pudins e Doces de Forno;publicada
+REC-0058;58;Pudim de Leite Condensado;Pudins e Doces de Forno;publicada
+REC-0059;59;Creme Firme para Bolo;Recheios e Coberturas;publicada
+REC-0060;60;Recheio Creme 4 Leites;Recheios e Coberturas;publicada
+REC-0061;61;Glacê de Leite Condensado;Recheios e Coberturas;publicada
+REC-0062;62;Cajuzinho;Doces e Sobremesas;publicada
+REC-0063;63;Chantilly com Chocolate Branco;Recheios e Coberturas;publicada
+REC-0064;64;Brigadeiro de Leite;Doces e Sobremesas;publicada
+REC-0065;65;Quibe — Variante 2;Salgados e Massas;publicada
+REC-0066;66;Creme de Milho;Molhos e Cremes;publicada
+REC-0067;67;Bolo de Chocolate da Celina;Bolos e Tortas;publicada
+REC-0068;68;Bolacha de Nata com Sal Amoníaco;Biscoitos e Bolachas;publicada
+REC-0069;69;Bolo de Coco Baiano;Bolos e Tortas;publicada
+REC-0070;70;Bolo Cortado pela Samantha (Receita Márcia);Bolos e Tortas;publicada
+REC-0071;71;Ganache de Chocolate;Recheios e Coberturas;publicada
+REC-0072;72;Creme de Limão;Doces e Sobremesas;em_revisao
+REC-0073;73;Glacê de Emulsificante;Recheios e Coberturas;publicada
+REC-0074;74;Rosca Doce;Pães e Roscas;publicada
+REC-0075;75;Bananinha (Receita da Graça);Doces e Sobremesas;publicada
+REC-0076;76;Rosca Espiral (Fatias Húngaras);Pães e Roscas;publicada
+REC-0077;77;Bolo de Chocolate — Variante 3;Bolos e Tortas;publicada
+REC-0078;78;Leite Condensado Caseiro;Doces e Sobremesas;publicada
+REC-0079;79;Pudim de Pão (Pão Velho);Pudins e Doces de Forno;publicada
+REC-0080;80;Bolinhos de Chuva;Doces e Sobremesas;publicada
+REC-0081;81;Brigadeiro;Doces e Sobremesas;publicada
+REC-0082;82;Feijoada Carioca;Pratos Salgados;publicada
+REC-0083;83;Pavê de Pêssego;Bolos e Tortas;publicada
+REC-0084;84;Coxinha;Salgados e Massas;publicada
+REC-0085;85;Pão de Banana;Pães e Roscas;publicada
+REC-0086;86;Bolo de Laranja;Bolos e Tortas;publicada
+REC-0087;87;Bolo de Fubá;Bolos e Tortas;publicada
+REC-0088;88;Rocambole Formiguinha;Bolos e Tortas;publicada
+REC-0089;89;Esfirra Habib's;Salgados e Massas;publicada
+REC-0090;90;Pão de Ló — Variante 2;Pães e Roscas;publicada
+REC-0091;91;Bolo de Milho;Bolos e Tortas;publicada
+REC-0092;92;Bolo Nega Maluca;Bolos e Tortas;publicada
+REC-0093;93;Pé de Moleque;Doces e Sobremesas;publicada
+REC-0094;94;Bolo de Cenoura — Variante 3;Bolos e Tortas;publicada
+REC-0095;95;Risoles — Variante 1;Salgados e Massas;publicada
+REC-0096;96;Doce de Mamão (Márcia);Doces e Sobremesas;publicada
+REC-0097;97;Pizza de Liquidificador;Salgados e Massas;publicada
+REC-0098;98;Recheio de Leite em Pó;Recheios e Coberturas;publicada
+REC-0099;99;Risoles — Variante 2;Salgados e Massas;publicada
+REC-0100;100;Bolo de Chocolate — Variante 4;Bolos e Tortas;publicada
+REC-0101;101;Torta de Liquidificador;Salgados e Massas;publicada
+REC-0102;102;Esfirra — Variante 1;Salgados e Massas;publicada
+REC-0103;103;Pão de Queijo;Pães e Roscas;publicada
+REC-0104;104;Creme de Queijo;Molhos e Cremes;publicada
+REC-0105;105;Pão;Pães e Roscas;publicada
+REC-0106;106;Massa Doce;Pães e Roscas;publicada
+REC-0107;107;Bolo Toalha Felpudo;Bolos e Tortas;publicada
+REC-0108;108;Bacalhau com Broa de Milho;Pratos Salgados;publicada
+REC-0109;109;Pudim de Bar da Lourdes;Pudins e Doces de Forno;publicada
+REC-0110;110;Pão de Forma (Doce/Salgado);Pães e Roscas;em_revisao
+REC-0111;111;Quindim;Pudins e Doces de Forno;publicada
+REC-0112;112;Bolo de Iogurte Natural;Bolos e Tortas;publicada
+REC-0113;113;Fatias Húngaras / Rosca Estrela — Variante 2;Pães e Roscas;publicada
+REC-0114;114;Pão Caseiro Baguete;Pães e Roscas;publicada
+REC-0115;115;Torta Salgada;Salgados e Massas;publicada
+REC-0116;116;Sonho Assado;Doces e Sobremesas;publicada
+REC-0117;117;Esfiha — Variante 2;Salgados e Massas;publicada
+REC-0118;118;Pão de Mel;Pães e Roscas;publicada
+REC-0119;119;Pasta de Alho;Molhos e Cremes;publicada
+REC-0120;120;Bombom Happy End;Doces e Sobremesas;publicada
+REC-0121;121;Sonho;Doces e Sobremesas;publicada
+REC-0122;122;Bolo de Mel e Chocolate;Bolos e Tortas;publicada
+REC-0123;123;Recheio Creme Branco com Bombom;Recheios e Coberturas;em_revisao
+REC-0124;124;Recheio de Chocolate Branco com Bombom;Recheios e Coberturas;publicada
+REC-0125;125;Recheio de Coco;Recheios e Coberturas;publicada
+REC-0126;126;Cobertura com Emulsificante — Variante 2;Recheios e Coberturas;em_revisao
+REC-0127;127;Recheio de Doce de Leite — Anotação Incompleta;Recheios e Coberturas;em_revisao

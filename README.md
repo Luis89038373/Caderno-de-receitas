@@ -1,4 +1,4 @@
-# Caderno de Receitas da Família — V5
+# Caderno de Receitas da Família — V6
 
 # Caderno de Receitas da Família
 
@@ -75,3 +75,11 @@ Use:
 - As imagens/páginas da receita original não são mais exibidas dentro das fichas de receita; permanecem somente no acervo separado.
 - Todas as fichas abertas possuem botão **← Voltar**.
 - No celular, o bloco “Receitas da família” foi removido; “Receitas que continuam vivas” passou a concentrar o destaque e os filtros.
+
+## V6 — consolidação das correções
+- 127 receitas ativas em sequência contínua: **REC-0001 a REC-0127**.
+- 15 receitas da V5 foram retiradas conforme revisão da família.
+- Títulos e conteúdos selecionados foram corrigidos antes da renumeração.
+- A numeração final foi refeita somente depois de todas as exclusões, evitando troca de receitas por deslocamento de ID.
+- O mapa completo de IDs antigos para novos está em `documentacao/MAPA_IDS_V5_PARA_V6.csv`.
+- As páginas manuscritas e imagens originais continuam preservadas no acervo.
