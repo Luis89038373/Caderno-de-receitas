@@ -1,4 +1,4 @@
-# Caderno de Receitas da Família — V6
+# Caderno de Receitas da Família — V7
 
 # Caderno de Receitas da Família
 
@@ -83,3 +83,12 @@ Use:
 - A numeração final foi refeita somente depois de todas as exclusões, evitando troca de receitas por deslocamento de ID.
 - O mapa completo de IDs antigos para novos está em `documentacao/MAPA_IDS_V5_PARA_V6.csv`.
 - As páginas manuscritas e imagens originais continuam preservadas no acervo.
+
+
+## V7 — revisão de receitas e imagens
+- 113 receitas ativas em sequência contínua: **REC-0001 a REC-0113**.
+- 14 receitas da V6 foram retiradas conforme revisão da família.
+- Fotos selecionadas foram substituídas por referências visuais aprovadas durante a revisão.
+- A foto da antiga REC-0020 foi transferida para a antiga REC-0094 antes da exclusão e da renumeração.
+- Os títulos de Pudim de Leite Condensado e Pudim de Maria Mole foram corrigidos.
+- O mapa completo de IDs V6 → V7 está em `documentacao/MAPA_IDS_V6_PARA_V7.csv`.

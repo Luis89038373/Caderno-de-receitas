@@ -146,7 +146,7 @@
     "fontes": [
       "images/manuscritos/12.jpg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
+    "imagem_tipo": "referencia_fornecida_usuario",
     "pagina": "receita.html?id=REC-0013"
   },
   {
@@ -158,48 +158,12 @@
     "fontes": [
       "images/manuscritos/12.jpg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
+    "imagem_tipo": "referencia_fornecida_usuario",
     "pagina": "receita.html?id=REC-0014"
   },
   {
     "id": "REC-0015",
     "numero": 15,
-    "titulo": "Creme de Laranja",
-    "categoria": "Doces e Sobremesas",
-    "status": "publicada",
-    "fontes": [
-      "images/manuscritos/13.jpg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0015"
-  },
-  {
-    "id": "REC-0016",
-    "numero": 16,
-    "titulo": "Panetone — Receita Manuscrita",
-    "categoria": "Pães e Roscas",
-    "status": "em_revisao",
-    "fontes": [
-      "images/manuscritos/15.jpg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0016"
-  },
-  {
-    "id": "REC-0017",
-    "numero": 17,
-    "titulo": "Bolo de Maçã",
-    "categoria": "Bolos e Tortas",
-    "status": "publicada",
-    "fontes": [
-      "images/manuscritos/17.jpg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0017"
-  },
-  {
-    "id": "REC-0018",
-    "numero": 18,
     "titulo": "4 Leites Trufados",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -207,59 +171,11 @@
       "images/manuscritos/19.jpg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0018"
+    "pagina": "receita.html?id=REC-0015"
   },
   {
-    "id": "REC-0019",
-    "numero": 19,
-    "titulo": "Bolacha 5 Pontos",
-    "categoria": "Biscoitos e Bolachas",
-    "status": "em_revisao",
-    "fontes": [
-      "images/manuscritos/21.jpg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0019"
-  },
-  {
-    "id": "REC-0020",
-    "numero": 20,
-    "titulo": "Bolo de Cenoura — Variante 1",
-    "categoria": "Bolos e Tortas",
-    "status": "publicada",
-    "fontes": [
-      "images/manuscritos/22.jpg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0020"
-  },
-  {
-    "id": "REC-0021",
-    "numero": 21,
-    "titulo": "Rosquinha",
-    "categoria": "Pães e Roscas",
-    "status": "publicada",
-    "fontes": [
-      "images/manuscritos/23.jpg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0021"
-  },
-  {
-    "id": "REC-0022",
-    "numero": 22,
-    "titulo": "Bombocado de Assadeira",
-    "categoria": "Bolos e Tortas",
-    "status": "publicada",
-    "fontes": [
-      "images/manuscritos/24.jpg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0022"
-  },
-  {
-    "id": "REC-0023",
-    "numero": 23,
+    "id": "REC-0016",
+    "numero": 16,
     "titulo": "Fatias Húngaras / Rosca Estrela da Nicole",
     "categoria": "Pães e Roscas",
     "status": "em_revisao",
@@ -267,23 +183,11 @@
       "images/manuscritos/30.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0023"
+    "pagina": "receita.html?id=REC-0016"
   },
   {
-    "id": "REC-0024",
-    "numero": 24,
-    "titulo": "Pastel",
-    "categoria": "Salgados e Massas",
-    "status": "publicada",
-    "fontes": [
-      "images/manuscritos/31.jpeg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0024"
-  },
-  {
-    "id": "REC-0025",
-    "numero": 25,
+    "id": "REC-0017",
+    "numero": 17,
     "titulo": "Bolacha de Nata — Variante 1",
     "categoria": "Biscoitos e Bolachas",
     "status": "publicada",
@@ -291,23 +195,11 @@
       "images/manuscritos/IMG_7085.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0025"
+    "pagina": "receita.html?id=REC-0017"
   },
   {
-    "id": "REC-0026",
-    "numero": 26,
-    "titulo": "Bolinho de Queijo",
-    "categoria": "Salgados e Massas",
-    "status": "publicada",
-    "fontes": [
-      "images/manuscritos/IMG_7086.jpeg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0026"
-  },
-  {
-    "id": "REC-0027",
-    "numero": 27,
+    "id": "REC-0018",
+    "numero": 18,
     "titulo": "Bolacha de 02/02/2025",
     "categoria": "Biscoitos e Bolachas",
     "status": "em_revisao",
@@ -315,59 +207,47 @@
       "images/manuscritos/IMG_7087.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0027"
+    "pagina": "receita.html?id=REC-0018"
   },
   {
-    "id": "REC-0028",
-    "numero": 28,
-    "titulo": "Pudim — Receita Impressa",
+    "id": "REC-0019",
+    "numero": 19,
+    "titulo": "Pudim de Leite Condensado",
     "categoria": "Pudins e Doces de Forno",
     "status": "publicada",
     "fontes": [
       "images/manuscritos/IMG_7088.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0028"
+    "pagina": "receita.html?id=REC-0019"
   },
   {
-    "id": "REC-0029",
-    "numero": 29,
+    "id": "REC-0020",
+    "numero": 20,
     "titulo": "Bolo Tradicional de Aniversário",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
     "fontes": [
       "images/manuscritos/IMG_7141.jpeg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0029"
+    "imagem_tipo": "referencia_fornecida_usuario",
+    "pagina": "receita.html?id=REC-0020"
   },
   {
-    "id": "REC-0030",
-    "numero": 30,
+    "id": "REC-0021",
+    "numero": 21,
     "titulo": "Creme de Ameixa",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
     "fontes": [
       "images/manuscritos/IMG_7090.jpeg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0030"
+    "imagem_tipo": "referencia_fornecida_usuario",
+    "pagina": "receita.html?id=REC-0021"
   },
   {
-    "id": "REC-0031",
-    "numero": 31,
-    "titulo": "Quibe — Variante 1",
-    "categoria": "Salgados e Massas",
-    "status": "publicada",
-    "fontes": [
-      "images/manuscritos/IMG_7091.jpeg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0031"
-  },
-  {
-    "id": "REC-0032",
-    "numero": 32,
+    "id": "REC-0022",
+    "numero": 22,
     "titulo": "Bolo de Pique-Nique",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -375,11 +255,11 @@
       "images/manuscritos/IMG_7093.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0032"
+    "pagina": "receita.html?id=REC-0022"
   },
   {
-    "id": "REC-0033",
-    "numero": 33,
+    "id": "REC-0023",
+    "numero": 23,
     "titulo": "Doce de Abóbora",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -387,23 +267,11 @@
       "images/manuscritos/IMG_7094.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0033"
+    "pagina": "receita.html?id=REC-0023"
   },
   {
-    "id": "REC-0034",
-    "numero": 34,
-    "titulo": "Bolacha de Nata — Variante 2",
-    "categoria": "Biscoitos e Bolachas",
-    "status": "publicada",
-    "fontes": [
-      "images/manuscritos/IMG_7095.jpeg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0034"
-  },
-  {
-    "id": "REC-0035",
-    "numero": 35,
+    "id": "REC-0024",
+    "numero": 24,
     "titulo": "Mousse de Leite Ninho com Gelatina",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -411,11 +279,11 @@
       "images/manuscritos/IMG_7096.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0035"
+    "pagina": "receita.html?id=REC-0024"
   },
   {
-    "id": "REC-0036",
-    "numero": 36,
+    "id": "REC-0025",
+    "numero": 25,
     "titulo": "Danone",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -423,11 +291,11 @@
       "images/manuscritos/IMG_7097.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0036"
+    "pagina": "receita.html?id=REC-0025"
   },
   {
-    "id": "REC-0037",
-    "numero": 37,
+    "id": "REC-0026",
+    "numero": 26,
     "titulo": "Bolo de Chocolate da Isamara Amâncio",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -435,23 +303,23 @@
       "images/manuscritos/IMG_7098.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0037"
+    "pagina": "receita.html?id=REC-0026"
   },
   {
-    "id": "REC-0038",
-    "numero": 38,
+    "id": "REC-0027",
+    "numero": 27,
     "titulo": "Brigadeiro de Paçoca",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
     "fontes": [
       "images/manuscritos/IMG_7100.jpeg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0038"
+    "imagem_tipo": "referencia_fornecida_usuario",
+    "pagina": "receita.html?id=REC-0027"
   },
   {
-    "id": "REC-0039",
-    "numero": 39,
+    "id": "REC-0028",
+    "numero": 28,
     "titulo": "Pizza Enrolada",
     "categoria": "Salgados e Massas",
     "status": "publicada",
@@ -459,11 +327,11 @@
       "images/manuscritos/IMG_7101.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0039"
+    "pagina": "receita.html?id=REC-0028"
   },
   {
-    "id": "REC-0040",
-    "numero": 40,
+    "id": "REC-0029",
+    "numero": 29,
     "titulo": "Molho de Pimenta",
     "categoria": "Molhos e Cremes",
     "status": "publicada",
@@ -471,23 +339,23 @@
       "images/manuscritos/IMG_7102.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0040"
+    "pagina": "receita.html?id=REC-0029"
   },
   {
-    "id": "REC-0041",
-    "numero": 41,
+    "id": "REC-0030",
+    "numero": 30,
     "titulo": "Bolacha Palito",
     "categoria": "Biscoitos e Bolachas",
     "status": "publicada",
     "fontes": [
       "images/manuscritos/IMG_7103.jpeg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0041"
+    "imagem_tipo": "referencia_fornecida_usuario",
+    "pagina": "receita.html?id=REC-0030"
   },
   {
-    "id": "REC-0042",
-    "numero": 42,
+    "id": "REC-0031",
+    "numero": 31,
     "titulo": "Pudim Gostoso",
     "categoria": "Pudins e Doces de Forno",
     "status": "publicada",
@@ -495,23 +363,11 @@
       "images/manuscritos/IMG_7104.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0042"
+    "pagina": "receita.html?id=REC-0031"
   },
   {
-    "id": "REC-0043",
-    "numero": 43,
-    "titulo": "Pão Doce",
-    "categoria": "Pães e Roscas",
-    "status": "publicada",
-    "fontes": [
-      "images/manuscritos/IMG_7105.jpeg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0043"
-  },
-  {
-    "id": "REC-0044",
-    "numero": 44,
+    "id": "REC-0032",
+    "numero": 32,
     "titulo": "Brigadeiro de Alma Branca",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -519,35 +375,23 @@
       "images/manuscritos/IMG_7108.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0044"
+    "pagina": "receita.html?id=REC-0032"
   },
   {
-    "id": "REC-0045",
-    "numero": 45,
-    "titulo": "Pudim de Maria Mole — Variante 1",
+    "id": "REC-0033",
+    "numero": 33,
+    "titulo": "Pudim de Maria Mole",
     "categoria": "Pudins e Doces de Forno",
     "status": "publicada",
     "fontes": [
       "images/manuscritos/IMG_7109.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0045"
+    "pagina": "receita.html?id=REC-0033"
   },
   {
-    "id": "REC-0046",
-    "numero": 46,
-    "titulo": "Bolo de Cenoura — Variante 2",
-    "categoria": "Bolos e Tortas",
-    "status": "publicada",
-    "fontes": [
-      "images/manuscritos/IMG_7109.jpeg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0046"
-  },
-  {
-    "id": "REC-0047",
-    "numero": 47,
+    "id": "REC-0034",
+    "numero": 34,
     "titulo": "Beijinho",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -555,11 +399,11 @@
       "images/manuscritos/IMG_7110.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0047"
+    "pagina": "receita.html?id=REC-0034"
   },
   {
-    "id": "REC-0048",
-    "numero": 48,
+    "id": "REC-0035",
+    "numero": 35,
     "titulo": "Bolo Brigadeiro",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -568,11 +412,11 @@
       "images/multipagina/Bolo Brigadeiro/Pagina_02_IMG_7111.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0048"
+    "pagina": "receita.html?id=REC-0035"
   },
   {
-    "id": "REC-0049",
-    "numero": 49,
+    "id": "REC-0036",
+    "numero": 36,
     "titulo": "Cocadinha",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -580,11 +424,11 @@
       "images/manuscritos/IMG_7114.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0049"
+    "pagina": "receita.html?id=REC-0036"
   },
   {
-    "id": "REC-0050",
-    "numero": 50,
+    "id": "REC-0037",
+    "numero": 37,
     "titulo": "Biscoito Amanteigado",
     "categoria": "Biscoitos e Bolachas",
     "status": "publicada",
@@ -592,11 +436,11 @@
       "images/manuscritos/IMG_7115.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0050"
+    "pagina": "receita.html?id=REC-0037"
   },
   {
-    "id": "REC-0051",
-    "numero": 51,
+    "id": "REC-0038",
+    "numero": 38,
     "titulo": "Cobertura para Bolo — Variante 1",
     "categoria": "Recheios e Coberturas",
     "status": "publicada",
@@ -604,11 +448,11 @@
       "images/manuscritos/IMG_7116.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0051"
+    "pagina": "receita.html?id=REC-0038"
   },
   {
-    "id": "REC-0052",
-    "numero": 52,
+    "id": "REC-0039",
+    "numero": 39,
     "titulo": "Gelatina (02/02/2023)",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -616,11 +460,11 @@
       "images/manuscritos/IMG_7117.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0052"
+    "pagina": "receita.html?id=REC-0039"
   },
   {
-    "id": "REC-0053",
-    "numero": 53,
+    "id": "REC-0040",
+    "numero": 40,
     "titulo": "Creme Branco para Frutas",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -628,11 +472,11 @@
       "images/manuscritos/IMG_7118.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0053"
+    "pagina": "receita.html?id=REC-0040"
   },
   {
-    "id": "REC-0054",
-    "numero": 54,
+    "id": "REC-0041",
+    "numero": 41,
     "titulo": "Cobertura para Bolo — Variante 2",
     "categoria": "Recheios e Coberturas",
     "status": "publicada",
@@ -640,11 +484,11 @@
       "images/manuscritos/IMG_7119.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0054"
+    "pagina": "receita.html?id=REC-0041"
   },
   {
-    "id": "REC-0055",
-    "numero": 55,
+    "id": "REC-0042",
+    "numero": 42,
     "titulo": "Bolo de Fubá Cremoso",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -652,11 +496,11 @@
       "images/manuscritos/IMG_7120.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0055"
+    "pagina": "receita.html?id=REC-0042"
   },
   {
-    "id": "REC-0056",
-    "numero": 56,
+    "id": "REC-0043",
+    "numero": 43,
     "titulo": "Biliscão",
     "categoria": "Biscoitos e Bolachas",
     "status": "publicada",
@@ -664,11 +508,11 @@
       "images/manuscritos/IMG_7121.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0056"
+    "pagina": "receita.html?id=REC-0043"
   },
   {
-    "id": "REC-0057",
-    "numero": 57,
+    "id": "REC-0044",
+    "numero": 44,
     "titulo": "Pudim de Leite em Pó",
     "categoria": "Pudins e Doces de Forno",
     "status": "publicada",
@@ -676,11 +520,11 @@
       "images/manuscritos/IMG_7123.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0057"
+    "pagina": "receita.html?id=REC-0044"
   },
   {
-    "id": "REC-0058",
-    "numero": 58,
+    "id": "REC-0045",
+    "numero": 45,
     "titulo": "Pudim de Leite Condensado",
     "categoria": "Pudins e Doces de Forno",
     "status": "publicada",
@@ -688,11 +532,11 @@
       "images/manuscritos/IMG_7123.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0058"
+    "pagina": "receita.html?id=REC-0045"
   },
   {
-    "id": "REC-0059",
-    "numero": 59,
+    "id": "REC-0046",
+    "numero": 46,
     "titulo": "Creme Firme para Bolo",
     "categoria": "Recheios e Coberturas",
     "status": "publicada",
@@ -700,23 +544,23 @@
       "images/manuscritos/IMG_7125.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0059"
+    "pagina": "receita.html?id=REC-0046"
   },
   {
-    "id": "REC-0060",
-    "numero": 60,
+    "id": "REC-0047",
+    "numero": 47,
     "titulo": "Recheio Creme 4 Leites",
     "categoria": "Recheios e Coberturas",
     "status": "publicada",
     "fontes": [
       "images/manuscritos/IMG_7125.jpeg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0060"
+    "imagem_tipo": "referencia_fornecida_usuario",
+    "pagina": "receita.html?id=REC-0047"
   },
   {
-    "id": "REC-0061",
-    "numero": 61,
+    "id": "REC-0048",
+    "numero": 48,
     "titulo": "Glacê de Leite Condensado",
     "categoria": "Recheios e Coberturas",
     "status": "publicada",
@@ -724,11 +568,11 @@
       "images/manuscritos/IMG_7127.jpeg"
     ],
     "imagem_tipo": "foto_propria",
-    "pagina": "receita.html?id=REC-0061"
+    "pagina": "receita.html?id=REC-0048"
   },
   {
-    "id": "REC-0062",
-    "numero": 62,
+    "id": "REC-0049",
+    "numero": 49,
     "titulo": "Cajuzinho",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -736,11 +580,11 @@
       "images/manuscritos/IMG_7128.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0062"
+    "pagina": "receita.html?id=REC-0049"
   },
   {
-    "id": "REC-0063",
-    "numero": 63,
+    "id": "REC-0050",
+    "numero": 50,
     "titulo": "Chantilly com Chocolate Branco",
     "categoria": "Recheios e Coberturas",
     "status": "publicada",
@@ -748,11 +592,11 @@
       "images/manuscritos/IMG_7129.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0063"
+    "pagina": "receita.html?id=REC-0050"
   },
   {
-    "id": "REC-0064",
-    "numero": 64,
+    "id": "REC-0051",
+    "numero": 51,
     "titulo": "Brigadeiro de Leite",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -760,23 +604,23 @@
       "images/manuscritos/IMG_7130.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0064"
+    "pagina": "receita.html?id=REC-0051"
   },
   {
-    "id": "REC-0065",
-    "numero": 65,
+    "id": "REC-0052",
+    "numero": 52,
     "titulo": "Quibe — Variante 2",
     "categoria": "Salgados e Massas",
     "status": "publicada",
     "fontes": [
       "images/manuscritos/IMG_7131.jpeg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0065"
+    "imagem_tipo": "referencia_fornecida_usuario",
+    "pagina": "receita.html?id=REC-0052"
   },
   {
-    "id": "REC-0066",
-    "numero": 66,
+    "id": "REC-0053",
+    "numero": 53,
     "titulo": "Creme de Milho",
     "categoria": "Molhos e Cremes",
     "status": "publicada",
@@ -784,11 +628,11 @@
       "images/manuscritos/IMG_7132.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0066"
+    "pagina": "receita.html?id=REC-0053"
   },
   {
-    "id": "REC-0067",
-    "numero": 67,
+    "id": "REC-0054",
+    "numero": 54,
     "titulo": "Bolo de Chocolate da Celina",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -796,23 +640,11 @@
       "images/manuscritos/IMG_7133.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0067"
+    "pagina": "receita.html?id=REC-0054"
   },
   {
-    "id": "REC-0068",
-    "numero": 68,
-    "titulo": "Bolacha de Nata com Sal Amoníaco",
-    "categoria": "Biscoitos e Bolachas",
-    "status": "publicada",
-    "fontes": [
-      "images/manuscritos/IMG_7134.jpeg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0068"
-  },
-  {
-    "id": "REC-0069",
-    "numero": 69,
+    "id": "REC-0055",
+    "numero": 55,
     "titulo": "Bolo de Coco Baiano",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -820,11 +652,11 @@
       "images/manuscritos/IMG_7135.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0069"
+    "pagina": "receita.html?id=REC-0055"
   },
   {
-    "id": "REC-0070",
-    "numero": 70,
+    "id": "REC-0056",
+    "numero": 56,
     "titulo": "Bolo Cortado pela Samantha (Receita Márcia)",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -832,11 +664,11 @@
       "images/manuscritos/IMG_7137.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0070"
+    "pagina": "receita.html?id=REC-0056"
   },
   {
-    "id": "REC-0071",
-    "numero": 71,
+    "id": "REC-0057",
+    "numero": 57,
     "titulo": "Ganache de Chocolate",
     "categoria": "Recheios e Coberturas",
     "status": "publicada",
@@ -844,11 +676,11 @@
       "images/manuscritos/IMG_7139.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0071"
+    "pagina": "receita.html?id=REC-0057"
   },
   {
-    "id": "REC-0072",
-    "numero": 72,
+    "id": "REC-0058",
+    "numero": 58,
     "titulo": "Creme de Limão",
     "categoria": "Doces e Sobremesas",
     "status": "em_revisao",
@@ -856,11 +688,11 @@
       "images/manuscritos/IMG_7139.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0072"
+    "pagina": "receita.html?id=REC-0058"
   },
   {
-    "id": "REC-0073",
-    "numero": 73,
+    "id": "REC-0059",
+    "numero": 59,
     "titulo": "Glacê de Emulsificante",
     "categoria": "Recheios e Coberturas",
     "status": "publicada",
@@ -868,11 +700,11 @@
       "images/manuscritos/IMG_7139.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0073"
+    "pagina": "receita.html?id=REC-0059"
   },
   {
-    "id": "REC-0074",
-    "numero": 74,
+    "id": "REC-0060",
+    "numero": 60,
     "titulo": "Rosca Doce",
     "categoria": "Pães e Roscas",
     "status": "publicada",
@@ -880,11 +712,11 @@
       "images/manuscritos/IMG_7142.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0074"
+    "pagina": "receita.html?id=REC-0060"
   },
   {
-    "id": "REC-0075",
-    "numero": 75,
+    "id": "REC-0061",
+    "numero": 61,
     "titulo": "Bananinha (Receita da Graça)",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -892,11 +724,11 @@
       "images/manuscritos/IMG_7143.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0075"
+    "pagina": "receita.html?id=REC-0061"
   },
   {
-    "id": "REC-0076",
-    "numero": 76,
+    "id": "REC-0062",
+    "numero": 62,
     "titulo": "Rosca Espiral (Fatias Húngaras)",
     "categoria": "Pães e Roscas",
     "status": "publicada",
@@ -904,11 +736,11 @@
       "images/manuscritos/IMG_7144.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0076"
+    "pagina": "receita.html?id=REC-0062"
   },
   {
-    "id": "REC-0077",
-    "numero": 77,
+    "id": "REC-0063",
+    "numero": 63,
     "titulo": "Bolo de Chocolate — Variante 3",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -916,11 +748,11 @@
       "images/manuscritos/IMG_7145.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0077"
+    "pagina": "receita.html?id=REC-0063"
   },
   {
-    "id": "REC-0078",
-    "numero": 78,
+    "id": "REC-0064",
+    "numero": 64,
     "titulo": "Leite Condensado Caseiro",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -928,11 +760,11 @@
       "images/manuscritos/IMG_7146.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0078"
+    "pagina": "receita.html?id=REC-0064"
   },
   {
-    "id": "REC-0079",
-    "numero": 79,
+    "id": "REC-0065",
+    "numero": 65,
     "titulo": "Pudim de Pão (Pão Velho)",
     "categoria": "Pudins e Doces de Forno",
     "status": "publicada",
@@ -940,11 +772,11 @@
       "images/manuscritos/IMG_7147.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0079"
+    "pagina": "receita.html?id=REC-0065"
   },
   {
-    "id": "REC-0080",
-    "numero": 80,
+    "id": "REC-0066",
+    "numero": 66,
     "titulo": "Bolinhos de Chuva",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -952,11 +784,11 @@
       "images/manuscritos/IMG_7149.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0080"
+    "pagina": "receita.html?id=REC-0066"
   },
   {
-    "id": "REC-0081",
-    "numero": 81,
+    "id": "REC-0067",
+    "numero": 67,
     "titulo": "Brigadeiro",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -964,11 +796,11 @@
       "images/manuscritos/IMG_7150.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0081"
+    "pagina": "receita.html?id=REC-0067"
   },
   {
-    "id": "REC-0082",
-    "numero": 82,
+    "id": "REC-0068",
+    "numero": 68,
     "titulo": "Feijoada Carioca",
     "categoria": "Pratos Salgados",
     "status": "publicada",
@@ -976,11 +808,11 @@
       "images/manuscritos/IMG_7151.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0082"
+    "pagina": "receita.html?id=REC-0068"
   },
   {
-    "id": "REC-0083",
-    "numero": 83,
+    "id": "REC-0069",
+    "numero": 69,
     "titulo": "Pavê de Pêssego",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -988,11 +820,11 @@
       "images/manuscritos/IMG_7152.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0083"
+    "pagina": "receita.html?id=REC-0069"
   },
   {
-    "id": "REC-0084",
-    "numero": 84,
+    "id": "REC-0070",
+    "numero": 70,
     "titulo": "Coxinha",
     "categoria": "Salgados e Massas",
     "status": "publicada",
@@ -1000,11 +832,11 @@
       "images/manuscritos/IMG_7153.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0084"
+    "pagina": "receita.html?id=REC-0070"
   },
   {
-    "id": "REC-0085",
-    "numero": 85,
+    "id": "REC-0071",
+    "numero": 71,
     "titulo": "Pão de Banana",
     "categoria": "Pães e Roscas",
     "status": "publicada",
@@ -1012,11 +844,11 @@
       "images/manuscritos/IMG_7154.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0085"
+    "pagina": "receita.html?id=REC-0071"
   },
   {
-    "id": "REC-0086",
-    "numero": 86,
+    "id": "REC-0072",
+    "numero": 72,
     "titulo": "Bolo de Laranja",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -1024,11 +856,11 @@
       "images/manuscritos/IMG_7154.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0086"
+    "pagina": "receita.html?id=REC-0072"
   },
   {
-    "id": "REC-0087",
-    "numero": 87,
+    "id": "REC-0073",
+    "numero": 73,
     "titulo": "Bolo de Fubá",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -1036,11 +868,11 @@
       "images/manuscritos/IMG_7155.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0087"
+    "pagina": "receita.html?id=REC-0073"
   },
   {
-    "id": "REC-0088",
-    "numero": 88,
+    "id": "REC-0074",
+    "numero": 74,
     "titulo": "Rocambole Formiguinha",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -1048,11 +880,11 @@
       "images/manuscritos/IMG_7156.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0088"
+    "pagina": "receita.html?id=REC-0074"
   },
   {
-    "id": "REC-0089",
-    "numero": 89,
+    "id": "REC-0075",
+    "numero": 75,
     "titulo": "Esfirra Habib's",
     "categoria": "Salgados e Massas",
     "status": "publicada",
@@ -1060,11 +892,11 @@
       "images/manuscritos/IMG_7156.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0089"
+    "pagina": "receita.html?id=REC-0075"
   },
   {
-    "id": "REC-0090",
-    "numero": 90,
+    "id": "REC-0076",
+    "numero": 76,
     "titulo": "Pão de Ló — Variante 2",
     "categoria": "Pães e Roscas",
     "status": "publicada",
@@ -1072,11 +904,11 @@
       "images/manuscritos/IMG_7157.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0090"
+    "pagina": "receita.html?id=REC-0076"
   },
   {
-    "id": "REC-0091",
-    "numero": 91,
+    "id": "REC-0077",
+    "numero": 77,
     "titulo": "Bolo de Milho",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -1084,11 +916,11 @@
       "images/manuscritos/IMG_7159.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0091"
+    "pagina": "receita.html?id=REC-0077"
   },
   {
-    "id": "REC-0092",
-    "numero": 92,
+    "id": "REC-0078",
+    "numero": 78,
     "titulo": "Bolo Nega Maluca",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -1096,11 +928,11 @@
       "images/manuscritos/IMG_7160.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0092"
+    "pagina": "receita.html?id=REC-0078"
   },
   {
-    "id": "REC-0093",
-    "numero": 93,
+    "id": "REC-0079",
+    "numero": 79,
     "titulo": "Pé de Moleque",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -1108,23 +940,23 @@
       "images/manuscritos/IMG_7161.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0093"
+    "pagina": "receita.html?id=REC-0079"
   },
   {
-    "id": "REC-0094",
-    "numero": 94,
+    "id": "REC-0080",
+    "numero": 80,
     "titulo": "Bolo de Cenoura — Variante 3",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
     "fontes": [
       "images/manuscritos/IMG_7162.JPG"
     ],
-    "imagem_tipo": "foto_propria",
-    "pagina": "receita.html?id=REC-0094"
+    "imagem_tipo": "ilustrativa_externa",
+    "pagina": "receita.html?id=REC-0080"
   },
   {
-    "id": "REC-0095",
-    "numero": 95,
+    "id": "REC-0081",
+    "numero": 81,
     "titulo": "Risoles — Variante 1",
     "categoria": "Salgados e Massas",
     "status": "publicada",
@@ -1132,11 +964,11 @@
       "images/manuscritos/IMG_7166.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0095"
+    "pagina": "receita.html?id=REC-0081"
   },
   {
-    "id": "REC-0096",
-    "numero": 96,
+    "id": "REC-0082",
+    "numero": 82,
     "titulo": "Doce de Mamão (Márcia)",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -1144,11 +976,11 @@
       "images/manuscritos/IMG_7166.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0096"
+    "pagina": "receita.html?id=REC-0082"
   },
   {
-    "id": "REC-0097",
-    "numero": 97,
+    "id": "REC-0083",
+    "numero": 83,
     "titulo": "Pizza de Liquidificador",
     "categoria": "Salgados e Massas",
     "status": "publicada",
@@ -1156,11 +988,11 @@
       "images/manuscritos/IMG_7167.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0097"
+    "pagina": "receita.html?id=REC-0083"
   },
   {
-    "id": "REC-0098",
-    "numero": 98,
+    "id": "REC-0084",
+    "numero": 84,
     "titulo": "Recheio de Leite em Pó",
     "categoria": "Recheios e Coberturas",
     "status": "publicada",
@@ -1168,11 +1000,11 @@
       "images/manuscritos/IMG_7168.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0098"
+    "pagina": "receita.html?id=REC-0084"
   },
   {
-    "id": "REC-0099",
-    "numero": 99,
+    "id": "REC-0085",
+    "numero": 85,
     "titulo": "Risoles — Variante 2",
     "categoria": "Salgados e Massas",
     "status": "publicada",
@@ -1180,11 +1012,11 @@
       "images/manuscritos/IMG_7169.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0099"
+    "pagina": "receita.html?id=REC-0085"
   },
   {
-    "id": "REC-0100",
-    "numero": 100,
+    "id": "REC-0086",
+    "numero": 86,
     "titulo": "Bolo de Chocolate — Variante 4",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -1192,11 +1024,11 @@
       "images/manuscritos/IMG_7170.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0100"
+    "pagina": "receita.html?id=REC-0086"
   },
   {
-    "id": "REC-0101",
-    "numero": 101,
+    "id": "REC-0087",
+    "numero": 87,
     "titulo": "Torta de Liquidificador",
     "categoria": "Salgados e Massas",
     "status": "publicada",
@@ -1204,11 +1036,11 @@
       "images/manuscritos/IMG_7172.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0101"
+    "pagina": "receita.html?id=REC-0087"
   },
   {
-    "id": "REC-0102",
-    "numero": 102,
+    "id": "REC-0088",
+    "numero": 88,
     "titulo": "Esfirra — Variante 1",
     "categoria": "Salgados e Massas",
     "status": "publicada",
@@ -1216,11 +1048,11 @@
       "images/manuscritos/IMG_7173.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0102"
+    "pagina": "receita.html?id=REC-0088"
   },
   {
-    "id": "REC-0103",
-    "numero": 103,
+    "id": "REC-0089",
+    "numero": 89,
     "titulo": "Pão de Queijo",
     "categoria": "Pães e Roscas",
     "status": "publicada",
@@ -1228,11 +1060,11 @@
       "images/manuscritos/IMG_7174.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0103"
+    "pagina": "receita.html?id=REC-0089"
   },
   {
-    "id": "REC-0104",
-    "numero": 104,
+    "id": "REC-0090",
+    "numero": 90,
     "titulo": "Creme de Queijo",
     "categoria": "Molhos e Cremes",
     "status": "publicada",
@@ -1240,11 +1072,11 @@
       "images/manuscritos/IMG_7174.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0104"
+    "pagina": "receita.html?id=REC-0090"
   },
   {
-    "id": "REC-0105",
-    "numero": 105,
+    "id": "REC-0091",
+    "numero": 91,
     "titulo": "Pão",
     "categoria": "Pães e Roscas",
     "status": "publicada",
@@ -1252,11 +1084,11 @@
       "images/manuscritos/IMG_7175.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0105"
+    "pagina": "receita.html?id=REC-0091"
   },
   {
-    "id": "REC-0106",
-    "numero": 106,
+    "id": "REC-0092",
+    "numero": 92,
     "titulo": "Massa Doce",
     "categoria": "Pães e Roscas",
     "status": "publicada",
@@ -1264,11 +1096,11 @@
       "images/manuscritos/IMG_7176.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0106"
+    "pagina": "receita.html?id=REC-0092"
   },
   {
-    "id": "REC-0107",
-    "numero": 107,
+    "id": "REC-0093",
+    "numero": 93,
     "titulo": "Bolo Toalha Felpudo",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -1276,11 +1108,11 @@
       "images/manuscritos/IMG_7177.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0107"
+    "pagina": "receita.html?id=REC-0093"
   },
   {
-    "id": "REC-0108",
-    "numero": 108,
+    "id": "REC-0094",
+    "numero": 94,
     "titulo": "Bacalhau com Broa de Milho",
     "categoria": "Pratos Salgados",
     "status": "publicada",
@@ -1288,11 +1120,11 @@
       "images/manuscritos/IMG_7178.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0108"
+    "pagina": "receita.html?id=REC-0094"
   },
   {
-    "id": "REC-0109",
-    "numero": 109,
+    "id": "REC-0095",
+    "numero": 95,
     "titulo": "Pudim de Bar da Lourdes",
     "categoria": "Pudins e Doces de Forno",
     "status": "publicada",
@@ -1300,11 +1132,11 @@
       "images/manuscritos/IMG_7179.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0109"
+    "pagina": "receita.html?id=REC-0095"
   },
   {
-    "id": "REC-0110",
-    "numero": 110,
+    "id": "REC-0096",
+    "numero": 96,
     "titulo": "Pão de Forma (Doce/Salgado)",
     "categoria": "Pães e Roscas",
     "status": "em_revisao",
@@ -1312,11 +1144,11 @@
       "images/manuscritos/IMG_7180.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0110"
+    "pagina": "receita.html?id=REC-0096"
   },
   {
-    "id": "REC-0111",
-    "numero": 111,
+    "id": "REC-0097",
+    "numero": 97,
     "titulo": "Quindim",
     "categoria": "Pudins e Doces de Forno",
     "status": "publicada",
@@ -1324,11 +1156,11 @@
       "images/manuscritos/IMG_7181.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0111"
+    "pagina": "receita.html?id=REC-0097"
   },
   {
-    "id": "REC-0112",
-    "numero": 112,
+    "id": "REC-0098",
+    "numero": 98,
     "titulo": "Bolo de Iogurte Natural",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -1336,11 +1168,11 @@
       "images/manuscritos/IMG_7182.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0112"
+    "pagina": "receita.html?id=REC-0098"
   },
   {
-    "id": "REC-0113",
-    "numero": 113,
+    "id": "REC-0099",
+    "numero": 99,
     "titulo": "Fatias Húngaras / Rosca Estrela — Variante 2",
     "categoria": "Pães e Roscas",
     "status": "publicada",
@@ -1348,11 +1180,11 @@
       "images/manuscritos/IMG_7183.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0113"
+    "pagina": "receita.html?id=REC-0099"
   },
   {
-    "id": "REC-0114",
-    "numero": 114,
+    "id": "REC-0100",
+    "numero": 100,
     "titulo": "Pão Caseiro Baguete",
     "categoria": "Pães e Roscas",
     "status": "publicada",
@@ -1360,11 +1192,11 @@
       "images/manuscritos/IMG_7184.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0114"
+    "pagina": "receita.html?id=REC-0100"
   },
   {
-    "id": "REC-0115",
-    "numero": 115,
+    "id": "REC-0101",
+    "numero": 101,
     "titulo": "Torta Salgada",
     "categoria": "Salgados e Massas",
     "status": "publicada",
@@ -1372,11 +1204,11 @@
       "images/manuscritos/IMG_7185.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0115"
+    "pagina": "receita.html?id=REC-0101"
   },
   {
-    "id": "REC-0116",
-    "numero": 116,
+    "id": "REC-0102",
+    "numero": 102,
     "titulo": "Sonho Assado",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -1385,11 +1217,11 @@
       "images/multipagina/Sonho Assado/Pagina_02_IMG_7187.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0116"
+    "pagina": "receita.html?id=REC-0102"
   },
   {
-    "id": "REC-0117",
-    "numero": 117,
+    "id": "REC-0103",
+    "numero": 103,
     "titulo": "Esfiha — Variante 2",
     "categoria": "Salgados e Massas",
     "status": "publicada",
@@ -1398,11 +1230,11 @@
       "images/multipagina/Esfiha - Variante 2/Pagina_02_IMG_7188.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0117"
+    "pagina": "receita.html?id=REC-0103"
   },
   {
-    "id": "REC-0118",
-    "numero": 118,
+    "id": "REC-0104",
+    "numero": 104,
     "titulo": "Pão de Mel",
     "categoria": "Pães e Roscas",
     "status": "publicada",
@@ -1410,11 +1242,11 @@
       "images/manuscritos/IMG_7188.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0118"
+    "pagina": "receita.html?id=REC-0104"
   },
   {
-    "id": "REC-0119",
-    "numero": 119,
+    "id": "REC-0105",
+    "numero": 105,
     "titulo": "Pasta de Alho",
     "categoria": "Molhos e Cremes",
     "status": "publicada",
@@ -1422,11 +1254,11 @@
       "images/manuscritos/IMG_7189.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0119"
+    "pagina": "receita.html?id=REC-0105"
   },
   {
-    "id": "REC-0120",
-    "numero": 120,
+    "id": "REC-0106",
+    "numero": 106,
     "titulo": "Bombom Happy End",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -1435,11 +1267,11 @@
       "images/multipagina/Bombom Happy End/Pagina_02_18.jpg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0120"
+    "pagina": "receita.html?id=REC-0106"
   },
   {
-    "id": "REC-0121",
-    "numero": 121,
+    "id": "REC-0107",
+    "numero": 107,
     "titulo": "Sonho",
     "categoria": "Doces e Sobremesas",
     "status": "publicada",
@@ -1448,11 +1280,11 @@
       "images/multipagina/Sonho/Pagina_02_IMG_7122.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0121"
+    "pagina": "receita.html?id=REC-0107"
   },
   {
-    "id": "REC-0122",
-    "numero": 122,
+    "id": "REC-0108",
+    "numero": 108,
     "titulo": "Bolo de Mel e Chocolate",
     "categoria": "Bolos e Tortas",
     "status": "publicada",
@@ -1461,11 +1293,11 @@
       "images/multipagina/Bolo de Mel e Chocolate/Pagina_02_IMG_7136.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0122"
+    "pagina": "receita.html?id=REC-0108"
   },
   {
-    "id": "REC-0123",
-    "numero": 123,
+    "id": "REC-0109",
+    "numero": 109,
     "titulo": "Recheio Creme Branco com Bombom",
     "categoria": "Recheios e Coberturas",
     "status": "em_revisao",
@@ -1473,11 +1305,11 @@
       "images/manuscritos/IMG_7098.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0123"
+    "pagina": "receita.html?id=REC-0109"
   },
   {
-    "id": "REC-0124",
-    "numero": 124,
+    "id": "REC-0110",
+    "numero": 110,
     "titulo": "Recheio de Chocolate Branco com Bombom",
     "categoria": "Recheios e Coberturas",
     "status": "publicada",
@@ -1485,11 +1317,11 @@
       "images/manuscritos/IMG_7100.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0124"
+    "pagina": "receita.html?id=REC-0110"
   },
   {
-    "id": "REC-0125",
-    "numero": 125,
+    "id": "REC-0111",
+    "numero": 111,
     "titulo": "Recheio de Coco",
     "categoria": "Recheios e Coberturas",
     "status": "publicada",
@@ -1497,11 +1329,11 @@
       "images/manuscritos/IMG_7130.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0125"
+    "pagina": "receita.html?id=REC-0111"
   },
   {
-    "id": "REC-0126",
-    "numero": 126,
+    "id": "REC-0112",
+    "numero": 112,
     "titulo": "Cobertura com Emulsificante — Variante 2",
     "categoria": "Recheios e Coberturas",
     "status": "em_revisao",
@@ -1509,11 +1341,11 @@
       "images/manuscritos/IMG_7170.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0126"
+    "pagina": "receita.html?id=REC-0112"
   },
   {
-    "id": "REC-0127",
-    "numero": 127,
+    "id": "REC-0113",
+    "numero": 113,
     "titulo": "Recheio de Doce de Leite — Anotação Incompleta",
     "categoria": "Recheios e Coberturas",
     "status": "em_revisao",
@@ -1521,6 +1353,6 @@
       "images/manuscritos/IMG_7170.jpeg"
     ],
     "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0127"
+    "pagina": "receita.html?id=REC-0113"
   }
 ]
