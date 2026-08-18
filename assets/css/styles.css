@@ -305,3 +305,87 @@ button,input,select{font:inherit}
     grid-column:auto;
   }
 }
+
+
+/* V12.2 — cabeçalho fixo validado com filtros estáticos */
+#site-nav{
+  position:sticky !important;
+  top:0 !important;
+  z-index:2000 !important;
+  width:100%;
+}
+#site-nav .topbar{
+  position:relative !important;
+  top:auto !important;
+  width:100%;
+  background:rgba(247,243,235,.985);
+  border-bottom:1px solid var(--line);
+  box-shadow:0 9px 24px rgba(58,42,28,.11);
+  backdrop-filter:blur(16px);
+}
+#site-nav .nav{
+  min-height:78px;
+  height:auto;
+  padding:10px 0;
+}
+#site-nav .header-filterbar{
+  display:grid !important;
+  grid-template-columns:minmax(360px,1.7fr) minmax(190px,.82fr) minmax(180px,.78fr) auto;
+  gap:10px;
+  align-items:center;
+  padding:0 0 14px;
+}
+#site-nav .header-filterbar .search{
+  display:block !important;
+  width:100%;
+  min-width:0;
+  min-height:46px;
+  margin:0;
+  padding:10px 14px;
+  background:#fffdf8;
+  border:1px solid var(--line);
+  border-radius:13px;
+}
+#site-nav .header-filterbar .clear-filters{
+  display:inline-flex !important;
+  align-items:center;
+  justify-content:center;
+  min-height:46px;
+  padding:10px 18px;
+  white-space:nowrap;
+  border-radius:13px;
+  background:var(--accent);
+  color:#fff;
+  border:1px solid var(--accent);
+  font-weight:800;
+}
+#site-nav .header-filterbar .clear-filters:disabled{
+  opacity:.56;
+  cursor:default;
+}
+.hero-toolbar{display:none !important}
+
+@media(max-width:1050px){
+  #site-nav .header-filterbar{
+    grid-template-columns:minmax(270px,1.4fr) minmax(165px,.8fr) minmax(155px,.75fr) auto;
+  }
+}
+@media(max-width:800px){
+  #site-nav .nav{min-height:66px;padding:8px 0}
+  #site-nav .header-filterbar{
+    grid-template-columns:1fr 1fr;
+    gap:8px;
+    padding:0 0 10px;
+  }
+  #site-nav .header-filterbar .header-search{grid-column:1/-1}
+  #site-nav .header-filterbar .clear-filters{width:100%}
+  .navlinks{top:64px}
+}
+@media(max-width:520px){
+  #site-nav .header-filterbar{
+    grid-template-columns:1fr;
+  }
+  #site-nav .header-filterbar .header-search{
+    grid-column:auto;
+  }
+}

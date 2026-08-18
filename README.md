@@ -1,4 +1,4 @@
-# Caderno de Receitas da Família — V12.1
+# Caderno de Receitas da Família — V12.2
 
 # Caderno de Receitas da Família
 
@@ -144,4 +144,12 @@ Use:
 - Busca, Categoria, Status e **Limpar filtros** ficam visíveis dentro da parte fixa.
 - O botão Limpar filtros limpa todos os campos e restaura a lista completa.
 - Mantidas 91 receitas e todas as fotos/ajustes da V12.
+
+## V12.2 — cabeçalho fixo com filtros garantidos
+- Correção reforçada do cabeçalho solicitado.
+- Nas páginas `index.html` e `catalogo.html`, o cabeçalho e os filtros agora fazem parte do próprio HTML, portanto aparecem mesmo antes do JavaScript carregar.
+- O bloco completo **menu + busca + categoria + status + Limpar filtros** permanece fixo no topo.
+- O JavaScript não sobrescreve mais o cabeçalho estático.
+- Mantidas 91 receitas e todas as fotos/dados da V12.1.
+- Nenhuma imagem foi gerada ou alterada nesta correção.
 

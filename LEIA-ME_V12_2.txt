@@ -1,0 +1,15 @@
+ATUALIZAÇÃO V12.2 — CABEÇALHO FIXO E FILTROS
+
+Base esperada: V12.1.
+
+Esta correção foi feita para eliminar o problema de o cabeçalho aparecer sem os filtros.
+
+Resultado esperado:
+- linha 1 fixa: Caderno de Receitas + menu;
+- linha 2 fixa: Buscar + Categoria + Status + Limpar filtros;
+- ao rolar a página, as duas linhas permanecem visíveis;
+- botão Limpar filtros restaura todos os filtros;
+- nenhuma receita ou imagem é modificada.
+
+No GitHub Desktop use:
+V12.2 - corrigir definitivamente cabeçalho e filtros
