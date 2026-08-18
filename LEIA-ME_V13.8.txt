@@ -1,0 +1,14 @@
+CADERNO DE RECEITAS — V13.8
+
+ALTERAÇÕES:
+- botão selecionado recebe contorno e aura laranja;
+- quando nenhuma categoria específica está selecionada, o botão "Todas" permanece ativo;
+- logo alinhado visualmente com o bloco horizontal de botões no celular;
+- celular de ~393 px continua com duas linhas de cinco botões;
+- PC permanece com o layout aprovado;
+- indicador CELULAR/PC continua ativo temporariamente.
+
+ARQUIVOS:
+- index.html
+- catalogo.html
+- assets/css/category-filters.css
