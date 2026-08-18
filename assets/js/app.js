@@ -1,7 +1,7 @@
 
 const $ = (s, root=document) => root.querySelector(s);
 const $$ = (s, root=document) => [...root.querySelectorAll(s)];
-const SITE_ASSET_VERSION='v12.5-20260818';
+const SITE_ASSET_VERSION='v12.6-20260818';
 function versionedURL(url){
   const value=String(url??'');
   if(!value || /^(https?:|data:|blob:)/i.test(value)) return value;
@@ -46,8 +46,8 @@ function nav(){
     </div>`:'';
   return `<header class="topbar">
     <div class="container nav">
-      <a class="brand" href="index.html" aria-label="Página inicial do Caderno de Receitas">
-        <span class="brand-mark">✦</span><span>Caderno de Receitas</span>
+      <a class="brand brand-celina" href="index.html" aria-label="Celina — Livro de Receitas">
+        <img class="brand-logo" src="${versionedURL('assets/img/logo-celina.png')}" alt="Celina — Livro de Receitas">
       </a>
       <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-navigation">
         <span></span><span></span><span></span>
@@ -64,42 +64,107 @@ function nav(){
 
 async function initRecipeListing(){
   if(!isListingPage()) return;
-  const q=$('#q'), cat=$('#cat'), status=$('#status'), clear=$('#clear-filters'), grid=$('#recipes'), empty=$('#empty');
-  if(!q || !cat || !status || !clear || !grid || !empty) return;
+
+  const q=$('#q');
+  const cat=$('#cat');
+  const status=$('#status');
+  const clear=$('#clear-filters');
+  const grid=$('#recipes');
+  const empty=$('#empty');
+
+  if(!q || !cat || !status || !clear || !grid || !empty){
+    console.error('Controles do catálogo não encontrados.');
+    return;
+  }
 
   const recipes=await loadJSON('data/recipes.json');
-  const cats=[...new Set(recipes.map(r=>r.categoria))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
-  cats.forEach(c=>cat.insertAdjacentHTML('beforeend',`<option value="${safe(c)}">${safe(c)}</option>`));
+
+  // Repõe as opções para impedir duplicações após recarga/navegação.
+  cat.innerHTML='<option value="">Todas as categorias</option>';
+  const cats=[...new Set(recipes.map(r=>r.categoria).filter(Boolean))]
+    .sort((a,b)=>a.localeCompare(b,'pt-BR'));
+  cats.forEach(c=>{
+    const opt=document.createElement('option');
+    opt.value=c;
+    opt.textContent=c;
+    cat.appendChild(opt);
+  });
+
+  let resultInfo=$('#results-info');
+  if(!resultInfo){
+    resultInfo=document.createElement('div');
+    resultInfo.id='results-info';
+    resultInfo.className='results-info';
+    const sectionHead=grid.closest('.section')?.querySelector('.section-head');
+    if(sectionHead) sectionHead.insertAdjacentElement('afterend',resultInfo);
+  }
 
   const updateClear=()=>{
-    const active=Boolean(q.value || cat.value || status.value);
+    const active=Boolean(q.value.trim() || cat.value || status.value);
     clear.disabled=!active;
     clear.setAttribute('aria-disabled',String(!active));
   };
 
-  const render=()=>{
-    const list=recipes.filter(r=>
-      matchesSearch(r,q.value) &&
-      (!cat.value || r.categoria===cat.value) &&
-      (!status.value || r.status===status.value)
+  const moveToResults=()=>{
+    const section=grid.closest('.section');
+    if(!section) return;
+    const headerHeight=parseFloat(
+      getComputedStyle(document.documentElement).getPropertyValue('--fixed-header-height')
+    ) || document.querySelector('#site-nav')?.getBoundingClientRect().height || 0;
+    const target=Math.max(
+      0,
+      section.getBoundingClientRect().top + window.scrollY - headerHeight - 14
     );
-    grid.innerHTML=list.map(recipeCard).join('');
-    empty.hidden=Boolean(list.length);
-    updateClear();
+    window.scrollTo({top:target,behavior:'smooth'});
   };
 
-  q.addEventListener('input',render);
-  cat.addEventListener('change',render);
-  status.addEventListener('change',render);
+  const render=(shouldMove=false)=>{
+    const query=q.value.trim();
+    const category=cat.value;
+    const state=status.value;
+
+    const list=recipes.filter(r=>
+      matchesSearch(r,query) &&
+      (!category || r.categoria===category) &&
+      (!state || r.status===state)
+    );
+
+    grid.innerHTML=list.map(recipeCard).join('');
+    empty.hidden=Boolean(list.length);
+
+    if(resultInfo){
+      const active=Boolean(query || category || state);
+      resultInfo.hidden=!active;
+      resultInfo.textContent=active
+        ? `${list.length} ${list.length===1?'receita encontrada':'receitas encontradas'}`
+        : '';
+    }
+
+    updateClear();
+
+    if(shouldMove){
+      window.requestAnimationFrame(moveToResults);
+    }
+  };
+
+  let inputTimer=null;
+  q.addEventListener('input',()=>{
+    window.clearTimeout(inputTimer);
+    inputTimer=window.setTimeout(()=>render(true),120);
+  });
+
+  cat.addEventListener('change',()=>render(true));
+  status.addEventListener('change',()=>render(true));
+
   clear.addEventListener('click',()=>{
     q.value='';
     cat.value='';
     status.value='';
-    render();
+    render(true);
     q.focus();
   });
 
-  render();
+  render(false);
 }
 
 

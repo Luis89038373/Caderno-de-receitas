@@ -407,3 +407,50 @@ body.fixed-header-ready #site-nav .topbar{
   position:relative !important;
   width:100%;
 }
+
+
+/* V12.6 — Logo Celina e feedback do filtro */
+.brand-celina{
+  display:flex;
+  align-items:center;
+  min-width:220px;
+}
+.brand-logo{
+  display:block;
+  width:auto;
+  height:64px;
+  max-width:270px;
+  object-fit:contain;
+}
+.results-info{
+  margin:-4px 0 22px;
+  font-weight:800;
+  color:var(--accent);
+  font-size:.98rem;
+}
+.results-info[hidden]{
+  display:none;
+}
+#recipes{
+  scroll-margin-top:calc(var(--fixed-header-height, 150px) + 16px);
+}
+
+@media(max-width:900px){
+  .brand-logo{
+    height:56px;
+    max-width:235px;
+  }
+}
+@media(max-width:760px){
+  .brand-celina{min-width:0}
+  .brand-logo{
+    height:46px;
+    max-width:190px;
+  }
+}
+@media(max-width:420px){
+  .brand-logo{
+    height:40px;
+    max-width:165px;
+  }
+}

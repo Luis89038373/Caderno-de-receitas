@@ -1,0 +1,18 @@
+ATUALIZAÇÃO V12.6 — FILTRO + LOGO + ÍCONE
+
+Base esperada: V12.5.
+
+Incluído:
+- correção do filtro;
+- ao filtrar, o catálogo filtrado fica visível;
+- contador de resultados;
+- botão Limpar filtros mantido;
+- logo Celina no cabeçalho;
+- favicon e ícones de atalho derivados do logo fornecido;
+- 87 receitas mantidas;
+- nenhuma imagem nova foi gerada.
+
+GitHub Desktop:
+Summary sugerido: V12.6 - corrigir filtro e adicionar logo
+Commit to main
+Push origin

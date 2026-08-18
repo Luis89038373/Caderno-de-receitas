@@ -1,4 +1,4 @@
-# Caderno de Receitas da Família — V12.5
+# Caderno de Receitas da Família — V12.6
 
 # Caderno de Receitas da Família
 
@@ -176,5 +176,13 @@ Use:
 - Após as exclusões, foi feita uma única renumeração sequencial.
 - Catálogo final com 87 receitas, REC-0001 a REC-0087.
 - O cabeçalho fixo, filtros e botão Limpar filtros da versão anterior foram preservados.
+- Nenhuma imagem nova foi gerada.
+
+## V12.6 — filtro corrigido, logo Celina e ícone do site
+- Corrigido o comportamento do filtro: ao pesquisar/selecionar filtros, a página leva o usuário até o catálogo filtrado e mostra a quantidade de receitas encontradas.
+- O logo **Celina — Livro de Receitas**, fornecido pela família, foi colocado no cabeçalho.
+- Foram criados favicon, ícones para celular e manifesto a partir do próprio logo fornecido, apenas por recorte/redimensionamento.
+- O ícone pode aparecer no navegador e ao adicionar o site à tela inicial/atalho.
+- Mantidas 87 receitas e todos os dados da V12.5.
 - Nenhuma imagem nova foi gerada.
 
