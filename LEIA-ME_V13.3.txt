@@ -1,0 +1,21 @@
+CADERNO DE RECEITAS — V13.3 — INDICADOR RESPONSIVO
+
+TESTE TEMPORÁRIO:
+- CELULAR: até 600 px
+- TABLET: 601 até 1000 px
+- PC: acima de 1000 px
+
+Será exibido no canto inferior direito:
+CELULAR · 390px
+TABLET · 768px
+PC · 1920px
+
+Também foi atualizada a versão da chamada do CSS para:
+category-filters.css?v=13.3-20260818
+
+Isso força celular e PC a baixar o CSS atual e evita manter a V13.0 em cache.
+
+ARQUIVOS PARA SUBSTITUIR/ADICIONAR:
+- index.html (substituir na raiz)
+- catalogo.html (substituir na raiz)
+- assets/js/layout-debug.js (novo)
