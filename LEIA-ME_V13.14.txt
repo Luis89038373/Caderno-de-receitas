@@ -1,0 +1,17 @@
+CADERNO DE RECEITAS — V13.14
+
+CORREÇÃO DEFINITIVA DA MOLDURA:
+- removida a chamada do arquivo kitchen-frame.css de:
+  - index.html
+  - catalogo.html
+  - receita.html
+  - acervo.html
+  - 404.html
+- isso evita o reaproveitamento do CSS antigo em cache do navegador;
+- kitchen-frame.css permanece vazio apenas por compatibilidade.
+
+Esta versão preserva as correções anteriores, inclusive:
+- REC-0070 retirada;
+- textos "Variante" removidos;
+- data removida de REC-0034 Gelatina;
+- ajustes de filtros e responsividade.

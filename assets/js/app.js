@@ -1,6 +1,6 @@
 const $ = (s, root=document) => root.querySelector(s);
 const $$ = (s, root=document) => [...root.querySelectorAll(s)];
-const SITE_ASSET_VERSION='v13.10-20260818';
+const SITE_ASSET_VERSION='v13.12-20260818';
 
 function versionedURL(url){
   const value=String(url??'');
@@ -32,10 +32,37 @@ function applyRecipeCorrections(data,path){
       if(!recipe) return recipe;
 
       // V13.10 — nenhuma receita deve exibir "Variante N" no título ou contexto.
+      let titulo=removeVarianteText(recipe.titulo);
+      let contexto=removeVarianteText(recipe.contexto);
+      let dicas=Array.isArray(recipe.dicas)?[...recipe.dicas]:recipe.dicas;
+      let data_original=recipe.data_original;
+
+      // V13.12 — REC-0034 (Gelatina): retirar a data 02/02/2023 de toda exibição.
+      if(recipe.id==='REC-0034'){
+        const stripRecipeDate=value=>String(value ?? '')
+          .replace(/\s*\(\s*02\/02\/2023\s*\)/g,'')
+          .replace(/\b02\/02\/2023\b/g,'')
+          .replace(/\s{2,}/g,' ')
+          .replace(/\s+([,.;:!?])/g,'$1')
+          .trim();
+
+        titulo=stripRecipeDate(titulo);
+        contexto=stripRecipeDate(contexto);
+        data_original=null;
+
+        if(Array.isArray(dicas)){
+          dicas=dicas
+            .map(d=>stripRecipeDate(String(d).replace(/^Data anotada:\s*/i,'')))
+            .filter(Boolean);
+        }
+      }
+
       return {
         ...recipe,
-        titulo: removeVarianteText(recipe.titulo),
-        contexto: removeVarianteText(recipe.contexto)
+        titulo,
+        contexto,
+        dicas,
+        data_original
       };
     });
 }
