@@ -1,4 +1,4 @@
-# Caderno de Receitas da Família — V11
+# Caderno de Receitas da Família — V12
 
 # Caderno de Receitas da Família
 
@@ -127,4 +127,14 @@ Use:
 - Nenhuma imagem nova foi gerada: foram usadas apenas as referências enviadas pela família, com tratamento de enquadramento.
 - A correção de cache foi atualizada para a versão V11.
 - O mapa completo de IDs V10 → V11 está em `documentacao/MAPA_IDS_V10_PARA_V11.csv`.
+
+## V12 — cabeçalho com filtros e novas fotos tratadas
+- Mantidas **91 receitas**, de **REC-0001 a REC-0091**; não houve exclusões nesta versão.
+- O cabeçalho foi ampliado e permanece fixo no topo durante a rolagem.
+- Busca, Categoria e Status foram movidos para dentro do cabeçalho.
+- Foi incluído o botão **Limpar filtros**.
+- REC-0017 passou de **Bolacha de Nata — Variante 1** para **Bolacha de Nata**.
+- Fotos das REC-0015, REC-0017, REC-0029, REC-0030 e REC-0068 foram tratadas e atualizadas.
+- Nenhuma imagem nova foi gerada; foram usadas somente as fotos fornecidas pela família.
+- Cache de CSS, JavaScript e imagens atualizado para V12.
 

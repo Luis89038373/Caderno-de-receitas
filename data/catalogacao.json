@@ -170,7 +170,7 @@
     "fontes": [
       "images/manuscritos/19.jpg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
+    "imagem_tipo": "referencia_fornecida_usuario_tratada",
     "pagina": "receita.html?id=REC-0015"
   },
   {
@@ -188,13 +188,13 @@
   {
     "id": "REC-0017",
     "numero": 17,
-    "titulo": "Bolacha de Nata — Variante 1",
+    "titulo": "Bolacha de Nata",
     "categoria": "Biscoitos e Bolachas",
     "status": "publicada",
     "fontes": [
       "images/manuscritos/IMG_7085.jpeg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
+    "imagem_tipo": "referencia_fornecida_usuario_tratada",
     "pagina": "receita.html?id=REC-0017"
   },
   {
@@ -338,7 +338,7 @@
     "fontes": [
       "images/manuscritos/IMG_7108.jpeg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
+    "imagem_tipo": "referencia_fornecida_usuario_tratada",
     "pagina": "receita.html?id=REC-0029"
   },
   {
@@ -350,7 +350,7 @@
     "fontes": [
       "images/manuscritos/IMG_7109.jpeg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
+    "imagem_tipo": "referencia_fornecida_usuario_tratada",
     "pagina": "receita.html?id=REC-0030"
   },
   {
@@ -806,7 +806,7 @@
     "fontes": [
       "images/manuscritos/IMG_7167.jpeg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
+    "imagem_tipo": "referencia_fornecida_usuario_tratada",
     "pagina": "receita.html?id=REC-0068"
   },
   {

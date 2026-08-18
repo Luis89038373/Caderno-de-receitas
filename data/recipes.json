@@ -841,11 +841,11 @@
       ]
     },
     "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/U7U4OPPETZOU3I4R4OYG2BWOOE.jpg?auth=d78a1664e930c3684243a0066c562201f6f54f3a7b33f563cf53957906ba4db6&height=630&smart=true&width=1200",
-      "fonte": "https://entretenimento.r7.com/receitas/receitas-de-pesos/delicie-se-com-as-melhores-sobremesas-brasileiras-brigadeiro-beijinho-e-cajuzinho-16032024/",
-      "credito": "Imagem ilustrativa externa — doces brasileiros",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
+      "tipo": "referencia_fornecida_usuario_tratada",
+      "url": "images/receitas/4-leites-trufados-tratada.png",
+      "fonte": "",
+      "credito": "Imagem de referência indicada pela família",
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0021"
   },
@@ -915,11 +915,11 @@
   {
     "id": "REC-0017",
     "numero": 17,
-    "titulo": "Bolacha de Nata — Variante 1",
-    "slug": "bolacha-de-nata-variante-1",
+    "titulo": "Bolacha de Nata",
+    "slug": "bolacha-de-nata",
     "categoria": "Biscoitos e Bolachas",
     "status": "publicada",
-    "contexto": "Bolacha de Nata — Variante 1 tem o clima das receitas caseiras que perfumam a cozinha e acompanham bem um café ou chá. O registro foi organizado para facilitar o preparo sem apagar o jeito e a história da anotação original.",
+    "contexto": "Bolacha de Nata tem o clima das receitas caseiras que perfumam a cozinha e acompanham bem um café ou chá. O registro foi organizado para facilitar o preparo sem apagar o jeito e a história da anotação original.",
     "ingredientes": [
       {
         "quantidade": "3 xícaras de chá",
@@ -959,11 +959,11 @@
       ]
     },
     "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://static.itdg.com.br/images/640-auto/b78e13d27b59dacd25a972a155be409e/bisco-baixa.jpg",
-      "fonte": "https://www.tudogostoso.com.br/noticias/o-biscoito-caseiro-que-pede-um-cafe-passado-na-hora-e-derrete-na-boca-receita-facil-e-deliciosa-a25980.htm",
-      "credito": "Imagem ilustrativa externa — biscoitos caseiros",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
+      "tipo": "referencia_fornecida_usuario_tratada",
+      "url": "images/receitas/bolacha-de-nata-tratada.png",
+      "fonte": "",
+      "credito": "Imagem de referência indicada pela família",
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0029"
   },
@@ -1617,11 +1617,11 @@
       ]
     },
     "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/U7U4OPPETZOU3I4R4OYG2BWOOE.jpg?auth=d78a1664e930c3684243a0066c562201f6f54f3a7b33f563cf53957906ba4db6&height=630&smart=true&width=1200",
-      "fonte": "https://entretenimento.r7.com/receitas/receitas-de-pesos/delicie-se-com-as-melhores-sobremesas-brasileiras-brigadeiro-beijinho-e-cajuzinho-16032024/",
-      "credito": "Imagem ilustrativa externa — doces brasileiros",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
+      "tipo": "referencia_fornecida_usuario_tratada",
+      "url": "images/receitas/brigadeiro-alma-branca-tratada.png",
+      "fonte": "",
+      "credito": "Imagem de referência indicada pela família",
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0050"
   },
@@ -1671,11 +1671,11 @@
       ]
     },
     "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://static.itdg.com.br/images/640-auto/e970dc7a4be053b87ab839bf26a11124/pudim-baixa.jpg",
-      "fonte": "https://www.tudogostoso.com.br/noticias/lisinho-e-supercremoso-aqui-estao-todos-os-segredos-de-pudim-perfeito-a23822.htm",
-      "credito": "Imagem ilustrativa externa — pudim",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
+      "tipo": "referencia_fornecida_usuario_tratada",
+      "url": "images/receitas/pudim-maria-mole-tratada.png",
+      "fonte": "",
+      "credito": "Imagem de referência indicada pela família",
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0051"
   },
@@ -3766,11 +3766,11 @@
       ]
     },
     "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://1.bp.blogspot.com/-0R5yFYeYNrM/XoYuZ9KyJpI/AAAAAAABFKE/8Cu2lHaCc-A-X3a95mkHBa4vcijtBHErgCLcBGAsYHQ/s16000/20200401_191959.jpg",
-      "fonte": "https://www.temqueir.com.br/2019/09/as-melhores-pizzas-e-esfihas-de-vitoria.html",
-      "credito": "Imagem ilustrativa externa — pizzas e esfihas",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
+      "tipo": "referencia_fornecida_usuario_tratada",
+      "url": "images/receitas/pizza-liquidificador-tratada.png",
+      "fonte": "",
+      "credito": "Imagem de referência indicada pela família",
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0110"
   },

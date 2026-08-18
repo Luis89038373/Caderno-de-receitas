@@ -1,7 +1,7 @@
 
 const $ = (s, root=document) => root.querySelector(s);
 const $$ = (s, root=document) => [...root.querySelectorAll(s)];
-const SITE_ASSET_VERSION='v11-20260818';
+const SITE_ASSET_VERSION='v12-20260818';
 function versionedURL(url){
   const value=String(url??'');
   if(!value || /^(https?:|data:|blob:)/i.test(value)) return value;
@@ -46,6 +46,12 @@ function nav(){
         <a href="acervo.html">Acervo em revisão</a>
         <a href="documentacao/PADRAO_OFICIAL.md">Padrão oficial</a>
       </nav>
+    </div>
+    <div class="container header-filterbar" id="header-filterbar" hidden>
+      <input id="q" class="search header-search" placeholder="Buscar por nome ou ID..." aria-label="Buscar receitas">
+      <select id="cat" class="search" aria-label="Filtrar por categoria"><option value="">Todas as categorias</option></select>
+      <select id="status" class="search" aria-label="Filtrar por status"><option value="">Todos os status</option><option value="publicada">Publicadas</option><option value="em_revisao">Em revisão</option></select>
+      <button id="clear-filters" class="btn secondary clear-filters" type="button">Limpar filtros</button>
     </div>
   </header>`;
 }
