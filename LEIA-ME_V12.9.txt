@@ -1,0 +1,18 @@
+CADERNO DE RECEITAS — V12.9 — TOPO COMPACTO
+
+AJUSTES:
+1. Removido o filtro atual de status.
+2. Removidos os textos do topo:
+   - Receitas
+   - Catálogo geral
+   - Acervo em revisão
+   - Padrão oficial
+3. Botões de categorias reduzidos.
+4. Botões posicionados horizontalmente ao lado do logo.
+5. Botão Limpar mantido no topo.
+6. Select antigo de categoria mantido apenas internamente e oculto.
+
+ARQUIVOS PARA SUBSTITUIR:
+- index.html
+- catalogo.html
+- assets/css/category-filters.css

@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Caderno de Receitas da Família</title>
   <meta name="description" content="Acervo digital de receitas da família, organizado por ID e responsivo para PC e celular.">
-  <link rel="stylesheet" href="assets/css/styles.css?v=12.8-20260818">
-  <link rel="stylesheet" href="assets/css/category-filters.css?v=12.8-20260818">
+  <link rel="stylesheet" href="assets/css/styles.css?v=12.9-20260818">
+  <link rel="stylesheet" href="assets/css/category-filters.css?v=12.9-20260818">
   <script defer src="assets/js/app.js?v=12.7-20260818"></script>
   <script defer src="assets/js/category-filters.js?v=12.7-20260818"></script>
   <link rel="icon" href="favicon.ico?v=12.6-20260818" sizes="any">
@@ -17,43 +17,26 @@
 </head>
 <body>
 <div id="site-nav">
-  <header class="topbar">
-    <div class="container nav">
+  <header class="topbar topbar-minimal">
+    <div class="container topbar-compact">
       <a class="brand brand-celina" href="index.html" aria-label="Celina — Livro de Receitas">
         <img class="brand-logo" src="assets/img/logo-celina.png?v=12.6-20260818" alt="Celina — Livro de Receitas">
       </a>
-      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-navigation">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="navlinks" id="main-navigation">
-        <a href="index.html">Receitas</a>
-        <a href="catalogo.html">Catálogo geral</a>
-        <a href="acervo.html">Acervo em revisão</a>
-        <a href="documentacao/PADRAO_OFICIAL.md">Padrão oficial</a>
-      </nav>
-    </div>
 
-    <div class="container header-filterbar" id="header-filterbar">
-      <input id="q" class="search header-search" placeholder="Buscar por nome ou ID..." aria-label="Buscar receitas">
+      <div class="topbar-actions">
+        <select id="cat" class="search category-select-fallback" aria-label="Filtrar por categoria">
+          <option value="">Todas as categorias</option>
+        </select>
 
-      <select id="cat" class="search category-select-fallback" aria-label="Filtrar por categoria">
-        <option value="">Todas as categorias</option>
-      </select>
+        <div
+          class="category-filter-buttons"
+          id="category-buttons"
+          role="group"
+          aria-label="Filtrar receitas por categoria"
+        ></div>
 
-      <select id="status" class="search" aria-label="Filtrar por status">
-        <option value="">Todos os status</option>
-        <option value="publicada">Publicadas</option>
-        <option value="em_revisao">Em revisão</option>
-      </select>
-
-      <button id="clear-filters" class="btn clear-filters" type="button">Limpar filtros</button>
-
-      <div
-        class="category-filter-buttons"
-        id="category-buttons"
-        role="group"
-        aria-label="Filtrar receitas por categoria"
-      ></div>
+        <button id="clear-filters" class="btn clear-filters" type="button">Limpar</button>
+      </div>
     </div>
   </header>
 </div>
