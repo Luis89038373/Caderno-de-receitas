@@ -1,0 +1,13 @@
+CADERNO DE RECEITAS — V13.17
+
+ALTERAÇÃO:
+- retirado o identificador de pixel / resolução (badge "PC - 1280px" / "CELULAR - 393px").
+
+CORREÇÃO APLICADA:
+1. index.html e catalogo.html deixam de carregar layout-debug.js;
+2. assets/js/layout-debug.js foi transformado em arquivo neutro, que remove qualquer badge existente.
+
+ARQUIVOS PARA SUBSTITUIR:
+- index.html
+- catalogo.html
+- assets/js/layout-debug.js
