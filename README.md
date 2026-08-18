@@ -1,4 +1,4 @@
-# Caderno de Receitas da Família — V10
+# Caderno de Receitas da Família — V11
 
 # Caderno de Receitas da Família
 
@@ -118,3 +118,13 @@ Use:
 - A antiga REC-0068 teve o texto **Variante** removido do título, ficando **Bolo de Cenoura**.
 - A correção de cache foi mantida e atualizada para a versão V10.
 - O mapa completo de IDs V9 → V10 está em `documentacao/MAPA_IDS_V9_PARA_V10.csv`.
+
+## V11 — revisão, tratamento de imagens e renumeração
+- 91 receitas ativas em sequência contínua: **REC-0001 a REC-0091**.
+- 5 receitas da V10 foram retiradas conforme revisão da família.
+- Fotos das antigas REC-0066, REC-0073, REC-0078, REC-0087, REC-0092 e REC-0093 foram tratadas e atualizadas.
+- As antigas REC-0066, REC-0071 e REC-0073 tiveram o texto de variante removido dos títulos.
+- Nenhuma imagem nova foi gerada: foram usadas apenas as referências enviadas pela família, com tratamento de enquadramento.
+- A correção de cache foi atualizada para a versão V11.
+- O mapa completo de IDs V10 → V11 está em `documentacao/MAPA_IDS_V10_PARA_V11.csv`.
+

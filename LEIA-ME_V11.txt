@@ -1,0 +1,20 @@
+ATUALIZAÇÃO V11 — CADERNO DE RECEITAS DA FAMÍLIA
+
+Base esperada: V10.
+
+1. Extraia este ZIP.
+2. Copie todo o conteúdo para a pasta local Caderno-de-receitas.
+3. Quando o Windows perguntar, confirme a substituição dos arquivos existentes.
+4. Abra o GitHub Desktop e confira as alterações.
+5. Summary sugerido: V11 - exclusões, fotos tratadas e ajustes
+6. Clique em Commit to main e depois Push origin.
+
+Resultado esperado: 91 receitas, REC-0001 até REC-0091.
+
+Incluído nesta atualização:
+- exclusão das antigas REC-0070, REC-0072, REC-0077, REC-0088 e REC-0089;
+- fotos tratadas das antigas REC-0066, REC-0073, REC-0078, REC-0087, REC-0092 e REC-0093;
+- retirada dos textos de variante das antigas REC-0066, REC-0071 e REC-0073;
+- renumeração sequencial completa somente após as exclusões;
+- atualização do catálogo, documentação e controle de cache;
+- nenhuma imagem nova foi gerada.
