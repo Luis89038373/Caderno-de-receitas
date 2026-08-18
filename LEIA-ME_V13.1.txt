@@ -1,0 +1,15 @@
+CADERNO DE RECEITAS — V13.1
+
+AJUSTE SOLICITADO:
+- reduzir ainda mais os elementos no celular.
+
+O que foi ajustado:
+1. Logo menor no mobile.
+2. Botões das categorias menores no mobile.
+3. Botão Limpar menor no mobile.
+4. Redução dos espaçamentos do topo.
+5. Mantido o layout:
+   logo à esquerda + categorias em linha + Limpar ao final.
+
+ARQUIVO PARA SUBSTITUIR:
+- assets/css/category-filters.css

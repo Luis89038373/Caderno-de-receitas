@@ -1,4 +1,10 @@
-/* V13.0 — categorias ao lado do logo, sem filtros/textos antigos */
+/* V13.1 — ajuste fino de tamanho para celular
+   Baseado na V13.0, mantendo:
+   - logo à esquerda
+   - categorias na mesma linha, ao lado do logo
+   - botão Limpar no final
+   - filtros antigos invisíveis, apenas para compatibilidade
+*/
 
 /* Tudo que o usuário pediu para retirar visualmente */
 .navlinks,
@@ -39,7 +45,7 @@
   display:flex;
   align-items:center;
   gap:14px;
-  min-height:92px;
+  min-height:88px;
   padding:8px 0;
 }
 
@@ -52,19 +58,19 @@
 .brand-logo{
   display:block;
   width:auto;
-  height:72px;
-  max-width:160px;
+  height:70px;
+  max-width:155px;
   object-fit:contain;
 }
 
-/* Botões exatamente ao lado do logo */
+/* Botões ao lado do logo */
 .topbar-actions{
   position:relative;
   flex:1 1 auto;
   min-width:0;
   display:flex;
   align-items:center;
-  gap:7px;
+  gap:6px;
 }
 
 .category-filter-buttons{
@@ -76,15 +82,15 @@ html.category-buttons-ready .category-filter-buttons{
   flex:1 1 auto;
   min-width:0;
   align-items:stretch;
-  gap:6px;
+  gap:5px;
   overflow:hidden;
 }
 
-/* Botões menores para caber em uma única linha no desktop */
+/* Botões compactos em desktop */
 .category-filter-btn{
   flex:1 1 0;
   min-width:0;
-  min-height:38px;
+  min-height:36px;
   padding:5px 6px;
   border-radius:11px;
   border:2px solid #0fc6d1;
@@ -94,8 +100,8 @@ html.category-buttons-ready .category-filter-buttons{
     inset 0 0 0 1px rgba(119,242,247,.08),
     inset 0 0 10px rgba(15,198,209,.07),
     0 2px 8px rgba(0,132,143,.10);
-  font-size:.64rem;
-  line-height:1.05;
+  font-size:.61rem;
+  line-height:1.02;
   font-weight:800;
   letter-spacing:0;
   text-align:center;
@@ -129,7 +135,7 @@ html.category-buttons-ready .category-filter-buttons{
 
 .topbar-actions .clear-filters{
   flex:0 0 auto;
-  min-height:38px;
+  min-height:36px;
   padding:6px 10px;
   border-radius:11px;
   border:2px solid #0fc6d1;
@@ -138,7 +144,7 @@ html.category-buttons-ready .category-filter-buttons{
   box-shadow:
     inset 0 0 0 1px rgba(119,242,247,.08),
     0 2px 8px rgba(0,132,143,.10);
-  font-size:.72rem;
+  font-size:.70rem;
   font-weight:800;
   white-space:nowrap;
 }
@@ -148,13 +154,13 @@ html.category-buttons-ready .category-filter-buttons{
   cursor:default;
 }
 
-/* Conteúdo começa logo abaixo do cabeçalho */
+/* Conteúdo */
 .compact-main{
   padding-top:0;
 }
 
 .compact-catalog{
-  padding:18px 0 28px;
+  padding:16px 0 28px;
 }
 
 .compact-catalog-container{
@@ -170,32 +176,33 @@ html.category-buttons-ready .category-filter-buttons{
   scroll-margin-top:calc(var(--fixed-header-height, 100px) + 8px);
 }
 
-/* Em telas médias, reduz ainda mais sem quebrar a linha */
+/* Telas médias */
 @media(max-width:1250px){
   .topbar-compact{gap:10px}
-  .brand-logo{height:64px;max-width:145px}
+  .brand-logo{height:62px;max-width:142px}
   .category-filter-buttons{gap:4px !important}
   .category-filter-btn{
-    min-height:36px;
+    min-height:34px;
     padding:4px 4px;
-    font-size:.57rem;
+    font-size:.56rem;
   }
   .topbar-actions .clear-filters{
-    min-height:36px;
+    min-height:34px;
     padding:5px 8px;
-    font-size:.66rem;
+    font-size:.64rem;
   }
 }
 
-/* Tablet/celular: mantém categorias utilizáveis com rolagem horizontal */
+/* Tablet */
 @media(max-width:900px){
   .topbar-compact{
-    gap:10px;
-    min-height:82px;
+    gap:8px;
+    min-height:76px;
+    padding:6px 0;
   }
   .brand-logo{
-    height:58px;
-    max-width:132px;
+    height:52px;
+    max-width:122px;
   }
   html.category-buttons-ready .category-filter-buttons{
     overflow-x:auto;
@@ -203,40 +210,95 @@ html.category-buttons-ready .category-filter-buttons{
     scrollbar-color:#0fc6d1 transparent;
   }
   .category-filter-btn{
-    flex:0 0 92px;
-    min-width:92px;
+    flex:0 0 84px;
+    min-width:84px;
+    min-height:30px;
+    padding:4px 4px;
+    font-size:.52rem;
+    border-radius:10px;
+  }
+  .topbar-actions .clear-filters{
+    min-height:30px;
+    padding:5px 7px;
     font-size:.58rem;
+    border-radius:10px;
   }
 }
 
+/* Celular */
 @media(max-width:520px){
   .container{
-    width:min(100% - 16px,1180px);
+    width:min(100% - 14px,1180px);
   }
   .topbar-compact{
     align-items:center;
-    gap:7px;
-    min-height:72px;
-    padding:6px 0;
+    gap:6px;
+    min-height:64px;
+    padding:5px 0;
   }
   .brand-logo{
-    height:48px;
-    max-width:110px;
+    height:42px;
+    max-width:95px;
   }
-  .topbar-actions{gap:5px}
+  .topbar-actions{
+    gap:4px;
+  }
+  html.category-buttons-ready .category-filter-buttons{
+    gap:4px;
+    overflow-x:auto;
+    padding:1px 1px 3px;
+  }
   .category-filter-btn{
-    flex-basis:84px;
-    min-width:84px;
-    min-height:32px;
-    font-size:.53rem;
-    padding:4px 5px;
+    flex:0 0 72px;
+    min-width:72px;
+    min-height:26px;
+    padding:3px 4px;
+    font-size:.44rem;
+    line-height:1;
+    border-radius:9px;
+    border-width:2px;
   }
   .topbar-actions .clear-filters{
-    min-height:32px;
-    font-size:.62rem;
-    padding:5px 7px;
+    min-height:26px;
+    padding:4px 6px;
+    font-size:.50rem;
+    border-radius:9px;
+    border-width:2px;
   }
   .compact-catalog{
-    padding:12px 0 20px;
+    padding:10px 0 20px;
+  }
+}
+
+/* Celulares muito estreitos */
+@media(max-width:390px){
+  .container{
+    width:min(100% - 10px,1180px);
+  }
+  .topbar-compact{
+    gap:5px;
+    min-height:58px;
+    padding:4px 0;
+  }
+  .brand-logo{
+    height:36px;
+    max-width:82px;
+  }
+  .topbar-actions{
+    gap:3px;
+  }
+  .category-filter-btn{
+    flex:0 0 64px;
+    min-width:64px;
+    min-height:24px;
+    padding:2px 3px;
+    font-size:.40rem;
+    border-radius:8px;
+  }
+  .topbar-actions .clear-filters{
+    min-height:24px;
+    padding:3px 5px;
+    font-size:.46rem;
+    border-radius:8px;
   }
 }
