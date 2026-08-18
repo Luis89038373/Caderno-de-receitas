@@ -1,4 +1,4 @@
-# Caderno de Receitas da Família — V12.3
+# Caderno de Receitas da Família — V12.4
 
 # Caderno de Receitas da Família
 
@@ -159,4 +159,14 @@ Use:
 - Fotos das REC-0025, REC-0031, REC-0042, REC-0081 e REC-0089 foram tratadas e atualizadas.
 - Mantidas 91 receitas, REC-0001 a REC-0091.
 - Nenhuma imagem nova foi gerada; foram usadas somente as fotos enviadas pela família.
+
+## V12.4 — correções de fotos, exclusões e renumeração
+- 2 receitas da V12.3 foram excluídas: REC-0090 e REC-0091.
+- Catálogo final com 89 receitas, REC-0001 a REC-0089.
+- REC-0004 recebeu foto local tratada para substituir a imagem externa que falhava.
+- REC-0042 foi ajustada para usar a mesma foto no card e na ficha da receita.
+- REC-0069 recebeu a nova foto tratada enviada pela família.
+- REC-0089 foi reforçada para usar a mesma foto no card e na ficha, com novo nome de arquivo para eliminar cache antigo.
+- Cabeçalho fixo foi mantido e reforçado.
+- Nenhuma imagem nova foi gerada.
 

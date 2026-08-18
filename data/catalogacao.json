@@ -38,7 +38,7 @@
     "fontes": [
       "images/manuscritos/1.jpg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
+    "imagem_tipo": "referencia_fornecida_usuario_tratada",
     "pagina": "receita.html?id=REC-0004"
   },
   {
@@ -818,7 +818,7 @@
     "fontes": [
       "images/manuscritos/IMG_7168.jpeg"
     ],
-    "imagem_tipo": "ilustrativa_externa",
+    "imagem_tipo": "referencia_fornecida_usuario_tratada",
     "pagina": "receita.html?id=REC-0069"
   },
   {
@@ -1063,29 +1063,5 @@
     ],
     "imagem_tipo": "referencia_fornecida_usuario_tratada",
     "pagina": "receita.html?id=REC-0089"
-  },
-  {
-    "id": "REC-0090",
-    "numero": 90,
-    "titulo": "Cobertura com Emulsificante — Variante 2",
-    "categoria": "Recheios e Coberturas",
-    "status": "em_revisao",
-    "fontes": [
-      "images/manuscritos/IMG_7170.jpeg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0090"
-  },
-  {
-    "id": "REC-0091",
-    "numero": 91,
-    "titulo": "Recheio de Doce de Leite — Anotação Incompleta",
-    "categoria": "Recheios e Coberturas",
-    "status": "em_revisao",
-    "fontes": [
-      "images/manuscritos/IMG_7170.jpeg"
-    ],
-    "imagem_tipo": "ilustrativa_externa",
-    "pagina": "receita.html?id=REC-0091"
   }
 ]

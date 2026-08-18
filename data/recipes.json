@@ -233,11 +233,11 @@
       ]
     },
     "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://tamiresmota.com/wp-content/uploads/2024/10/recheio-mousse-de-ninho-para-bolos-tortas-e-doces-tamires-mota-4.jpg",
-      "fonte": "https://tamiresmota.com/recheio-irresistivel-de-ninho-cremoso-e-mousse-para-bolos-tortas-e-doces/",
-      "credito": "Imagem ilustrativa externa — recheio cremoso de leite Ninho",
-      "observacao": "A foto é ilustrativa e representa o contexto visual da receita."
+      "tipo": "referencia_fornecida_usuario_tratada",
+      "url": "images/receitas/recheio-leite-ninho-v124.png",
+      "fonte": "",
+      "credito": "Imagem de referência indicada pela família",
+      "observacao": "Imagem tratada apenas com recorte, enquadramento e ajustes leves de qualidade. Nenhuma imagem nova foi gerada."
     }
   },
   {
@@ -2324,10 +2324,10 @@
     },
     "imagem": {
       "tipo": "referencia_fornecida_usuario_tratada",
-      "url": "images/receitas/cajuzinho-tratada.png",
+      "url": "images/receitas/cajuzinho-v124.png",
       "fonte": "",
       "credito": "Imagem de referência indicada pela família",
-      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
+      "observacao": "Imagem tratada apenas com recorte, enquadramento e ajustes leves de qualidade. Nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0070"
   },
@@ -3813,11 +3813,11 @@
       ]
     },
     "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://static.itdg.com.br/images/640-400/ebe17f9b3f6de8a62e5d01484f94dfed/creme-facil-para-recheio-de-bolo.jpg",
-      "fonte": "https://www.tudogostoso.com.br/receita/303246-creme-facil-para-recheio-de-bolo.html",
-      "credito": "Imagem ilustrativa externa — creme para recheio de bolo",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
+      "tipo": "referencia_fornecida_usuario_tratada",
+      "url": "images/receitas/bolo-com-creme-v124.png",
+      "fonte": "",
+      "credito": "Imagem de referência indicada pela família",
+      "observacao": "Imagem tratada apenas com recorte, enquadramento e ajustes leves de qualidade. Nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0111"
   },
@@ -5179,90 +5179,10 @@
     },
     "imagem": {
       "tipo": "referencia_fornecida_usuario_tratada",
-      "url": "images/receitas/recheio-de-coco-tratada.png",
+      "url": "images/receitas/recheio-coco-v124.png",
       "fonte": "",
       "credito": "Imagem de referência indicada pela família",
-      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
-    },
-    "id_anterior_v3": null
-  },
-  {
-    "id": "REC-0090",
-    "numero": 90,
-    "titulo": "Cobertura com Emulsificante — Variante 2",
-    "slug": "cobertura-com-emulsificante-variante-2",
-    "categoria": "Recheios e Coberturas",
-    "status": "em_revisao",
-    "contexto": "Cobertura com Emulsificante — Variante 2 é uma preparação versátil para completar bolos, tortas e outras sobremesas. A receita foi organizada em uma ficha objetiva e elegante, mantendo o conteúdo do caderno e destacando ingredientes, preparo e observações importantes.",
-    "ingredientes": [
-      {
-        "quantidade": "1 copo",
-        "item": "leite"
-      },
-      {
-        "quantidade": "1 copo",
-        "item": "açúcar refinado"
-      },
-      {
-        "quantidade": "2 colheres",
-        "item": "emulsificante"
-      }
-    ],
-    "preparo": [],
-    "dicas": [
-      "A página registra os ingredientes da cobertura, mas não apresenta um modo de preparo legível/completo."
-    ],
-    "origem": {
-      "tipo": "caderno_manuscrito",
-      "descricao": "Receita adicional identificada em página que contém mais de uma preparação.",
-      "imagens": [
-        "images/manuscritos/IMG_7170.jpeg"
-      ]
-    },
-    "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://static.itdg.com.br/images/640-400/ebe17f9b3f6de8a62e5d01484f94dfed/creme-facil-para-recheio-de-bolo.jpg",
-      "fonte": "https://www.tudogostoso.com.br/receita/303246-creme-facil-para-recheio-de-bolo.html",
-      "credito": "Imagem ilustrativa externa — creme para recheio de bolo",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
-    },
-    "id_anterior_v3": null
-  },
-  {
-    "id": "REC-0091",
-    "numero": 91,
-    "titulo": "Recheio de Doce de Leite — Anotação Incompleta",
-    "slug": "recheio-de-doce-de-leite-anotacao-incompleta",
-    "categoria": "Recheios e Coberturas",
-    "status": "em_revisao",
-    "contexto": "Recheio de Doce de Leite — Anotação Incompleta é uma preparação versátil para completar bolos, tortas e outras sobremesas. A receita foi organizada em uma ficha objetiva e elegante, mantendo o conteúdo do caderno e destacando ingredientes, preparo e observações importantes.",
-    "ingredientes": [
-      {
-        "quantidade": "1",
-        "item": "“doce leite moça” — transcrição literal a confirmar"
-      },
-      {
-        "quantidade": "2 latas",
-        "item": "leite condensado — conforme anotação"
-      }
-    ],
-    "preparo": [],
-    "dicas": [
-      "Anotação muito curta e incompleta. Foi preservada sem tentar completar ou corrigir a receita por suposição."
-    ],
-    "origem": {
-      "tipo": "caderno_manuscrito",
-      "descricao": "Receita adicional identificada em página que contém mais de uma preparação.",
-      "imagens": [
-        "images/manuscritos/IMG_7170.jpeg"
-      ]
-    },
-    "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://static.itdg.com.br/images/640-400/ebe17f9b3f6de8a62e5d01484f94dfed/creme-facil-para-recheio-de-bolo.jpg",
-      "fonte": "https://www.tudogostoso.com.br/receita/303246-creme-facil-para-recheio-de-bolo.html",
-      "credito": "Imagem ilustrativa externa — creme para recheio de bolo",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
+      "observacao": "Imagem tratada apenas com recorte, enquadramento e ajustes leves de qualidade. Nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": null
   }

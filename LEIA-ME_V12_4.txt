@@ -1,0 +1,18 @@
+ATUALIZAÇÃO V12.4 — RECEITAS E FOTOS
+
+Base esperada: V12.3.
+
+Incluído:
+- exclusão de REC-0090 e REC-0091;
+- renumeração final para 89 receitas;
+- REC-0004 com foto local tratada;
+- REC-0042 com a mesma foto no card e na ficha;
+- REC-0069 com nova foto tratada;
+- REC-0089 com a mesma foto no card e na ficha;
+- cabeçalho fixo mantido e reforçado;
+- nenhuma imagem nova foi gerada.
+
+GitHub Desktop:
+Summary sugerido: V12.4 - fotos, exclusões e renumeração
+Commit to main
+Push origin
