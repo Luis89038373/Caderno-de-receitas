@@ -1,0 +1,14 @@
+CADERNO DE RECEITAS — V13.7
+
+AJUSTE EXCLUSIVO PARA CELULAR DE 393 PX:
+- 10 botões obrigatoriamente em 2 linhas horizontais;
+- 5 botões por linha;
+- largura de cada botão calculada automaticamente;
+- logo reduzido somente nesse breakpoint;
+- PC/telas maiores continuam com o layout atual;
+- indicador de resolução permanece ativo para teste.
+
+ARQUIVOS:
+- index.html
+- catalogo.html
+- assets/css/category-filters.css
