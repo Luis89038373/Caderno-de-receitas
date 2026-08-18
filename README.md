@@ -1,4 +1,4 @@
-# Caderno de Receitas da Família — V8
+# Caderno de Receitas da Família — V9
 
 # Caderno de Receitas da Família
 
@@ -100,3 +100,12 @@ Use:
 - As fotos de Cocadinha e Biscoito Amanteigado foram substituídas pelas referências fornecidas.
 - A correção de cache da V7.1 foi mantida e atualizada para a versão V8.
 - O mapa completo de IDs V7/V7.1 → V8 está em `documentacao/MAPA_IDS_V7_PARA_V8.csv`.
+
+
+## V9 — revisão de receitas e imagens
+- 101 receitas ativas em sequência contínua: **REC-0001 a REC-0101**.
+- 7 receitas da V8 foram retiradas conforme revisão da família.
+- As fotos de Biliscão, Ganache de Chocolate, Creme de Limão, Glacê com Emulsificante e Rosca Doce foram substituídas pelas referências fornecidas.
+- `Glacê de Emulsificante` foi renomeado para **Glacê com Emulsificante**.
+- A correção de cache foi mantida e atualizada para a versão V9.
+- O mapa completo de IDs V8 → V9 está em `documentacao/MAPA_IDS_V8_PARA_V9.csv`.
