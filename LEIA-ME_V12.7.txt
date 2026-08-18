@@ -1,0 +1,22 @@
+CADERNO DE RECEITAS — V12.7 — FILTROS POR CATEGORIA
+
+Alteração preparada:
+1. Todas as categorias passam a aparecer como botões.
+2. Primeiro botão: "Todas".
+3. Os botões se reorganizam automaticamente conforme a largura da tela.
+4. Em celular, os botões usam duas colunas; em telas muito estreitas, uma coluna.
+5. Cor baseada na imagem de referência: fundo azul-petróleo muito escuro, borda ciano e brilho discreto.
+6. A categoria ativa recebe destaque ciano mais forte.
+7. O botão "Limpar filtros" usa o mesmo padrão visual.
+8. Busca por nome/ID e filtro de status continuam funcionando.
+9. O select antigo de categoria é preservado internamente como fallback e compatibilidade com app.js.
+
+ARQUIVOS:
+- index.html                         (substituir)
+- catalogo.html                     (substituir)
+- assets/css/category-filters.css   (novo)
+- assets/js/category-filters.js     (novo)
+
+PUBLICAÇÃO:
+Preserve exatamente as pastas indicadas ao enviar os arquivos para o repositório.
+Depois de publicar no GitHub Pages, aguarde a atualização e use Ctrl+F5 no navegador.

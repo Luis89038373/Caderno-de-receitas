@@ -1,0 +1,165 @@
+/* V12.7 — filtros por categoria em botões responsivos
+   Cores aproximadas da referência fornecida:
+   fundo: #011218 / #032f37
+   borda ciano: #0fc6d1
+*/
+
+.category-filter-buttons{
+  display:none;
+}
+
+html.category-buttons-ready #site-nav .header-filterbar{
+  grid-template-columns:minmax(300px,1.55fr) minmax(175px,.72fr) auto !important;
+  gap:10px !important;
+  align-items:center;
+}
+
+html.category-buttons-ready #site-nav .header-filterbar #cat{
+  display:none !important;
+}
+
+html.category-buttons-ready .category-filter-buttons{
+  grid-column:1 / -1;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(118px,1fr));
+  gap:8px;
+  width:100%;
+  align-items:stretch;
+}
+
+.category-filter-btn,
+html.category-buttons-ready #site-nav .header-filterbar .clear-filters{
+  min-height:44px;
+  border-radius:15px;
+  border:2px solid #0fc6d1;
+  background:linear-gradient(180deg,#032f37 0%,#011218 100%);
+  color:#77f2f7;
+  box-shadow:
+    inset 0 0 0 1px rgba(119,242,247,.10),
+    inset 0 0 18px rgba(15,198,209,.10),
+    0 0 0 1px rgba(0,94,104,.28),
+    0 4px 13px rgba(0,132,143,.18);
+  font-weight:800;
+  letter-spacing:.01em;
+  text-align:center;
+  cursor:pointer;
+  transition:
+    transform .16s ease,
+    box-shadow .16s ease,
+    background .16s ease,
+    color .16s ease,
+    border-color .16s ease;
+}
+
+.category-filter-btn{
+  width:100%;
+  padding:9px 11px;
+  line-height:1.15;
+  font-size:.84rem;
+}
+
+html.category-buttons-ready #site-nav .header-filterbar .clear-filters{
+  min-height:46px;
+  padding:10px 17px;
+  white-space:nowrap;
+}
+
+.category-filter-btn:hover,
+.category-filter-btn:focus-visible,
+html.category-buttons-ready #site-nav .header-filterbar .clear-filters:hover:not(:disabled),
+html.category-buttons-ready #site-nav .header-filterbar .clear-filters:focus-visible{
+  transform:translateY(-1px);
+  color:#c6fcff;
+  border-color:#45edf4;
+  background:linear-gradient(180deg,#07414a 0%,#021c23 100%);
+  box-shadow:
+    inset 0 0 0 1px rgba(198,252,255,.15),
+    inset 0 0 22px rgba(15,198,209,.14),
+    0 0 0 1px rgba(15,198,209,.28),
+    0 0 15px rgba(15,198,209,.30),
+    0 6px 16px rgba(0,92,102,.20);
+  outline:none;
+}
+
+.category-filter-btn.active,
+.category-filter-btn[aria-pressed="true"]{
+  color:#dffeff;
+  border-color:#5cf4fa;
+  background:linear-gradient(180deg,#07515b 0%,#032830 100%);
+  box-shadow:
+    inset 0 0 0 1px rgba(223,254,255,.20),
+    inset 0 0 26px rgba(15,198,209,.18),
+    0 0 0 1px rgba(15,198,209,.34),
+    0 0 18px rgba(15,198,209,.42),
+    0 6px 18px rgba(0,90,100,.22);
+}
+
+html.category-buttons-ready #site-nav .header-filterbar .clear-filters:disabled{
+  opacity:.48;
+  cursor:default;
+  transform:none;
+  box-shadow:
+    inset 0 0 0 1px rgba(119,242,247,.08),
+    0 2px 8px rgba(0,110,120,.10);
+}
+
+@media(max-width:900px){
+  html.category-buttons-ready #site-nav .header-filterbar{
+    grid-template-columns:minmax(220px,1fr) minmax(155px,190px) auto !important;
+  }
+
+  html.category-buttons-ready .category-filter-buttons{
+    grid-template-columns:repeat(auto-fit,minmax(108px,1fr));
+  }
+}
+
+@media(max-width:760px){
+  html.category-buttons-ready #site-nav .header-filterbar{
+    grid-template-columns:1fr 1fr !important;
+  }
+
+  html.category-buttons-ready #site-nav .header-filterbar .header-search{
+    grid-column:1 / -1;
+  }
+
+  html.category-buttons-ready #site-nav .header-filterbar #status,
+  html.category-buttons-ready #site-nav .header-filterbar .clear-filters{
+    width:100%;
+  }
+
+  html.category-buttons-ready .category-filter-buttons{
+    grid-template-columns:repeat(auto-fit,minmax(104px,1fr));
+    gap:7px;
+  }
+
+  .category-filter-btn{
+    min-height:42px;
+    padding:8px 9px;
+    font-size:.80rem;
+  }
+}
+
+@media(max-width:520px){
+  html.category-buttons-ready #site-nav .header-filterbar{
+    grid-template-columns:1fr 1fr !important;
+  }
+
+  html.category-buttons-ready #site-nav .header-filterbar .header-search{
+    grid-column:1 / -1;
+  }
+
+  html.category-buttons-ready .category-filter-buttons{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+
+  html.category-buttons-ready #site-nav .header-filterbar #status,
+  html.category-buttons-ready #site-nav .header-filterbar .clear-filters{
+    grid-column:auto;
+  }
+}
+
+@media(max-width:350px){
+  html.category-buttons-ready .category-filter-buttons{
+    grid-template-columns:1fr;
+  }
+}
