@@ -1,0 +1,12 @@
+CADERNO DE RECEITAS — V13.6
+
+REGRA:
+- ajuste em 2 linhas somente para celular estreito, até 430 px;
+- alvo de teste: celular mostrado pelo indicador com 393 px;
+- em 1080 px este bloco móvel NÃO é aplicado;
+- PC permanece com o layout atual.
+
+ARQUIVOS:
+- index.html
+- catalogo.html
+- assets/css/category-filters.css
