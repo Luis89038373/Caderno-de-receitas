@@ -1,0 +1,14 @@
+CADERNO DE RECEITAS — V13.2
+
+AJUSTE:
+- retirado o botão "Limpar" da interface;
+- o botão "Todas" passa a ser suficiente para voltar a exibir todas as receitas;
+- espaço liberado redistribuído para os botões das categorias;
+- tamanhos e espaçamentos ajustados em desktop, tablet e celular.
+
+OBSERVAÇÃO TÉCNICA:
+O elemento #clear-filters permanece invisível no HTML apenas porque o app.js atual
+exige sua existência para inicializar o catálogo. Para o usuário ele não aparece.
+
+ARQUIVO PARA SUBSTITUIR:
+- assets/css/category-filters.css
