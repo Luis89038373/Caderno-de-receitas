@@ -1,16 +1,48 @@
-
 const $ = (s, root=document) => root.querySelector(s);
 const $$ = (s, root=document) => [...root.querySelectorAll(s)];
-const SITE_ASSET_VERSION='v12.6-20260818';
+const SITE_ASSET_VERSION='v13.9-20260818';
+
 function versionedURL(url){
   const value=String(url??'');
   if(!value || /^(https?:|data:|blob:)/i.test(value)) return value;
   const sep=value.includes('?')?'&':'?';
   return `${value}${sep}v=${encodeURIComponent(SITE_ASSET_VERSION)}`;
 }
-async function loadJSON(path){ const r=await fetch(versionedURL(path),{cache:'no-store'}); if(!r.ok) throw new Error(path); return r.json(); }
+
+function applyRecipeCorrections(data,path){
+  if(!Array.isArray(data) || !/recipes\.json$/i.test(String(path).split('?')[0])) return data;
+
+  return data
+    // V13.9 — REC-0070 removida do site.
+    .filter(recipe => recipe && recipe.id !== 'REC-0070')
+    .map(recipe => {
+      if(!recipe || recipe.id !== 'REC-0083') return recipe;
+
+      // V13.9 — REC-0083: remover "Variante 2" de todo texto visível.
+      const contexto = String(recipe.contexto || '')
+        .replace(/Esfiha\s*[—–-]\s*Variante\s*2/gi,'Esfiha')
+        .replace(/\s{2,}/g,' ')
+        .trim();
+
+      return {
+        ...recipe,
+        titulo:'Esfiha',
+        slug:'esfiha',
+        contexto
+      };
+    });
+}
+
+async function loadJSON(path){
+  const r=await fetch(versionedURL(path),{cache:'no-store'});
+  if(!r.ok) throw new Error(path);
+  const data=await r.json();
+  return applyRecipeCorrections(data,path);
+}
+
 function safe(t){ return String(t??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m])); }
 function statusLabel(s){ return s==='publicada'?'Publicada':'Em revisão'; }
+
 function normalizeSearch(t){
   return String(t??'')
     .normalize('NFD')
@@ -19,12 +51,14 @@ function normalizeSearch(t){
     .replace(/[^a-z0-9]+/g,' ')
     .trim();
 }
+
 function matchesSearch(recipe, query){
   const terms=normalizeSearch(query).split(/\s+/).filter(Boolean);
   if(!terms.length) return true;
   const haystack=normalizeSearch([recipe.id,recipe.titulo,recipe.categoria,recipe.contexto].filter(Boolean).join(' '));
   return terms.every(term=>haystack.includes(term));
 }
+
 function recipeCard(r){
   const img=r.imagem&&r.imagem.url?versionedURL(r.imagem.url):'';
   return `<a class="card recipe-card" href="receita.html?id=${encodeURIComponent(r.id)}" data-search="${safe((r.id+' '+r.titulo+' '+r.categoria).toLowerCase())}" data-cat="${safe(r.categoria)}">
@@ -32,10 +66,12 @@ function recipeCard(r){
     <div class="card-body"><div class="meta"><span>${safe(r.categoria)}</span><span>•</span><span>${statusLabel(r.status)}</span></div><h3>${safe(r.titulo)}</h3><p>${safe((r.contexto||'').slice(0,155))}${(r.contexto||'').length>155?'...':''}</p></div>
   </a>`;
 }
+
 function isListingPage(){
   const file=(location.pathname.split('/').pop()||'index.html').toLowerCase();
   return file==='index.html' || file==='catalogo.html' || file==='';
 }
+
 function nav(){
   const filters=isListingPage()?`
     <div class="container header-filterbar" id="header-filterbar">
@@ -44,6 +80,7 @@ function nav(){
       <select id="status" class="search" aria-label="Filtrar por status"><option value="">Todos os status</option><option value="publicada">Publicadas</option><option value="em_revisao">Em revisão</option></select>
       <button id="clear-filters" class="btn clear-filters" type="button">Limpar filtros</button>
     </div>`:'';
+
   return `<header class="topbar">
     <div class="container nav">
       <a class="brand brand-celina" href="index.html" aria-label="Celina — Livro de Receitas">
@@ -79,10 +116,10 @@ async function initRecipeListing(){
 
   const recipes=await loadJSON('data/recipes.json');
 
-  // Repõe as opções para impedir duplicações após recarga/navegação.
   cat.innerHTML='<option value="">Todas as categorias</option>';
   const cats=[...new Set(recipes.map(r=>r.categoria).filter(Boolean))]
     .sort((a,b)=>a.localeCompare(b,'pt-BR'));
+
   cats.forEach(c=>{
     const opt=document.createElement('option');
     opt.value=c;
@@ -111,10 +148,12 @@ async function initRecipeListing(){
     const headerHeight=parseFloat(
       getComputedStyle(document.documentElement).getPropertyValue('--fixed-header-height')
     ) || document.querySelector('#site-nav')?.getBoundingClientRect().height || 0;
+
     const target=Math.max(
       0,
       section.getBoundingClientRect().top + window.scrollY - headerHeight - 14
     );
+
     window.scrollTo({top:target,behavior:'smooth'});
   };
 
@@ -148,6 +187,7 @@ async function initRecipeListing(){
   };
 
   let inputTimer=null;
+
   q.addEventListener('input',()=>{
     window.clearTimeout(inputTimer);
     inputTimer=window.setTimeout(()=>render(true),120);
@@ -167,50 +207,59 @@ async function initRecipeListing(){
   render(false);
 }
 
-
 function syncFixedHeader(){
   const siteNav=$("#site-nav");
   if(!siteNav) return;
+
   const apply=()=>{
     const h=Math.ceil(siteNav.getBoundingClientRect().height);
     document.documentElement.style.setProperty("--fixed-header-height",`${h}px`);
     document.body.classList.add("fixed-header-ready");
   };
+
   apply();
+
   if("ResizeObserver" in window){
     const ro=new ResizeObserver(apply);
     ro.observe(siteNav);
   }
+
   window.addEventListener("resize",apply);
 }
 
 function footer(){
   return `<footer class="footer"><div class="container footer-inner"><span>Acervo culinário da família</span><span>Receitas preservadas, organizadas e identificadas por ID.</span></div></footer>`;
 }
+
 document.addEventListener("DOMContentLoaded",async()=>{
   const h=$("#site-nav");
+
   if(h){
     if(!h.querySelector(".topbar")) h.innerHTML=nav();
+
     const toggle=$(".menu-toggle");
     const links=$(".navlinks");
+
     if(toggle && links){
       const closeMenu=()=>{
         links.classList.remove("open");
         toggle.setAttribute("aria-expanded","false");
         toggle.setAttribute("aria-label","Abrir menu");
       };
+
       toggle.addEventListener("click",()=>{
         const open=links.classList.toggle("open");
         toggle.setAttribute("aria-expanded",String(open));
         toggle.setAttribute("aria-label",open?"Fechar menu":"Abrir menu");
       });
+
       $$(".navlinks a").forEach(a=>a.addEventListener("click",closeMenu));
       window.addEventListener("resize",()=>{ if(window.innerWidth>760) closeMenu(); });
     }
   }
 
   const f=$("#site-footer");
-  if(f)f.innerHTML=footer();
+  if(f) f.innerHTML=footer();
 
   syncFixedHeader();
 

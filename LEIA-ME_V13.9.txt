@@ -1,0 +1,29 @@
+CADERNO DE RECEITAS — V13.9 — LIMPEZA DAS RECEITAS
+
+ALTERAÇÕES:
+1. REC-0070 retirada de todas as telas e do acesso pelo site.
+2. REC-0083:
+   - título visível passa de "Esfiha — Variante 2" para "Esfiha";
+   - contexto visível também deixa de mostrar "Variante 2".
+3. Todas as páginas de detalhe de receita deixam de mostrar o menu superior:
+   - Receitas
+   - Catálogo geral
+   - Acervo em revisão
+   - Padrão oficial
+4. Removidos também os textos decorativos:
+   - Mise en place
+   - Passo a passo
+   - Anotações
+   Mantidos os títulos úteis: Ingredientes, Modo de preparo e Observações.
+5. Removido o rodapé nas páginas individuais de receita.
+6. app.js recebeu nova versão para evitar cache antigo.
+
+ARQUIVOS PARA SUBSTITUIR:
+- index.html
+- catalogo.html
+- receita.html
+- assets/js/app.js
+
+OBSERVAÇÃO:
+A REC-0070 é filtrada pelo carregador central do site, portanto não aparece no catálogo
+e uma tentativa de abrir receita.html?id=REC-0070 resulta em "Receita não encontrada".
