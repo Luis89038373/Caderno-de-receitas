@@ -1,0 +1,19 @@
+CADERNO DE RECEITAS — V13.11 — MOLDURA CULINÁRIA
+
+Aplicada a moldura fornecida pelo usuário em todas as telas principais:
+- index.html
+- catalogo.html
+- receita.html
+- acervo.html
+- 404.html
+
+A imagem está embutida em:
+- assets/css/kitchen-frame.css
+
+Não é necessário enviar um arquivo PNG separado.
+
+A V13.11 também preserva as correções da V13.10:
+- REC-0070 retirada;
+- textos "Variante N" removidos das receitas;
+- filtro ativo com destaque laranja/círculo no PC;
+- comportamento responsivo aprovado no celular de 393 px.

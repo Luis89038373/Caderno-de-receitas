@@ -1,6 +1,6 @@
 const $ = (s, root=document) => root.querySelector(s);
 const $$ = (s, root=document) => [...root.querySelectorAll(s)];
-const SITE_ASSET_VERSION='v13.9-20260818';
+const SITE_ASSET_VERSION='v13.10-20260818';
 
 function versionedURL(url){
   const value=String(url??'');
@@ -9,26 +9,33 @@ function versionedURL(url){
   return `${value}${sep}v=${encodeURIComponent(SITE_ASSET_VERSION)}`;
 }
 
+function removeVarianteText(value){
+  return String(value ?? '')
+    // remove "— Variante 2", "- Variante 2" ou "– Variante 2"
+    .replace(/\s*[—–-]\s*Variante\s*\d+\b/gi,'')
+    // remove "(Variante 2)"
+    .replace(/\s*\(\s*Variante\s*\d+\s*\)/gi,'')
+    // segurança para ocorrência isolada
+    .replace(/\bVariante\s*\d+\b/gi,'')
+    .replace(/\s{2,}/g,' ')
+    .replace(/\s+([,.;:!?])/g,'$1')
+    .trim();
+}
+
 function applyRecipeCorrections(data,path){
   if(!Array.isArray(data) || !/recipes\.json$/i.test(String(path).split('?')[0])) return data;
 
   return data
-    // V13.9 — REC-0070 removida do site.
+    // REC-0070 permanece retirada de todas as telas.
     .filter(recipe => recipe && recipe.id !== 'REC-0070')
     .map(recipe => {
-      if(!recipe || recipe.id !== 'REC-0083') return recipe;
+      if(!recipe) return recipe;
 
-      // V13.9 — REC-0083: remover "Variante 2" de todo texto visível.
-      const contexto = String(recipe.contexto || '')
-        .replace(/Esfiha\s*[—–-]\s*Variante\s*2/gi,'Esfiha')
-        .replace(/\s{2,}/g,' ')
-        .trim();
-
+      // V13.10 — nenhuma receita deve exibir "Variante N" no título ou contexto.
       return {
         ...recipe,
-        titulo:'Esfiha',
-        slug:'esfiha',
-        contexto
+        titulo: removeVarianteText(recipe.titulo),
+        contexto: removeVarianteText(recipe.contexto)
       };
     });
 }
