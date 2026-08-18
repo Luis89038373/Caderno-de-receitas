@@ -1,0 +1,18 @@
+CADERNO DE RECEITAS — V12.8 — AJUSTE DE LAYOUT DOS FILTROS
+
+Alterações preparadas:
+1. Botões de categorias menores.
+2. Todos os botões alinhados horizontalmente em uma única faixa.
+3. Faixa de botões com rolagem horizontal quando necessário.
+4. Removidos os textos da área principal (hero, títulos e textos explicativos).
+5. Os botões sobem para a área superior, logo abaixo dos filtros.
+6. Mantidos:
+   - campo de busca
+   - filtro de status
+   - botão Limpar filtros
+7. O select antigo de categoria continua apenas como fallback interno e fica oculto.
+
+Arquivos:
+- index.html
+- catalogo.html
+- assets/css/category-filters.css

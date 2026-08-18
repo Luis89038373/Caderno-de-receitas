@@ -1,44 +1,78 @@
-/* V12.7 — filtros por categoria em botões responsivos
-   Cores aproximadas da referência fornecida:
-   fundo: #011218 / #032f37
-   borda ciano: #0fc6d1
+/* V12.8 — layout compacto dos filtros
+   Ajustes solicitados:
+   - reduzir botões
+   - alinhar horizontalmente
+   - remover textos da área principal
+   - subir os botões para o topo
 */
 
-.category-filter-buttons{
+.compact-main{
+  padding-top:0;
+}
+
+.compact-catalog{
+  padding:10px 0 24px;
+}
+
+.compact-catalog-container{
+  padding-top:4px;
+}
+
+#site-footer{
   display:none;
 }
 
 html.category-buttons-ready #site-nav .header-filterbar{
-  grid-template-columns:minmax(300px,1.55fr) minmax(175px,.72fr) auto !important;
+  grid-template-columns:minmax(320px,1.55fr) minmax(190px,.75fr) auto !important;
   gap:10px !important;
   align-items:center;
+  padding-bottom:10px !important;
 }
 
 html.category-buttons-ready #site-nav .header-filterbar #cat{
   display:none !important;
 }
 
+.category-filter-buttons{
+  display:none;
+}
+
 html.category-buttons-ready .category-filter-buttons{
   grid-column:1 / -1;
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(118px,1fr));
+  display:flex;
+  flex-wrap:nowrap;
   gap:8px;
   width:100%;
+  overflow-x:auto;
+  overflow-y:hidden;
   align-items:stretch;
+  padding:2px 2px 4px;
+  scrollbar-width:thin;
+  scrollbar-color:#0fc6d1 rgba(3,47,55,.10);
+}
+
+html.category-buttons-ready .category-filter-buttons::-webkit-scrollbar{
+  height:8px;
+}
+html.category-buttons-ready .category-filter-buttons::-webkit-scrollbar-track{
+  background:rgba(3,47,55,.08);
+  border-radius:999px;
+}
+html.category-buttons-ready .category-filter-buttons::-webkit-scrollbar-thumb{
+  background:#0fc6d1;
+  border-radius:999px;
 }
 
 .category-filter-btn,
 html.category-buttons-ready #site-nav .header-filterbar .clear-filters{
-  min-height:44px;
-  border-radius:15px;
   border:2px solid #0fc6d1;
-  background:linear-gradient(180deg,#032f37 0%,#011218 100%);
-  color:#77f2f7;
+  background:linear-gradient(180deg,#063d46 0%,#011218 100%);
+  color:#8ff7fb;
   box-shadow:
     inset 0 0 0 1px rgba(119,242,247,.10),
-    inset 0 0 18px rgba(15,198,209,.10),
-    0 0 0 1px rgba(0,94,104,.28),
-    0 4px 13px rgba(0,132,143,.18);
+    inset 0 0 14px rgba(15,198,209,.08),
+    0 0 0 1px rgba(0,94,104,.22),
+    0 3px 10px rgba(0,132,143,.12);
   font-weight:800;
   letter-spacing:.01em;
   text-align:center;
@@ -52,15 +86,22 @@ html.category-buttons-ready #site-nav .header-filterbar .clear-filters{
 }
 
 .category-filter-btn{
-  width:100%;
-  padding:9px 11px;
-  line-height:1.15;
-  font-size:.84rem;
+  flex:0 0 150px;
+  min-width:150px;
+  max-width:150px;
+  min-height:34px;
+  padding:7px 10px;
+  border-radius:13px;
+  line-height:1.05;
+  font-size:.73rem;
+  white-space:normal;
+  overflow-wrap:anywhere;
 }
 
 html.category-buttons-ready #site-nav .header-filterbar .clear-filters{
-  min-height:46px;
-  padding:10px 17px;
+  min-height:40px;
+  padding:9px 15px;
+  border-radius:13px;
   white-space:nowrap;
 }
 
@@ -69,29 +110,29 @@ html.category-buttons-ready #site-nav .header-filterbar .clear-filters{
 html.category-buttons-ready #site-nav .header-filterbar .clear-filters:hover:not(:disabled),
 html.category-buttons-ready #site-nav .header-filterbar .clear-filters:focus-visible{
   transform:translateY(-1px);
-  color:#c6fcff;
+  color:#d9fdff;
   border-color:#45edf4;
-  background:linear-gradient(180deg,#07414a 0%,#021c23 100%);
+  background:linear-gradient(180deg,#0a4f59 0%,#032028 100%);
   box-shadow:
     inset 0 0 0 1px rgba(198,252,255,.15),
-    inset 0 0 22px rgba(15,198,209,.14),
-    0 0 0 1px rgba(15,198,209,.28),
-    0 0 15px rgba(15,198,209,.30),
-    0 6px 16px rgba(0,92,102,.20);
+    inset 0 0 18px rgba(15,198,209,.12),
+    0 0 0 1px rgba(15,198,209,.24),
+    0 0 12px rgba(15,198,209,.22),
+    0 4px 12px rgba(0,92,102,.16);
   outline:none;
 }
 
 .category-filter-btn.active,
 .category-filter-btn[aria-pressed="true"]{
-  color:#dffeff;
-  border-color:#5cf4fa;
-  background:linear-gradient(180deg,#07515b 0%,#032830 100%);
+  color:#e6feff;
+  border-color:#6cf5fb;
+  background:linear-gradient(180deg,#0b5964 0%,#06303a 100%);
   box-shadow:
-    inset 0 0 0 1px rgba(223,254,255,.20),
-    inset 0 0 26px rgba(15,198,209,.18),
-    0 0 0 1px rgba(15,198,209,.34),
-    0 0 18px rgba(15,198,209,.42),
-    0 6px 18px rgba(0,90,100,.22);
+    inset 0 0 0 1px rgba(223,254,255,.18),
+    inset 0 0 22px rgba(15,198,209,.16),
+    0 0 0 1px rgba(15,198,209,.28),
+    0 0 14px rgba(15,198,209,.28),
+    0 5px 14px rgba(0,90,100,.18);
 }
 
 html.category-buttons-ready #site-nav .header-filterbar .clear-filters:disabled{
@@ -103,19 +144,44 @@ html.category-buttons-ready #site-nav .header-filterbar .clear-filters:disabled{
     0 2px 8px rgba(0,110,120,.10);
 }
 
-@media(max-width:900px){
+.hero,
+.section-head,
+.hero-memory,
+.section > .container.panel{
+  display:none !important;
+}
+
+.section{
+  padding:0 !important;
+}
+
+.results-info{
+  margin:6px 0 12px !important;
+}
+
+#recipes{
+  margin-top:0;
+  scroll-margin-top:calc(var(--fixed-header-height, 150px) + 10px);
+}
+
+@media(max-width:1100px){
   html.category-buttons-ready #site-nav .header-filterbar{
-    grid-template-columns:minmax(220px,1fr) minmax(155px,190px) auto !important;
+    grid-template-columns:minmax(220px,1.25fr) minmax(160px,.8fr) auto !important;
+    gap:8px !important;
   }
 
-  html.category-buttons-ready .category-filter-buttons{
-    grid-template-columns:repeat(auto-fit,minmax(108px,1fr));
+  .category-filter-btn{
+    flex-basis:136px;
+    min-width:136px;
+    max-width:136px;
+    font-size:.70rem;
   }
 }
 
 @media(max-width:760px){
   html.category-buttons-ready #site-nav .header-filterbar{
     grid-template-columns:1fr 1fr !important;
+    padding-bottom:8px !important;
   }
 
   html.category-buttons-ready #site-nav .header-filterbar .header-search{
@@ -127,39 +193,39 @@ html.category-buttons-ready #site-nav .header-filterbar .clear-filters:disabled{
     width:100%;
   }
 
-  html.category-buttons-ready .category-filter-buttons{
-    grid-template-columns:repeat(auto-fit,minmax(104px,1fr));
-    gap:7px;
+  .category-filter-btn{
+    flex:0 0 120px;
+    min-width:120px;
+    max-width:120px;
+    min-height:32px;
+    font-size:.68rem;
+    padding:6px 8px;
   }
 
-  .category-filter-btn{
-    min-height:42px;
-    padding:8px 9px;
-    font-size:.80rem;
+  html.category-buttons-ready #site-nav .header-filterbar .clear-filters{
+    min-height:38px;
+    padding:8px 12px;
+  }
+
+  .compact-catalog{
+    padding:8px 0 20px;
   }
 }
 
 @media(max-width:520px){
   html.category-buttons-ready #site-nav .header-filterbar{
-    grid-template-columns:1fr 1fr !important;
+    grid-template-columns:1fr !important;
   }
 
-  html.category-buttons-ready #site-nav .header-filterbar .header-search{
-    grid-column:1 / -1;
-  }
-
-  html.category-buttons-ready .category-filter-buttons{
-    grid-template-columns:repeat(2,minmax(0,1fr));
-  }
-
+  html.category-buttons-ready #site-nav .header-filterbar .header-search,
   html.category-buttons-ready #site-nav .header-filterbar #status,
   html.category-buttons-ready #site-nav .header-filterbar .clear-filters{
     grid-column:auto;
   }
-}
 
-@media(max-width:350px){
-  html.category-buttons-ready .category-filter-buttons{
-    grid-template-columns:1fr;
+  .category-filter-btn{
+    flex:0 0 112px;
+    min-width:112px;
+    max-width:112px;
   }
 }
