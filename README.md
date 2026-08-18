@@ -1,4 +1,4 @@
-# Caderno de Receitas da Família — V9
+# Caderno de Receitas da Família — V10
 
 # Caderno de Receitas da Família
 
@@ -109,3 +109,12 @@ Use:
 - `Glacê de Emulsificante` foi renomeado para **Glacê com Emulsificante**.
 - A correção de cache foi mantida e atualizada para a versão V9.
 - O mapa completo de IDs V8 → V9 está em `documentacao/MAPA_IDS_V8_PARA_V9.csv`.
+
+
+## V10 — revisão, tratamento de imagens e renumeração
+- 96 receitas ativas em sequência contínua: **REC-0001 a REC-0096**.
+- 5 receitas da V9 foram retiradas conforme revisão da família.
+- Fotos de Biliscão, Creme de Limão, Leite Condensado Caseiro, Brigadeiro, Pão de Ló e Torta Salgada foram atualizadas/tratadas antes da publicação.
+- A antiga REC-0068 teve o texto **Variante** removido do título, ficando **Bolo de Cenoura**.
+- A correção de cache foi mantida e atualizada para a versão V10.
+- O mapa completo de IDs V9 → V10 está em `documentacao/MAPA_IDS_V9_PARA_V10.csv`.
