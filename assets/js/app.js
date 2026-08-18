@@ -1,6 +1,6 @@
 const $ = (s, root=document) => root.querySelector(s);
 const $$ = (s, root=document) => [...root.querySelectorAll(s)];
-const SITE_ASSET_VERSION='v13.12-20260818';
+const SITE_ASSET_VERSION='v13.18-20260818';
 
 function versionedURL(url){
   const value=String(url??'');
@@ -57,12 +57,25 @@ function applyRecipeCorrections(data,path){
         }
       }
 
+      let imagem=recipe && recipe.imagem ? {...recipe.imagem} : recipe.imagem;
+
+      // V13.16 — REC-0020: substituir foto com escritos por imagem limpa.
+      if(recipe.id==='REC-0020'){
+        imagem={
+          ...(imagem || {}),
+          url:'assets/img/recipes/rec-0020-bolo-tradicional-final.png',
+          credito:'Imagem de referência limpa para o catálogo',
+          observacao:'Imagem limpa, sem textos sobrepostos, ajustada para representar a receita no catálogo.'
+        };
+      }
+
       return {
         ...recipe,
         titulo,
         contexto,
         dicas,
-        data_original
+        data_original,
+        imagem
       };
     });
 }
@@ -176,22 +189,28 @@ async function initRecipeListing(){
     clear.setAttribute('aria-disabled',String(!active));
   };
 
-  const moveToResults=()=>{
-    const section=grid.closest('.section');
+  const moveToResults=(instant=false)=>{
+    const section=
+      grid.closest('.compact-catalog') ||
+      grid.closest('.section') ||
+      grid.closest('section') ||
+      grid.parentElement;
+
     if(!section) return;
+
     const headerHeight=parseFloat(
       getComputedStyle(document.documentElement).getPropertyValue('--fixed-header-height')
     ) || document.querySelector('#site-nav')?.getBoundingClientRect().height || 0;
 
     const target=Math.max(
       0,
-      section.getBoundingClientRect().top + window.scrollY - headerHeight - 14
+      section.getBoundingClientRect().top + window.scrollY - headerHeight - 10
     );
 
-    window.scrollTo({top:target,behavior:'smooth'});
+    window.scrollTo({top:target,behavior:instant?'auto':'smooth'});
   };
 
-  const render=(shouldMove=false)=>{
+  const render=(shouldMove=false, instantMove=false)=>{
     const query=q.value.trim();
     const category=cat.value;
     const state=status.value;
@@ -216,7 +235,7 @@ async function initRecipeListing(){
     updateClear();
 
     if(shouldMove){
-      window.requestAnimationFrame(moveToResults);
+      window.requestAnimationFrame(()=>moveToResults(instantMove));
     }
   };
 
@@ -224,21 +243,21 @@ async function initRecipeListing(){
 
   q.addEventListener('input',()=>{
     window.clearTimeout(inputTimer);
-    inputTimer=window.setTimeout(()=>render(true),120);
+    inputTimer=window.setTimeout(()=>render(true,false),120);
   });
 
-  cat.addEventListener('change',()=>render(true));
-  status.addEventListener('change',()=>render(true));
+  cat.addEventListener('change',()=>render(true,false));
+  status.addEventListener('change',()=>render(true,false));
 
   clear.addEventListener('click',()=>{
     q.value='';
     cat.value='';
     status.value='';
-    render(true);
+    render(true,false);
     q.focus();
   });
 
-  render(false);
+  render(true,true);
 }
 
 function syncFixedHeader(){
@@ -266,6 +285,12 @@ function footer(){
 }
 
 document.addEventListener("DOMContentLoaded",async()=>{
+  if(isListingPage()){
+    try{
+      if('scrollRestoration' in history) history.scrollRestoration='manual';
+    }catch(_){}
+    window.scrollTo({top:0,left:0,behavior:'auto'});
+  }
   const h=$("#site-nav");
 
   if(h){

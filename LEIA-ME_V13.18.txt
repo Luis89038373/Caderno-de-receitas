@@ -1,0 +1,20 @@
+CADERNO DE RECEITAS — V13.18
+
+ALTERAÇÃO:
+- REC-0020 — Bolo Tradicional de Aniversário:
+  nova foto limpa, sem escritos, sem marca d'água e sem elementos de vídeo.
+
+MANTIDO:
+- ao abrir o catálogo ou aplicar qualquer filtro, a página volta para as primeiras receitas;
+- indicador de pixels removido;
+- moldura antiga bloqueada/removida;
+- correções de "Variante", REC-0070 e Gelatina preservadas.
+
+ARQUIVOS PARA SUBSTITUIR:
+- index.html
+- catalogo.html
+- receita.html
+- acervo.html
+- 404.html
+- assets/js/app.js
+- assets/img/recipes/rec-0020-bolo-tradicional-final.png
