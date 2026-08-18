@@ -1,4 +1,4 @@
-# Caderno de Receitas da Família — V12
+# Caderno de Receitas da Família — V12.1
 
 # Caderno de Receitas da Família
 
@@ -137,4 +137,11 @@ Use:
 - Fotos das REC-0015, REC-0017, REC-0029, REC-0030 e REC-0068 foram tratadas e atualizadas.
 - Nenhuma imagem nova foi gerada; foram usadas somente as fotos fornecidas pela família.
 - Cache de CSS, JavaScript e imagens atualizado para V12.
+
+## V12.1 — correção do cabeçalho fixo
+- Corrigida a inicialização dos filtros, que podia ocorrer antes da criação do cabeçalho.
+- O bloco inteiro **menu + filtros** agora permanece fixo no topo.
+- Busca, Categoria, Status e **Limpar filtros** ficam visíveis dentro da parte fixa.
+- O botão Limpar filtros limpa todos os campos e restaura a lista completa.
+- Mantidas 91 receitas e todas as fotos/ajustes da V12.
 

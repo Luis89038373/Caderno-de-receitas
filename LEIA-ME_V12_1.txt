@@ -1,0 +1,19 @@
+ATUALIZAÇÃO V12.1 — CORREÇÃO DO CABEÇALHO E FILTROS
+
+Base esperada: V12.
+
+1. Extraia este ZIP.
+2. Copie todo o conteúdo para a pasta local Caderno-de-receitas.
+3. Confirme a substituição dos arquivos.
+4. Abra o GitHub Desktop.
+5. Summary sugerido: V12.1 - corrigir cabeçalho fixo e filtros
+6. Commit to main.
+7. Push origin.
+
+Correções:
+- cabeçalho completo fixo no topo;
+- filtros dentro da parte fixa;
+- botão Limpar filtros visível;
+- correção da ordem de carregamento que escondia os filtros;
+- nenhuma alteração nas receitas;
+- nenhuma imagem gerada.

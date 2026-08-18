@@ -1,7 +1,7 @@
 
 const $ = (s, root=document) => root.querySelector(s);
 const $$ = (s, root=document) => [...root.querySelectorAll(s)];
-const SITE_ASSET_VERSION='v12-20260818';
+const SITE_ASSET_VERSION='v12.1-20260818';
 function versionedURL(url){
   const value=String(url??'');
   if(!value || /^(https?:|data:|blob:)/i.test(value)) return value;
@@ -32,7 +32,18 @@ function recipeCard(r){
     <div class="card-body"><div class="meta"><span>${safe(r.categoria)}</span><span>•</span><span>${statusLabel(r.status)}</span></div><h3>${safe(r.titulo)}</h3><p>${safe((r.contexto||'').slice(0,155))}${(r.contexto||'').length>155?'...':''}</p></div>
   </a>`;
 }
+function isListingPage(){
+  const file=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+  return file==='index.html' || file==='catalogo.html' || file==='';
+}
 function nav(){
+  const filters=isListingPage()?`
+    <div class="container header-filterbar" id="header-filterbar">
+      <input id="q" class="search header-search" placeholder="Buscar por nome ou ID..." aria-label="Buscar receitas">
+      <select id="cat" class="search" aria-label="Filtrar por categoria"><option value="">Todas as categorias</option></select>
+      <select id="status" class="search" aria-label="Filtrar por status"><option value="">Todos os status</option><option value="publicada">Publicadas</option><option value="em_revisao">Em revisão</option></select>
+      <button id="clear-filters" class="btn clear-filters" type="button">Limpar filtros</button>
+    </div>`:'';
   return `<header class="topbar">
     <div class="container nav">
       <a class="brand" href="index.html" aria-label="Página inicial do Caderno de Receitas">
@@ -47,18 +58,54 @@ function nav(){
         <a href="documentacao/PADRAO_OFICIAL.md">Padrão oficial</a>
       </nav>
     </div>
-    <div class="container header-filterbar" id="header-filterbar" hidden>
-      <input id="q" class="search header-search" placeholder="Buscar por nome ou ID..." aria-label="Buscar receitas">
-      <select id="cat" class="search" aria-label="Filtrar por categoria"><option value="">Todas as categorias</option></select>
-      <select id="status" class="search" aria-label="Filtrar por status"><option value="">Todos os status</option><option value="publicada">Publicadas</option><option value="em_revisao">Em revisão</option></select>
-      <button id="clear-filters" class="btn secondary clear-filters" type="button">Limpar filtros</button>
-    </div>
+    ${filters}
   </header>`;
 }
+
+async function initRecipeListing(){
+  if(!isListingPage()) return;
+  const q=$('#q'), cat=$('#cat'), status=$('#status'), clear=$('#clear-filters'), grid=$('#recipes'), empty=$('#empty');
+  if(!q || !cat || !status || !clear || !grid || !empty) return;
+
+  const recipes=await loadJSON('data/recipes.json');
+  const cats=[...new Set(recipes.map(r=>r.categoria))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
+  cats.forEach(c=>cat.insertAdjacentHTML('beforeend',`<option value="${safe(c)}">${safe(c)}</option>`));
+
+  const updateClear=()=>{
+    const active=Boolean(q.value || cat.value || status.value);
+    clear.disabled=!active;
+    clear.setAttribute('aria-disabled',String(!active));
+  };
+
+  const render=()=>{
+    const list=recipes.filter(r=>
+      matchesSearch(r,q.value) &&
+      (!cat.value || r.categoria===cat.value) &&
+      (!status.value || r.status===status.value)
+    );
+    grid.innerHTML=list.map(recipeCard).join('');
+    empty.hidden=Boolean(list.length);
+    updateClear();
+  };
+
+  q.addEventListener('input',render);
+  cat.addEventListener('change',render);
+  status.addEventListener('change',render);
+  clear.addEventListener('click',()=>{
+    q.value='';
+    cat.value='';
+    status.value='';
+    render();
+    q.focus();
+  });
+
+  render();
+}
+
 function footer(){
   return `<footer class="footer"><div class="container footer-inner"><span>Acervo culinário da família</span><span>Receitas preservadas, organizadas e identificadas por ID.</span></div></footer>`;
 }
-document.addEventListener("DOMContentLoaded",()=>{
+document.addEventListener("DOMContentLoaded",async()=>{
   const h=$("#site-nav");
   if(h){
     h.innerHTML=nav();
@@ -79,6 +126,18 @@ document.addEventListener("DOMContentLoaded",()=>{
       window.addEventListener("resize",()=>{ if(window.innerWidth>760) closeMenu(); });
     }
   }
+
   const f=$("#site-footer");
   if(f)f.innerHTML=footer();
+
+  try{
+    await initRecipeListing();
+  }catch(err){
+    console.error("Erro ao carregar catálogo:",err);
+    const empty=$("#empty");
+    if(empty){
+      empty.hidden=false;
+      empty.textContent="Não foi possível carregar as receitas. Atualize a página.";
+    }
+  }
 });
