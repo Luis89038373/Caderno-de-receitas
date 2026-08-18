@@ -1,0 +1,19 @@
+CADERNO DE RECEITAS — V13.0
+
+CORREÇÃO DA V12.9
+A V12.9 removeu os elementos #q e #status do HTML. O app.js exige esses elementos
+para iniciar o catálogo, por isso os botões de categorias não eram gerados e as
+receitas não apareciam.
+
+Nesta versão:
+- os filtros antigos continuam RETIRADOS DA TELA;
+- #q, #cat e #status ficam somente ocultos para compatibilidade interna;
+- os textos Receitas / Catálogo geral / Acervo em revisão / Padrão oficial continuam removidos;
+- os botões de categorias ficam menores e horizontalmente ao lado do logo;
+- o catálogo de receitas volta a carregar normalmente;
+- Limpar fica no final da linha.
+
+ARQUIVOS PARA SUBSTITUIR:
+- index.html
+- catalogo.html
+- assets/css/category-filters.css

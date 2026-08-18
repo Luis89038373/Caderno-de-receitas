@@ -1,74 +1,70 @@
-/* V12.9 — topo compacto conforme pedido do usuário
-   1. remove o filtro atual (status)
-   2. remove os textos Receitas/Catálogo geral/Acervo em revisão/Padrão oficial
-   3. reduz botões e posiciona horizontalmente ao lado do logo
-*/
+/* V13.0 — categorias ao lado do logo, sem filtros/textos antigos */
 
-#site-footer,
+/* Tudo que o usuário pediu para retirar visualmente */
 .navlinks,
 .menu-toggle,
 .header-filterbar,
 .hero,
-.section-head,
 .hero-memory,
-.section > .container.panel{
+.section-head,
+.section > .container.panel,
+#site-footer{
   display:none !important;
 }
 
-body.fixed-header-ready{
-  padding-top:var(--fixed-header-height,0px) !important;
+/* Campos técnicos necessários ao app.js, mas invisíveis */
+.topbar-actions > #q,
+.topbar-actions > #cat,
+.topbar-actions > #status{
+  position:absolute !important;
+  width:1px !important;
+  height:1px !important;
+  opacity:0 !important;
+  pointer-events:none !important;
+  overflow:hidden !important;
+  clip:rect(0 0 0 0) !important;
+  clip-path:inset(50%) !important;
+  white-space:nowrap !important;
 }
 
-.compact-main{
-  padding-top:0;
-}
-
-.compact-catalog{
-  padding:10px 0 26px;
-}
-
-.compact-catalog-container{
-  padding-top:2px;
-}
-
+/* Cabeçalho compacto */
 .topbar-minimal{
   background:rgba(246,241,232,.99) !important;
   border-bottom:1px solid var(--line);
-  box-shadow:0 8px 18px rgba(66,46,29,.08);
-  backdrop-filter:blur(14px);
+  box-shadow:0 7px 18px rgba(66,46,29,.07);
+  backdrop-filter:blur(12px);
 }
 
 .topbar-compact{
   display:flex;
   align-items:center;
-  gap:16px;
-  min-height:96px;
-  padding:10px 0;
+  gap:14px;
+  min-height:92px;
+  padding:8px 0;
 }
 
 .brand-celina{
   flex:0 0 auto;
-  min-width:auto;
-  margin-right:2px;
+  min-width:0 !important;
+  margin:0;
 }
 
 .brand-logo{
-  height:72px;
-  max-width:170px;
+  display:block;
   width:auto;
+  height:72px;
+  max-width:160px;
   object-fit:contain;
 }
 
+/* Botões exatamente ao lado do logo */
 .topbar-actions{
+  position:relative;
   flex:1 1 auto;
+  min-width:0;
   display:flex;
   align-items:center;
-  gap:8px;
-  min-width:0;
-}
-
-.category-select-fallback{
-  display:none !important;
+  gap:7px;
 }
 
 .category-filter-buttons{
@@ -79,109 +75,90 @@ html.category-buttons-ready .category-filter-buttons{
   display:flex;
   flex:1 1 auto;
   min-width:0;
-  gap:6px;
   align-items:stretch;
-  overflow-x:auto;
-  overflow-y:hidden;
-  padding:2px 2px 4px;
-  scrollbar-width:thin;
-  scrollbar-color:#0fc6d1 rgba(3,47,55,.10);
+  gap:6px;
+  overflow:hidden;
 }
 
-html.category-buttons-ready .category-filter-buttons::-webkit-scrollbar{
-  height:7px;
-}
-html.category-buttons-ready .category-filter-buttons::-webkit-scrollbar-track{
-  background:rgba(3,47,55,.07);
-  border-radius:999px;
-}
-html.category-buttons-ready .category-filter-buttons::-webkit-scrollbar-thumb{
-  background:#0fc6d1;
-  border-radius:999px;
-}
-
-.category-filter-btn,
-.topbar-actions .clear-filters{
+/* Botões menores para caber em uma única linha no desktop */
+.category-filter-btn{
+  flex:1 1 0;
+  min-width:0;
+  min-height:38px;
+  padding:5px 6px;
+  border-radius:11px;
   border:2px solid #0fc6d1;
   background:linear-gradient(180deg,#063d46 0%,#011218 100%);
   color:#8ff7fb;
   box-shadow:
-    inset 0 0 0 1px rgba(119,242,247,.10),
-    inset 0 0 12px rgba(15,198,209,.08),
-    0 0 0 1px rgba(0,94,104,.18),
-    0 3px 8px rgba(0,132,143,.10);
+    inset 0 0 0 1px rgba(119,242,247,.08),
+    inset 0 0 10px rgba(15,198,209,.07),
+    0 2px 8px rgba(0,132,143,.10);
+  font-size:.64rem;
+  line-height:1.05;
   font-weight:800;
-  text-align:center;
-  cursor:pointer;
-  transition:
-    transform .16s ease,
-    box-shadow .16s ease,
-    background .16s ease,
-    color .16s ease,
-    border-color .16s ease;
-}
-
-.category-filter-btn{
-  flex:0 0 108px;
-  min-width:108px;
-  max-width:108px;
-  min-height:30px;
-  padding:6px 7px;
-  border-radius:12px;
-  line-height:1.02;
-  font-size:.62rem;
   letter-spacing:0;
+  text-align:center;
   white-space:normal;
   overflow-wrap:anywhere;
-}
-
-.topbar-actions .clear-filters{
-  flex:0 0 auto;
-  min-height:34px;
-  padding:7px 11px;
-  border-radius:12px;
-  white-space:nowrap;
-  font-size:.78rem;
+  cursor:pointer;
+  transition:.16s ease;
 }
 
 .category-filter-btn:hover,
-.category-filter-btn:focus-visible,
-.topbar-actions .clear-filters:hover:not(:disabled),
-.topbar-actions .clear-filters:focus-visible{
+.category-filter-btn:focus-visible{
   transform:translateY(-1px);
-  color:#e1fdff;
-  border-color:#48eef5;
-  background:linear-gradient(180deg,#0b505a 0%,#032129 100%);
+  color:#e4feff;
+  border-color:#4deef5;
+  background:linear-gradient(180deg,#0a505a 0%,#032129 100%);
   box-shadow:
-    inset 0 0 0 1px rgba(198,252,255,.14),
-    inset 0 0 16px rgba(15,198,209,.12),
-    0 0 0 1px rgba(15,198,209,.22),
-    0 0 10px rgba(15,198,209,.20),
-    0 4px 10px rgba(0,92,102,.14);
+    inset 0 0 0 1px rgba(198,252,255,.12),
+    0 0 10px rgba(15,198,209,.22);
   outline:none;
 }
 
 .category-filter-btn.active,
 .category-filter-btn[aria-pressed="true"]{
-  color:#ecfeff;
-  border-color:#70f5fb;
+  color:#efffff;
+  border-color:#72f5fb;
   background:linear-gradient(180deg,#0d5c67 0%,#07313b 100%);
   box-shadow:
-    inset 0 0 0 1px rgba(223,254,255,.18),
-    inset 0 0 18px rgba(15,198,209,.16),
-    0 0 0 1px rgba(15,198,209,.26),
-    0 0 12px rgba(15,198,209,.24),
-    0 4px 12px rgba(0,90,100,.16);
+    inset 0 0 0 1px rgba(223,254,255,.15),
+    0 0 12px rgba(15,198,209,.25);
+}
+
+.topbar-actions .clear-filters{
+  flex:0 0 auto;
+  min-height:38px;
+  padding:6px 10px;
+  border-radius:11px;
+  border:2px solid #0fc6d1;
+  background:linear-gradient(180deg,#063d46 0%,#011218 100%);
+  color:#8ff7fb;
+  box-shadow:
+    inset 0 0 0 1px rgba(119,242,247,.08),
+    0 2px 8px rgba(0,132,143,.10);
+  font-size:.72rem;
+  font-weight:800;
+  white-space:nowrap;
 }
 
 .topbar-actions .clear-filters:disabled{
   opacity:.48;
   cursor:default;
-  transform:none;
 }
 
-.section{
-  padding:0 !important;
+/* Conteúdo começa logo abaixo do cabeçalho */
+.compact-main{
+  padding-top:0;
+}
+
+.compact-catalog{
+  padding:18px 0 28px;
+}
+
+.compact-catalog-container{
+  padding-top:0;
 }
 
 .results-info{
@@ -190,70 +167,76 @@ html.category-buttons-ready .category-filter-buttons::-webkit-scrollbar-thumb{
 
 #recipes{
   margin-top:0;
-  scroll-margin-top:calc(var(--fixed-header-height, 120px) + 10px);
+  scroll-margin-top:calc(var(--fixed-header-height, 100px) + 8px);
 }
 
-@media(max-width:1200px){
-  .topbar-compact{
-    gap:12px;
-  }
-  .brand-logo{
-    height:66px;
-    max-width:155px;
-  }
+/* Em telas médias, reduz ainda mais sem quebrar a linha */
+@media(max-width:1250px){
+  .topbar-compact{gap:10px}
+  .brand-logo{height:64px;max-width:145px}
+  .category-filter-buttons{gap:4px !important}
   .category-filter-btn{
-    flex-basis:100px;
-    min-width:100px;
-    max-width:100px;
-    font-size:.60rem;
+    min-height:36px;
+    padding:4px 4px;
+    font-size:.57rem;
+  }
+  .topbar-actions .clear-filters{
+    min-height:36px;
+    padding:5px 8px;
+    font-size:.66rem;
   }
 }
 
+/* Tablet/celular: mantém categorias utilizáveis com rolagem horizontal */
 @media(max-width:900px){
   .topbar-compact{
-    flex-direction:column;
-    align-items:flex-start;
-    min-height:auto;
+    gap:10px;
+    min-height:82px;
   }
-
-  .topbar-actions{
-    width:100%;
-  }
-
   .brand-logo{
-    height:60px;
-    max-width:145px;
+    height:58px;
+    max-width:132px;
   }
-
+  html.category-buttons-ready .category-filter-buttons{
+    overflow-x:auto;
+    scrollbar-width:thin;
+    scrollbar-color:#0fc6d1 transparent;
+  }
   .category-filter-btn{
-    flex-basis:96px;
-    min-width:96px;
-    max-width:96px;
+    flex:0 0 92px;
+    min-width:92px;
+    font-size:.58rem;
   }
 }
 
 @media(max-width:520px){
-  .compact-catalog{
-    padding:8px 0 20px;
+  .container{
+    width:min(100% - 16px,1180px);
   }
-
+  .topbar-compact{
+    align-items:center;
+    gap:7px;
+    min-height:72px;
+    padding:6px 0;
+  }
   .brand-logo{
-    height:52px;
-    max-width:130px;
+    height:48px;
+    max-width:110px;
   }
-
+  .topbar-actions{gap:5px}
   .category-filter-btn{
-    flex-basis:92px;
-    min-width:92px;
-    max-width:92px;
-    min-height:28px;
-    padding:5px 6px;
-    font-size:.56rem;
+    flex-basis:84px;
+    min-width:84px;
+    min-height:32px;
+    font-size:.53rem;
+    padding:4px 5px;
   }
-
   .topbar-actions .clear-filters{
     min-height:32px;
-    padding:7px 9px;
-    font-size:.72rem;
+    font-size:.62rem;
+    padding:5px 7px;
+  }
+  .compact-catalog{
+    padding:12px 0 20px;
   }
 }
