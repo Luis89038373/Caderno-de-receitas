@@ -1,3 +1,16 @@
-/* V13.14 — moldura completamente removida.
-   Arquivo mantido vazio apenas por compatibilidade.
+/* V13.15 — BLOQUEIO DEFINITIVO DA MOLDURA
+   Neutraliza qualquer versão antiga da moldura que ainda esteja em cache
+   ou qualquer referência residual a body::before.
 */
+html body::before,
+body::before{
+  content:none !important;
+  display:none !important;
+  visibility:hidden !important;
+  opacity:0 !important;
+  background:none !important;
+  background-image:none !important;
+  border:0 !important;
+  border-image:none !important;
+  box-shadow:none !important;
+}

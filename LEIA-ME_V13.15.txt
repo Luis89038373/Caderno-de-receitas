@@ -1,0 +1,19 @@
+CADERNO DE RECEITAS — V13.15 — BLOQUEIO DEFINITIVO DA MOLDURA
+
+DIAGNÓSTICO:
+O repositório já não chama kitchen-frame.css, mas o GitHub Pages/navegador ainda pode
+estar entregando uma versão antiga em cache. Por isso a moldura ainda apareceu.
+
+CORREÇÃO:
+1. Todas as páginas recebem um bloqueio inline contra body::before.
+2. kitchen-frame.css também passa a ser um "kill switch":
+   se uma página antiga ainda o carregar, ele desliga a moldura.
+3. A regra usa !important para vencer qualquer CSS antigo.
+
+ARQUIVOS:
+- index.html
+- catalogo.html
+- receita.html
+- acervo.html
+- 404.html
+- assets/css/kitchen-frame.css
