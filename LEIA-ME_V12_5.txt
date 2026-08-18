@@ -1,0 +1,16 @@
+ATUALIZAÇÃO V12.5 — QUEIJADINHA E EXCLUSÕES
+
+Base esperada: V12.4.
+
+Incluído:
+- nova foto tratada da REC-0011 — Queijadinha;
+- exclusão da REC-0035;
+- exclusão da REC-0088;
+- renumeração final para 87 receitas;
+- cabeçalho fixo e filtros preservados;
+- nenhuma imagem nova foi gerada.
+
+GitHub Desktop:
+Summary sugerido: V12.5 - Queijadinha, exclusões e renumeração
+Commit to main
+Push origin

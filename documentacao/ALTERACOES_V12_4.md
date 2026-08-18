@@ -1,25 +1,23 @@
 # ALTERAÇÕES V12.4
 
 ## Exclusões
-- REC-0090
-- REC-0091
+- REC-0090 removida.
+- REC-0091 removida.
 
-## Fotos
-- REC-0004 — nova foto local tratada.
-- REC-0042 — mesma foto no card e na ficha.
-- REC-0069 — nova foto tratada.
-- REC-0089 — mesma foto no card e na ficha, com novo arquivo para eliminar cache.
+## Catálogo
+- Total atualizado: 89 receitas.
+- Sequência contínua preservada de REC-0001 até REC-0089.
 
-## Cabeçalho
-- Mantido o bloco completo fixo no topo:
-  - menu;
-  - busca;
-  - categoria;
-  - status;
-  - Limpar filtros.
-- Reforço de `position: fixed` e compensação automática de altura.
+## Fotos tratadas/atualizadas
+- REC-0004 — Recheio de Leite Ninho (foto ausente corrigida)
+- REC-0042 — Cajuzinho
+- REC-0069 — Recheio de Leite em Pó
+- REC-0089 — Recheio de Coco
 
-## Resultado
-- 89 receitas.
-- IDs finais: REC-0001 a REC-0089.
+## Consistência de exibição
+- REC-0042: mesma imagem no card e na página interna.
+- REC-0089: mesma imagem no card e na página interna.
+
+## Observação
 - Nenhuma imagem nova foi gerada.
+- Foram usadas apenas imagens fornecidas pelo usuário, com tratamento técnico leve.

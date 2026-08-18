@@ -407,17 +407,3 @@ body.fixed-header-ready #site-nav .topbar{
   position:relative !important;
   width:100%;
 }
-
-
-/* V12.4 — reforço final do cabeçalho fixo */
-body.fixed-header-ready #site-nav{
-  position:fixed !important;
-  top:0 !important;
-  left:0 !important;
-  right:0 !important;
-  width:100% !important;
-  z-index:5000 !important;
-}
-body.fixed-header-ready{
-  padding-top:var(--fixed-header-height, 0px) !important;
-}

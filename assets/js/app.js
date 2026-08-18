@@ -1,7 +1,7 @@
 
 const $ = (s, root=document) => root.querySelector(s);
 const $$ = (s, root=document) => [...root.querySelectorAll(s)];
-const SITE_ASSET_VERSION='v12.4-20260818';
+const SITE_ASSET_VERSION='v12.5-20260818';
 function versionedURL(url){
   const value=String(url??'');
   if(!value || /^(https?:|data:|blob:)/i.test(value)) return value;

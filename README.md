@@ -1,4 +1,4 @@
-# Caderno de Receitas da Família — V12.4
+# Caderno de Receitas da Família — V12.5
 
 # Caderno de Receitas da Família
 
@@ -168,5 +168,13 @@ Use:
 - REC-0069 recebeu a nova foto tratada enviada pela família.
 - REC-0089 foi reforçada para usar a mesma foto no card e na ficha, com novo nome de arquivo para eliminar cache antigo.
 - Cabeçalho fixo foi mantido e reforçado.
+- Nenhuma imagem nova foi gerada.
+
+## V12.5 — foto da Queijadinha e novas exclusões
+- REC-0011 — Queijadinha recebeu a nova foto fornecida pela família, tratada apenas com recorte e ajustes técnicos.
+- Excluídas as receitas REC-0035 e REC-0088 da base V12.4.
+- Após as exclusões, foi feita uma única renumeração sequencial.
+- Catálogo final com 87 receitas, REC-0001 a REC-0087.
+- O cabeçalho fixo, filtros e botão Limpar filtros da versão anterior foram preservados.
 - Nenhuma imagem nova foi gerada.
 

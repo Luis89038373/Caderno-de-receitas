@@ -234,10 +234,10 @@
     },
     "imagem": {
       "tipo": "referencia_fornecida_usuario_tratada",
-      "url": "images/receitas/recheio-leite-ninho-v124.png",
+      "url": "images/receitas/recheio-de-leite-ninho-tratada-v2.png",
       "fonte": "",
       "credito": "Imagem de referência indicada pela família",
-      "observacao": "Imagem tratada apenas com recorte, enquadramento e ajustes leves de qualidade. Nenhuma imagem nova foi gerada."
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     }
   },
   {
@@ -626,11 +626,11 @@
       ]
     },
     "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/U7U4OPPETZOU3I4R4OYG2BWOOE.jpg?auth=d78a1664e930c3684243a0066c562201f6f54f3a7b33f563cf53957906ba4db6&height=630&smart=true&width=1200",
-      "fonte": "https://entretenimento.r7.com/receitas/receitas-de-pesos/delicie-se-com-as-melhores-sobremesas-brasileiras-brigadeiro-beijinho-e-cajuzinho-16032024/",
-      "credito": "Imagem ilustrativa externa — doces brasileiros",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
+      "tipo": "referencia_fornecida_usuario_tratada",
+      "url": "images/receitas/queijadinha-v125.png",
+      "fonte": "",
+      "credito": "Imagem de referência indicada pela família",
+      "observacao": "Imagem tratada apenas com recorte, enquadramento e ajustes leves de qualidade. Nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0012"
   },
@@ -1888,61 +1888,6 @@
   {
     "id": "REC-0035",
     "numero": 35,
-    "titulo": "Creme Branco para Frutas",
-    "slug": "creme-branco-para-frutas",
-    "categoria": "Doces e Sobremesas",
-    "status": "publicada",
-    "contexto": "Creme Branco para Frutas é uma preparação versátil para completar bolos, tortas e outras sobremesas. A receita foi organizada em uma ficha objetiva e elegante, mantendo o conteúdo do caderno e destacando ingredientes, preparo e observações importantes.",
-    "ingredientes": [
-      {
-        "quantidade": "1 1/2 lata medida",
-        "item": "leite de vaca"
-      },
-      {
-        "quantidade": "2 latas",
-        "item": "leite condensado"
-      },
-      {
-        "quantidade": "3 colheres",
-        "item": "maisena, dissolvida em 1/2 lata de leite"
-      },
-      {
-        "quantidade": "2 latas",
-        "item": "creme de leite"
-      },
-      {
-        "quantidade": "1 lata",
-        "item": "pêssego em calda picado"
-      }
-    ],
-    "preparo": [
-      "Levar ao fogo o leite e o leite condensado.",
-      "Quando ferver, acrescentar a maisena dissolvida e mexer até engrossar.",
-      "Desligar o fogo e adicionar o creme de leite.",
-      "Usar com frutas cozidas, conforme observação do caderno."
-    ],
-    "dicas": [
-      "A anotação recomenda que as frutas sejam previamente cozidas."
-    ],
-    "origem": {
-      "tipo": "caderno_manuscrito",
-      "descricao": "Receita transcrita das fotografias do caderno da família.",
-      "imagens": [
-        "images/manuscritos/IMG_7118.jpeg"
-      ]
-    },
-    "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://static.itdg.com.br/images/640-400/ebe17f9b3f6de8a62e5d01484f94dfed/creme-facil-para-recheio-de-bolo.jpg",
-      "fonte": "https://www.tudogostoso.com.br/receita/303246-creme-facil-para-recheio-de-bolo.html",
-      "credito": "Imagem ilustrativa externa — creme para recheio de bolo",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
-    },
-    "id_anterior_v3": "REC-0060"
-  },
-  {
-    "id": "REC-0036",
-    "numero": 36,
     "titulo": "Bolo de Fubá Cremoso",
     "slug": "bolo-de-fuba-cremoso",
     "categoria": "Bolos e Tortas",
@@ -2015,8 +1960,8 @@
     "id_anterior_v3": "REC-0063"
   },
   {
-    "id": "REC-0037",
-    "numero": 37,
+    "id": "REC-0036",
+    "numero": 36,
     "titulo": "Biliscão",
     "slug": "biliscao",
     "categoria": "Biscoitos e Bolachas",
@@ -2085,8 +2030,8 @@
     "id_anterior_v3": "REC-0064"
   },
   {
-    "id": "REC-0038",
-    "numero": 38,
+    "id": "REC-0037",
+    "numero": 37,
     "titulo": "Pudim de Leite em Pó",
     "slug": "pudim-de-leite-em-po",
     "categoria": "Pudins e Doces de Forno",
@@ -2136,8 +2081,8 @@
     "id_anterior_v3": "REC-0065"
   },
   {
-    "id": "REC-0039",
-    "numero": 39,
+    "id": "REC-0038",
+    "numero": 38,
     "titulo": "Pudim de Leite Condensado",
     "slug": "pudim-de-leite-condensado",
     "categoria": "Pudins e Doces de Forno",
@@ -2184,8 +2129,8 @@
     "id_anterior_v3": "REC-0066"
   },
   {
-    "id": "REC-0040",
-    "numero": 40,
+    "id": "REC-0039",
+    "numero": 39,
     "titulo": "Creme Firme para Bolo",
     "slug": "creme-firme-para-bolo",
     "categoria": "Recheios e Coberturas",
@@ -2230,8 +2175,8 @@
     "id_anterior_v3": "REC-0067"
   },
   {
-    "id": "REC-0041",
-    "numero": 41,
+    "id": "REC-0040",
+    "numero": 40,
     "titulo": "Recheio Creme 4 Leites",
     "slug": "recheio-creme-4-leites",
     "categoria": "Recheios e Coberturas",
@@ -2280,8 +2225,8 @@
     "id_anterior_v3": "REC-0068"
   },
   {
-    "id": "REC-0042",
-    "numero": 42,
+    "id": "REC-0041",
+    "numero": 41,
     "titulo": "Cajuzinho",
     "slug": "cajuzinho",
     "categoria": "Doces e Sobremesas",
@@ -2324,16 +2269,16 @@
     },
     "imagem": {
       "tipo": "referencia_fornecida_usuario_tratada",
-      "url": "images/receitas/cajuzinho-v124.png",
+      "url": "images/receitas/cajuzinho-tratada-v2.png",
       "fonte": "",
       "credito": "Imagem de referência indicada pela família",
-      "observacao": "Imagem tratada apenas com recorte, enquadramento e ajustes leves de qualidade. Nenhuma imagem nova foi gerada."
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0070"
   },
   {
-    "id": "REC-0043",
-    "numero": 43,
+    "id": "REC-0042",
+    "numero": 42,
     "titulo": "Chantilly com Chocolate Branco",
     "slug": "chantilly-com-chocolate-branco",
     "categoria": "Recheios e Coberturas",
@@ -2384,8 +2329,8 @@
     "id_anterior_v3": "REC-0071"
   },
   {
-    "id": "REC-0044",
-    "numero": 44,
+    "id": "REC-0043",
+    "numero": 43,
     "titulo": "Quibe — Variante 2",
     "slug": "quibe-variante-2",
     "categoria": "Salgados e Massas",
@@ -2446,8 +2391,8 @@
     "id_anterior_v3": "REC-0073"
   },
   {
-    "id": "REC-0045",
-    "numero": 45,
+    "id": "REC-0044",
+    "numero": 44,
     "titulo": "Bolo de Chocolate da Celina",
     "slug": "bolo-de-chocolate-da-celina",
     "categoria": "Bolos e Tortas",
@@ -2505,8 +2450,8 @@
     "id_anterior_v3": "REC-0075"
   },
   {
-    "id": "REC-0046",
-    "numero": 46,
+    "id": "REC-0045",
+    "numero": 45,
     "titulo": "Ganache de Chocolate",
     "slug": "ganache-de-chocolate",
     "categoria": "Recheios e Coberturas",
@@ -2543,8 +2488,8 @@
     "id_anterior_v3": "REC-0079"
   },
   {
-    "id": "REC-0047",
-    "numero": 47,
+    "id": "REC-0046",
+    "numero": 46,
     "titulo": "Creme de Limão",
     "slug": "creme-de-limao",
     "categoria": "Doces e Sobremesas",
@@ -2583,8 +2528,8 @@
     "id_anterior_v3": "REC-0080"
   },
   {
-    "id": "REC-0048",
-    "numero": 48,
+    "id": "REC-0047",
+    "numero": 47,
     "titulo": "Glacê com Emulsificante",
     "slug": "glace-com-emulsificante",
     "categoria": "Recheios e Coberturas",
@@ -2631,8 +2576,8 @@
     "id_anterior_v3": "REC-0081"
   },
   {
-    "id": "REC-0049",
-    "numero": 49,
+    "id": "REC-0048",
+    "numero": 48,
     "titulo": "Rosca Doce",
     "slug": "rosca-doce",
     "categoria": "Pães e Roscas",
@@ -2694,8 +2639,8 @@
     "id_anterior_v3": "REC-0083"
   },
   {
-    "id": "REC-0050",
-    "numero": 50,
+    "id": "REC-0049",
+    "numero": 49,
     "titulo": "Bananinha (Receita da Graça)",
     "slug": "bananinha-receita-da-graca",
     "categoria": "Doces e Sobremesas",
@@ -2741,8 +2686,8 @@
     "id_anterior_v3": "REC-0084"
   },
   {
-    "id": "REC-0051",
-    "numero": 51,
+    "id": "REC-0050",
+    "numero": 50,
     "titulo": "Rosca Espiral (Fatias Húngaras)",
     "slug": "rosca-espiral-fatias-hungaras",
     "categoria": "Pães e Roscas",
@@ -2808,8 +2753,8 @@
     "id_anterior_v3": "REC-0085"
   },
   {
-    "id": "REC-0052",
-    "numero": 52,
+    "id": "REC-0051",
+    "numero": 51,
     "titulo": "Leite Condensado Caseiro",
     "slug": "leite-condensado-caseiro",
     "categoria": "Doces e Sobremesas",
@@ -2860,8 +2805,8 @@
     "id_anterior_v3": "REC-0087"
   },
   {
-    "id": "REC-0053",
-    "numero": 53,
+    "id": "REC-0052",
+    "numero": 52,
     "titulo": "Pudim de Pão (Pão Velho)",
     "slug": "pudim-de-pao-pao-velho",
     "categoria": "Pudins e Doces de Forno",
@@ -2914,8 +2859,8 @@
     "id_anterior_v3": "REC-0089"
   },
   {
-    "id": "REC-0054",
-    "numero": 54,
+    "id": "REC-0053",
+    "numero": 53,
     "titulo": "Brigadeiro",
     "slug": "brigadeiro",
     "categoria": "Doces e Sobremesas",
@@ -2966,8 +2911,8 @@
     "id_anterior_v3": "REC-0092"
   },
   {
-    "id": "REC-0055",
-    "numero": 55,
+    "id": "REC-0054",
+    "numero": 54,
     "titulo": "Feijoada Carioca",
     "slug": "feijoada-carioca",
     "categoria": "Pratos Salgados",
@@ -3033,8 +2978,8 @@
     "id_anterior_v3": "REC-0093"
   },
   {
-    "id": "REC-0056",
-    "numero": 56,
+    "id": "REC-0055",
+    "numero": 55,
     "titulo": "Pavê de Pêssego",
     "slug": "pave-de-pessego",
     "categoria": "Bolos e Tortas",
@@ -3103,8 +3048,8 @@
     "id_anterior_v3": "REC-0094"
   },
   {
-    "id": "REC-0057",
-    "numero": 57,
+    "id": "REC-0056",
+    "numero": 56,
     "titulo": "Coxinha",
     "slug": "coxinha",
     "categoria": "Salgados e Massas",
@@ -3153,8 +3098,8 @@
     "id_anterior_v3": "REC-0095"
   },
   {
-    "id": "REC-0058",
-    "numero": 58,
+    "id": "REC-0057",
+    "numero": 57,
     "titulo": "Bolo de Laranja",
     "slug": "bolo-de-laranja",
     "categoria": "Bolos e Tortas",
@@ -3211,8 +3156,8 @@
     "id_anterior_v3": "REC-0097"
   },
   {
-    "id": "REC-0059",
-    "numero": 59,
+    "id": "REC-0058",
+    "numero": 58,
     "titulo": "Bolo de Fubá",
     "slug": "bolo-de-fuba",
     "categoria": "Bolos e Tortas",
@@ -3274,8 +3219,8 @@
     "id_anterior_v3": "REC-0098"
   },
   {
-    "id": "REC-0060",
-    "numero": 60,
+    "id": "REC-0059",
+    "numero": 59,
     "titulo": "Esfirra Habib's",
     "slug": "esfirra-habib-s",
     "categoria": "Salgados e Massas",
@@ -3331,8 +3276,8 @@
     "id_anterior_v3": "REC-0100"
   },
   {
-    "id": "REC-0061",
-    "numero": 61,
+    "id": "REC-0060",
+    "numero": 60,
     "titulo": "Pão de Ló — Variante 2",
     "slug": "pao-de-lo-variante-2",
     "categoria": "Pães e Roscas",
@@ -3389,8 +3334,8 @@
     "id_anterior_v3": "REC-0101"
   },
   {
-    "id": "REC-0062",
-    "numero": 62,
+    "id": "REC-0061",
+    "numero": 61,
     "titulo": "Bolo de Milho",
     "slug": "bolo-de-milho",
     "categoria": "Bolos e Tortas",
@@ -3447,8 +3392,8 @@
     "id_anterior_v3": "REC-0102"
   },
   {
-    "id": "REC-0063",
-    "numero": 63,
+    "id": "REC-0062",
+    "numero": 62,
     "titulo": "Bolo Nega Maluca",
     "slug": "bolo-nega-maluca",
     "categoria": "Bolos e Tortas",
@@ -3505,8 +3450,8 @@
     "id_anterior_v3": "REC-0103"
   },
   {
-    "id": "REC-0064",
-    "numero": 64,
+    "id": "REC-0063",
+    "numero": 63,
     "titulo": "Pé de Moleque",
     "slug": "pe-de-moleque",
     "categoria": "Doces e Sobremesas",
@@ -3556,8 +3501,8 @@
     "id_anterior_v3": "REC-0104"
   },
   {
-    "id": "REC-0065",
-    "numero": 65,
+    "id": "REC-0064",
+    "numero": 64,
     "titulo": "Bolo de Cenoura",
     "slug": "bolo-de-cenoura",
     "categoria": "Bolos e Tortas",
@@ -3615,8 +3560,8 @@
     "id_anterior_v3": "REC-0105"
   },
   {
-    "id": "REC-0066",
-    "numero": 66,
+    "id": "REC-0065",
+    "numero": 65,
     "titulo": "Risoles",
     "slug": "risoles",
     "categoria": "Salgados e Massas",
@@ -3671,8 +3616,8 @@
     "id_anterior_v3": "REC-0108"
   },
   {
-    "id": "REC-0067",
-    "numero": 67,
+    "id": "REC-0066",
+    "numero": 66,
     "titulo": "Doce de Mamão (Márcia)",
     "slug": "doce-de-mamao-marcia",
     "categoria": "Doces e Sobremesas",
@@ -3718,8 +3663,8 @@
     "id_anterior_v3": "REC-0109"
   },
   {
-    "id": "REC-0068",
-    "numero": 68,
+    "id": "REC-0067",
+    "numero": 67,
     "titulo": "Pizza de Liquidificador",
     "slug": "pizza-de-liquidificador",
     "categoria": "Salgados e Massas",
@@ -3775,8 +3720,8 @@
     "id_anterior_v3": "REC-0110"
   },
   {
-    "id": "REC-0069",
-    "numero": 69,
+    "id": "REC-0068",
+    "numero": 68,
     "titulo": "Recheio de Leite em Pó",
     "slug": "recheio-de-leite-em-po",
     "categoria": "Recheios e Coberturas",
@@ -3814,16 +3759,16 @@
     },
     "imagem": {
       "tipo": "referencia_fornecida_usuario_tratada",
-      "url": "images/receitas/bolo-com-creme-v124.png",
+      "url": "images/receitas/recheio-leite-em-po-tratada-v2.png",
       "fonte": "",
       "credito": "Imagem de referência indicada pela família",
-      "observacao": "Imagem tratada apenas com recorte, enquadramento e ajustes leves de qualidade. Nenhuma imagem nova foi gerada."
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0111"
   },
   {
-    "id": "REC-0070",
-    "numero": 70,
+    "id": "REC-0069",
+    "numero": 69,
     "titulo": "Bolo de Chocolate",
     "slug": "bolo-de-chocolate",
     "categoria": "Bolos e Tortas",
@@ -3883,8 +3828,8 @@
     "id_anterior_v3": "REC-0114"
   },
   {
-    "id": "REC-0071",
-    "numero": 71,
+    "id": "REC-0070",
+    "numero": 70,
     "titulo": "Esfirra",
     "slug": "esfirra",
     "categoria": "Salgados e Massas",
@@ -3952,8 +3897,8 @@
     "id_anterior_v3": "REC-0117"
   },
   {
-    "id": "REC-0072",
-    "numero": 72,
+    "id": "REC-0071",
+    "numero": 71,
     "titulo": "Pão de Queijo",
     "slug": "pao-de-queijo",
     "categoria": "Pães e Roscas",
@@ -4009,8 +3954,8 @@
     "id_anterior_v3": "REC-0118"
   },
   {
-    "id": "REC-0073",
-    "numero": 73,
+    "id": "REC-0072",
+    "numero": 72,
     "titulo": "Creme de Queijo",
     "slug": "creme-de-queijo",
     "categoria": "Molhos e Cremes",
@@ -4061,8 +4006,8 @@
     "id_anterior_v3": "REC-0119"
   },
   {
-    "id": "REC-0074",
-    "numero": 74,
+    "id": "REC-0073",
+    "numero": 73,
     "titulo": "Pão",
     "slug": "pao",
     "categoria": "Pães e Roscas",
@@ -4120,8 +4065,8 @@
     "id_anterior_v3": "REC-0120"
   },
   {
-    "id": "REC-0075",
-    "numero": 75,
+    "id": "REC-0074",
+    "numero": 74,
     "titulo": "Bolo Toalha Felpudo",
     "slug": "bolo-toalha-felpudo",
     "categoria": "Bolos e Tortas",
@@ -4194,8 +4139,8 @@
     "id_anterior_v3": "REC-0122"
   },
   {
-    "id": "REC-0076",
-    "numero": 76,
+    "id": "REC-0075",
+    "numero": 75,
     "titulo": "Bacalhau com Broa de Milho",
     "slug": "bacalhau-com-broa-de-milho",
     "categoria": "Pratos Salgados",
@@ -4265,8 +4210,8 @@
     "id_anterior_v3": "REC-0123"
   },
   {
-    "id": "REC-0077",
-    "numero": 77,
+    "id": "REC-0076",
+    "numero": 76,
     "titulo": "Pudim de Bar da Lourdes",
     "slug": "pudim-de-bar-da-lourdes",
     "categoria": "Pudins e Doces de Forno",
@@ -4322,8 +4267,8 @@
     "id_anterior_v3": "REC-0124"
   },
   {
-    "id": "REC-0078",
-    "numero": 78,
+    "id": "REC-0077",
+    "numero": 77,
     "titulo": "Pão de Forma (Doce/Salgado)",
     "slug": "pao-de-forma-doce-salgado",
     "categoria": "Pães e Roscas",
@@ -4389,8 +4334,8 @@
     "id_anterior_v3": "REC-0125"
   },
   {
-    "id": "REC-0079",
-    "numero": 79,
+    "id": "REC-0078",
+    "numero": 78,
     "titulo": "Quindim",
     "slug": "quindim",
     "categoria": "Pudins e Doces de Forno",
@@ -4445,8 +4390,8 @@
     "id_anterior_v3": "REC-0126"
   },
   {
-    "id": "REC-0080",
-    "numero": 80,
+    "id": "REC-0079",
+    "numero": 79,
     "titulo": "Bolo de Iogurte Natural",
     "slug": "bolo-de-iogurte-natural",
     "categoria": "Bolos e Tortas",
@@ -4502,8 +4447,8 @@
     "id_anterior_v3": "REC-0128"
   },
   {
-    "id": "REC-0081",
-    "numero": 81,
+    "id": "REC-0080",
+    "numero": 80,
     "titulo": "Fatias Húngaras / Rosca Estrela — Variante 2",
     "slug": "fatias-hungaras-rosca-estrela-variante-2",
     "categoria": "Pães e Roscas",
@@ -4607,8 +4552,8 @@
     "id_anterior_v3": "REC-0129"
   },
   {
-    "id": "REC-0082",
-    "numero": 82,
+    "id": "REC-0081",
+    "numero": 81,
     "titulo": "Pão Caseiro Baguete",
     "slug": "pao-caseiro-baguete",
     "categoria": "Pães e Roscas",
@@ -4685,8 +4630,8 @@
     "id_anterior_v3": "REC-0130"
   },
   {
-    "id": "REC-0083",
-    "numero": 83,
+    "id": "REC-0082",
+    "numero": 82,
     "titulo": "Torta Salgada",
     "slug": "torta-salgada",
     "categoria": "Salgados e Massas",
@@ -4775,8 +4720,8 @@
     "id_anterior_v3": "REC-0131"
   },
   {
-    "id": "REC-0084",
-    "numero": 84,
+    "id": "REC-0083",
+    "numero": 83,
     "titulo": "Esfiha — Variante 2",
     "slug": "esfiha-variante-2",
     "categoria": "Salgados e Massas",
@@ -4868,8 +4813,8 @@
     "id_anterior_v3": "REC-0133"
   },
   {
-    "id": "REC-0085",
-    "numero": 85,
+    "id": "REC-0084",
+    "numero": 84,
     "titulo": "Sonho",
     "slug": "sonho",
     "categoria": "Doces e Sobremesas",
@@ -4960,8 +4905,8 @@
     "id_anterior_v3": "REC-0137"
   },
   {
-    "id": "REC-0086",
-    "numero": 86,
+    "id": "REC-0085",
+    "numero": 85,
     "titulo": "Bolo de Mel e Chocolate",
     "slug": "bolo-de-mel-e-chocolate",
     "categoria": "Bolos e Tortas",
@@ -5038,8 +4983,8 @@
     "id_anterior_v3": "REC-0138"
   },
   {
-    "id": "REC-0087",
-    "numero": 87,
+    "id": "REC-0086",
+    "numero": 86,
     "titulo": "Recheio Creme Branco com Bombom",
     "slug": "recheio-creme-branco-com-bombom",
     "categoria": "Recheios e Coberturas",
@@ -5093,62 +5038,8 @@
     "id_anterior_v3": null
   },
   {
-    "id": "REC-0088",
-    "numero": 88,
-    "titulo": "Recheio de Chocolate Branco com Bombom",
-    "slug": "recheio-de-chocolate-branco-com-bombom",
-    "categoria": "Recheios e Coberturas",
-    "status": "publicada",
-    "contexto": "Recheio de Chocolate Branco com Bombom é uma preparação versátil para completar bolos, tortas e outras sobremesas. A receita foi organizada em uma ficha objetiva e elegante, mantendo o conteúdo do caderno e destacando ingredientes, preparo e observações importantes.",
-    "ingredientes": [
-      {
-        "quantidade": "1 lata",
-        "item": "leite condensado"
-      },
-      {
-        "quantidade": "1 caixa",
-        "item": "creme de leite"
-      },
-      {
-        "quantidade": "1 colher",
-        "item": "margarina"
-      },
-      {
-        "quantidade": "100 g",
-        "item": "chocolate branco picado"
-      },
-      {
-        "quantidade": "3 + 3 unidades",
-        "item": "bombons picados (total indicado: 6)"
-      }
-    ],
-    "preparo": [
-      "Preparar o creme com leite condensado, creme de leite, margarina e chocolate branco.",
-      "Deixar esfriar por cerca de 4 horas, conforme anotação.",
-      "Depois de frio, acrescentar 3 bombons picados; o caderno indica 6 bombons no total."
-    ],
-    "dicas": [
-      "Transcrição organizada a partir da anotação manuscrita."
-    ],
-    "origem": {
-      "tipo": "caderno_manuscrito",
-      "descricao": "Receita adicional identificada em página que contém mais de uma preparação.",
-      "imagens": [
-        "images/manuscritos/IMG_7100.jpeg"
-      ]
-    },
-    "imagem": {
-      "tipo": "referencia_fornecida_usuario_tratada",
-      "url": "images/receitas/recheio-chocolate-branco-com-bombom-tratada.png",
-      "fonte": "",
-      "credito": "Imagem de referência indicada pela família",
-      "observacao": "Imagem tratada antes da publicação para melhorar o enquadramento e remover elementos de print, sem gerar uma imagem nova."
-    },
-    "id_anterior_v3": null
-  },
-  {
-    "id": "REC-0089",
-    "numero": 89,
+    "id": "REC-0087",
+    "numero": 87,
     "titulo": "Recheio de Coco",
     "slug": "recheio-de-coco",
     "categoria": "Recheios e Coberturas",
@@ -5179,10 +5070,10 @@
     },
     "imagem": {
       "tipo": "referencia_fornecida_usuario_tratada",
-      "url": "images/receitas/recheio-coco-v124.png",
+      "url": "images/receitas/recheio-de-coco-tratada-v2.png",
       "fonte": "",
       "credito": "Imagem de referência indicada pela família",
-      "observacao": "Imagem tratada apenas com recorte, enquadramento e ajustes leves de qualidade. Nenhuma imagem nova foi gerada."
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": null
   }
