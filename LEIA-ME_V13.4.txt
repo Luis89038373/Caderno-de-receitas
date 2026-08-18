@@ -1,0 +1,16 @@
+CADERNO DE RECEITAS — V13.4
+
+PC:
+- preservado como aprovado.
+
+CELULAR:
+- corrigido o corte dos botões;
+- até 600 px os botões usam grade de 4 colunas ao lado do logo;
+- todos ficam visíveis, sem rolagem e sem corte;
+- logo reduzido apenas no celular;
+- indicador CELULAR/PC continua ativo para teste.
+
+ARQUIVOS:
+- index.html
+- catalogo.html
+- assets/css/category-filters.css

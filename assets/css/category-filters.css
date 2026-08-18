@@ -1,6 +1,8 @@
-/* V13.2 — remover visualmente "Limpar" e redistribuir espaço entre categorias
-   O botão #clear-filters continua no HTML apenas por compatibilidade com app.js,
-   mas fica invisível. O botão "Todas" passa a cumprir a função de limpar o filtro.
+/* V13.4 — PC preservado; celular sem corte dos botões
+   - PC mantém a faixa horizontal aprovada.
+   - No celular (até 600px), os botões passam a usar grade compacta ao lado do logo.
+   - Nenhum botão fica cortado.
+   - "Limpar" continua invisível; "Todas" volta ao catálogo completo.
 */
 
 /* Elementos antigos removidos da interface */
@@ -30,7 +32,7 @@
   white-space:nowrap !important;
 }
 
-/* "Limpar" retirado da tela. Mantido tecnicamente para o app.js. */
+/* "Limpar" retirado da tela, mantido apenas para compatibilidade */
 .topbar-actions .clear-filters{
   position:absolute !important;
   width:1px !important;
@@ -85,7 +87,6 @@
   align-items:center;
 }
 
-/* Categorias ao lado do logo */
 .category-filter-buttons{
   display:none;
 }
@@ -99,7 +100,7 @@ html.category-buttons-ready .category-filter-buttons{
   overflow:hidden;
 }
 
-/* Desktop: o espaço que era do "Limpar" é redistribuído entre todos os botões */
+/* PC */
 .category-filter-btn{
   flex:1 1 0;
   min-width:0;
@@ -147,22 +148,10 @@ html.category-buttons-ready .category-filter-buttons{
 }
 
 /* Conteúdo */
-.compact-main{
-  padding-top:0;
-}
-
-.compact-catalog{
-  padding:14px 0 28px;
-}
-
-.compact-catalog-container{
-  padding-top:0;
-}
-
-.results-info{
-  display:none !important;
-}
-
+.compact-main{padding-top:0}
+.compact-catalog{padding:14px 0 28px}
+.compact-catalog-container{padding-top:0}
+.results-info{display:none !important}
 #recipes{
   margin-top:0;
   scroll-margin-top:calc(var(--fixed-header-height, 100px) + 8px);
@@ -174,16 +163,13 @@ html.category-buttons-ready .category-filter-buttons{
     gap:9px;
     min-height:78px;
   }
-
   .brand-logo{
     height:60px;
     max-width:138px;
   }
-
   html.category-buttons-ready .category-filter-buttons{
     gap:5px;
   }
-
   .category-filter-btn{
     min-height:35px;
     padding:5px 5px;
@@ -191,19 +177,17 @@ html.category-buttons-ready .category-filter-buttons{
   }
 }
 
-/* Tablet: rolagem horizontal somente se faltar espaço */
-@media(max-width:900px){
+/* Tablet */
+@media(min-width:601px) and (max-width:1000px){
   .topbar-compact{
     gap:7px;
     min-height:72px;
     padding:6px 0;
   }
-
   .brand-logo{
     height:50px;
     max-width:118px;
   }
-
   html.category-buttons-ready .category-filter-buttons{
     overflow-x:auto;
     scrollbar-width:thin;
@@ -211,7 +195,6 @@ html.category-buttons-ready .category-filter-buttons{
     gap:4px;
     padding:1px 1px 3px;
   }
-
   .category-filter-btn{
     flex:0 0 82px;
     min-width:82px;
@@ -223,67 +206,94 @@ html.category-buttons-ready .category-filter-buttons{
   }
 }
 
-/* Celular */
-@media(max-width:520px){
+/* CELULAR — sem corte.
+   Logo ocupa uma coluna estreita e TODOS os botões ficam visíveis em grade
+   na área à direita do logo. */
+@media(max-width:600px){
   .container{
-    width:min(100% - 12px,1180px);
+    width:min(100% - 10px,1180px);
   }
 
   .topbar-compact{
-    gap:5px;
-    min-height:60px;
-    padding:4px 0;
+    display:grid;
+    grid-template-columns:64px minmax(0,1fr);
+    align-items:center;
+    column-gap:5px;
+    min-height:auto;
+    padding:5px 0;
+  }
+
+  .brand-celina{
+    width:64px;
+    align-self:center;
+    justify-self:start;
   }
 
   .brand-logo{
-    height:39px;
-    max-width:90px;
+    width:64px;
+    height:auto;
+    max-width:64px;
+  }
+
+  .topbar-actions{
+    width:100%;
+    min-width:0;
+    display:block;
   }
 
   html.category-buttons-ready .category-filter-buttons{
+    display:grid;
+    grid-template-columns:repeat(4,minmax(0,1fr));
     gap:3px;
-    overflow-x:auto;
-    padding:1px 1px 2px;
+    width:100%;
+    overflow:visible;
+    padding:0;
   }
 
   .category-filter-btn{
-    flex:0 0 70px;
-    min-width:70px;
-    min-height:25px;
-    padding:3px 4px;
-    border-radius:8px;
-    font-size:.43rem;
-    line-height:1;
+    width:100%;
+    min-width:0;
+    min-height:23px;
+    padding:3px 2px;
+    border-radius:7px;
+    border-width:1.5px;
+    font-size:.40rem;
+    line-height:1.02;
+    white-space:normal;
+    overflow:visible;
+    overflow-wrap:anywhere;
   }
 
   .compact-catalog{
-    padding:9px 0 20px;
+    padding:8px 0 18px;
   }
 }
 
-/* Celular estreito */
+/* iPhone/Android mais estreitos */
 @media(max-width:390px){
-  .container{
-    width:min(100% - 8px,1180px);
+  .topbar-compact{
+    grid-template-columns:58px minmax(0,1fr);
+    column-gap:4px;
+    padding:4px 0;
   }
 
-  .topbar-compact{
-    gap:4px;
-    min-height:54px;
-    padding:3px 0;
+  .brand-celina{
+    width:58px;
   }
 
   .brand-logo{
-    height:34px;
-    max-width:78px;
+    width:58px;
+    max-width:58px;
+  }
+
+  html.category-buttons-ready .category-filter-buttons{
+    gap:2px;
   }
 
   .category-filter-btn{
-    flex:0 0 62px;
-    min-width:62px;
-    min-height:23px;
-    padding:2px 3px;
-    font-size:.39rem;
-    border-radius:7px;
+    min-height:22px;
+    padding:2px 2px;
+    font-size:.37rem;
+    border-radius:6px;
   }
 }
