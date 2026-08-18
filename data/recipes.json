@@ -1401,11 +1401,11 @@
       ]
     },
     "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://1.bp.blogspot.com/-0R5yFYeYNrM/XoYuZ9KyJpI/AAAAAAABFKE/8Cu2lHaCc-A-X3a95mkHBa4vcijtBHErgCLcBGAsYHQ/s16000/20200401_191959.jpg",
-      "fonte": "https://www.temqueir.com.br/2019/09/as-melhores-pizzas-e-esfihas-de-vitoria.html",
-      "credito": "Imagem ilustrativa externa — pizzas e esfihas",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
+      "tipo": "referencia_fornecida_usuario_tratada",
+      "url": "images/receitas/pizza-enrolada-tratada.png",
+      "fonte": "",
+      "credito": "Imagem de referência indicada pela família",
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0044"
   },
@@ -1713,11 +1713,11 @@
       ]
     },
     "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/U7U4OPPETZOU3I4R4OYG2BWOOE.jpg?auth=d78a1664e930c3684243a0066c562201f6f54f3a7b33f563cf53957906ba4db6&height=630&smart=true&width=1200",
-      "fonte": "https://entretenimento.r7.com/receitas/receitas-de-pesos/delicie-se-com-as-melhores-sobremesas-brasileiras-brigadeiro-beijinho-e-cajuzinho-16032024/",
-      "credito": "Imagem ilustrativa externa — doces brasileiros",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
+      "tipo": "referencia_fornecida_usuario_tratada",
+      "url": "images/receitas/beijinho-tratada.png",
+      "fonte": "",
+      "credito": "Imagem de referência indicada pela família",
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0053"
   },
@@ -2323,11 +2323,11 @@
       ]
     },
     "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/U7U4OPPETZOU3I4R4OYG2BWOOE.jpg?auth=d78a1664e930c3684243a0066c562201f6f54f3a7b33f563cf53957906ba4db6&height=630&smart=true&width=1200",
-      "fonte": "https://entretenimento.r7.com/receitas/receitas-de-pesos/delicie-se-com-as-melhores-sobremesas-brasileiras-brigadeiro-beijinho-e-cajuzinho-16032024/",
-      "credito": "Imagem ilustrativa externa — doces brasileiros",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
+      "tipo": "referencia_fornecida_usuario_tratada",
+      "url": "images/receitas/cajuzinho-tratada.png",
+      "fonte": "",
+      "credito": "Imagem de referência indicada pela família",
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0070"
   },
@@ -4598,11 +4598,11 @@
       ]
     },
     "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://focalizando.com.br/sites/default/files/inline-images/p%C3%A3o%20caseiro%20tradicional.jpg",
-      "fonte": "https://focalizando.com.br/pao-caseiro-tradicional",
-      "credito": "Imagem ilustrativa externa — pão caseiro",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
+      "tipo": "referencia_fornecida_usuario_tratada",
+      "url": "images/receitas/fatias-hungaras-rosca-estrela-tratada.png",
+      "fonte": "",
+      "credito": "Imagem de referência indicada pela família",
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": "REC-0129"
   },
@@ -5178,11 +5178,11 @@
       ]
     },
     "imagem": {
-      "tipo": "ilustrativa_externa",
-      "url": "https://static.itdg.com.br/images/640-400/ebe17f9b3f6de8a62e5d01484f94dfed/creme-facil-para-recheio-de-bolo.jpg",
-      "fonte": "https://www.tudogostoso.com.br/receita/303246-creme-facil-para-recheio-de-bolo.html",
-      "credito": "Imagem ilustrativa externa — creme para recheio de bolo",
-      "observacao": "Imagem ilustrativa pesquisada na internet por se aproximar do contexto da receita. A fonte original está registrada."
+      "tipo": "referencia_fornecida_usuario_tratada",
+      "url": "images/receitas/recheio-de-coco-tratada.png",
+      "fonte": "",
+      "credito": "Imagem de referência indicada pela família",
+      "observacao": "Imagem tratada antes da publicação apenas com recorte, enquadramento e ajustes leves de qualidade; nenhuma imagem nova foi gerada."
     },
     "id_anterior_v3": null
   },

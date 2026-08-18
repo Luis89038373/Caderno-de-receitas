@@ -1,0 +1,15 @@
+ATUALIZAÇÃO V12.3 — CABEÇALHO FIXO E FOTOS TRATADAS
+
+Base esperada: V12.2.
+
+Resultado esperado:
+- menu + filtros + Limpar filtros ficam FIXOS no topo durante toda a rolagem;
+- o conteúdo não fica escondido atrás do cabeçalho;
+- novas fotos tratadas das REC-0025, REC-0031, REC-0042, REC-0081 e REC-0089;
+- 91 receitas mantidas;
+- nenhuma imagem nova foi gerada.
+
+GitHub Desktop:
+Summary sugerido: V12.3 - cabeçalho fixo e fotos tratadas
+Commit to main
+Push origin

@@ -1,7 +1,7 @@
 
 const $ = (s, root=document) => root.querySelector(s);
 const $$ = (s, root=document) => [...root.querySelectorAll(s)];
-const SITE_ASSET_VERSION='v12.2-20260818';
+const SITE_ASSET_VERSION='v12.3-20260818';
 function versionedURL(url){
   const value=String(url??'');
   if(!value || /^(https?:|data:|blob:)/i.test(value)) return value;
@@ -102,6 +102,23 @@ async function initRecipeListing(){
   render();
 }
 
+
+function syncFixedHeader(){
+  const siteNav=$("#site-nav");
+  if(!siteNav) return;
+  const apply=()=>{
+    const h=Math.ceil(siteNav.getBoundingClientRect().height);
+    document.documentElement.style.setProperty("--fixed-header-height",`${h}px`);
+    document.body.classList.add("fixed-header-ready");
+  };
+  apply();
+  if("ResizeObserver" in window){
+    const ro=new ResizeObserver(apply);
+    ro.observe(siteNav);
+  }
+  window.addEventListener("resize",apply);
+}
+
 function footer(){
   return `<footer class="footer"><div class="container footer-inner"><span>Acervo culinário da família</span><span>Receitas preservadas, organizadas e identificadas por ID.</span></div></footer>`;
 }
@@ -129,6 +146,8 @@ document.addEventListener("DOMContentLoaded",async()=>{
 
   const f=$("#site-footer");
   if(f)f.innerHTML=footer();
+
+  syncFixedHeader();
 
   try{
     await initRecipeListing();

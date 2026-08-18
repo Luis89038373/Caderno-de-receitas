@@ -1,4 +1,4 @@
-# Caderno de Receitas da Família — V12.2
+# Caderno de Receitas da Família — V12.3
 
 # Caderno de Receitas da Família
 
@@ -152,4 +152,11 @@ Use:
 - O JavaScript não sobrescreve mais o cabeçalho estático.
 - Mantidas 91 receitas e todas as fotos/dados da V12.1.
 - Nenhuma imagem foi gerada ou alterada nesta correção.
+
+## V12.3 — cabeçalho fixed + novas fotos tratadas
+- O bloco completo **menu + filtros + Limpar filtros** passa a usar `position: fixed` durante a rolagem.
+- A altura do cabeçalho é medida automaticamente e o conteúdo recebe compensação superior, evitando ficar escondido atrás do cabeçalho.
+- Fotos das REC-0025, REC-0031, REC-0042, REC-0081 e REC-0089 foram tratadas e atualizadas.
+- Mantidas 91 receitas, REC-0001 a REC-0091.
+- Nenhuma imagem nova foi gerada; foram usadas somente as fotos enviadas pela família.
 
