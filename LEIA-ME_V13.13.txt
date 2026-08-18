@@ -1,0 +1,11 @@
+CADERNO DE RECEITAS — V13.13 — SEM MOLDURA
+
+ALTERAÇÃO:
+- retirada completamente a moldura culinária de todas as telas;
+- o arquivo assets/css/kitchen-frame.css permanece apenas por compatibilidade,
+  mas sem aplicar qualquer estilo visual.
+
+ARQUIVO PARA SUBSTITUIR:
+- assets/css/kitchen-frame.css
+
+Não é necessário alterar index.html, catalogo.html, receita.html, acervo.html ou 404.html.
